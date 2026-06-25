@@ -106,6 +106,7 @@ export interface Mistake {
   reviewed: boolean;
   next_review_date: string | null;
   created_at: string;
+  updated_at?: string;
 }
 
 export interface DailyPlanTask {

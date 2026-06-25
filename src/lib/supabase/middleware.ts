@@ -4,7 +4,9 @@ import { NextResponse, type NextRequest } from "next/server";
 function isConfigured() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-  return Boolean(url && key && !url.includes("your_supabase"));
+  return Boolean(
+    url && key && !url.includes("your_supabase") && !url.includes("placeholder")
+  );
 }
 
 export async function updateSession(request: NextRequest) {
@@ -40,7 +42,12 @@ export async function updateSession(request: NextRequest) {
   } = await supabase.auth.getUser();
 
   const pathname = request.nextUrl.pathname;
-  const isPublic = pathname === "/login" || pathname === "/";
+  const isPublic =
+    pathname === "/login" ||
+    pathname === "/" ||
+    pathname === "/onboarding" ||
+    pathname.startsWith("/api/questions") ||
+    pathname.startsWith("/api/tutor");
 
   if (!user && !isPublic && !pathname.startsWith("/api/webhooks")) {
     const url = request.nextUrl.clone();

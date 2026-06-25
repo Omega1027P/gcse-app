@@ -2,29 +2,59 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { createClient } from "@/lib/supabase/client";
+import { createClient, isSupabaseConfigured } from "@/lib/supabase/client";
+import {
+  generateDemoPlan,
+  getDemoMistakes,
+  getDemoPlan,
+  getDemoProfile,
+  getDemoMastery,
+  toggleDemoTask,
+} from "@/lib/demo/store";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
+import { DemoBanner } from "@/components/layout/DemoBanner";
 import { PageHeader, LoadingState, ErrorState } from "@/components/layout/PageHeader";
 import { formatDate, daysUntil, todayISO } from "@/lib/utils";
-import { countTopics, countObjectives } from "@/lib/syllabus/loader";
+import { countTopics, countObjectives, getAllTopics } from "@/lib/syllabus/loader";
+import { MASTERY_WEAK_THRESHOLD } from "@/lib/constants";
 import type { DailyPlan, UserProfile } from "@/lib/types";
 
 export default function DashboardPage() {
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [plan, setPlan] = useState<DailyPlan | null>(null);
-  const [weakCount, setWeakCount] = useState(0);
+  const [weakTopics, setWeakTopics] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
   useEffect(() => {
     async function load() {
+      if (!isSupabaseConfigured()) {
+        const demoProfile = getDemoProfile();
+        setProfile(demoProfile);
+        setPlan(getDemoPlan());
+        const mastery = getDemoMastery();
+        const weak = getAllTopics()
+          .filter((t) => (mastery[t.id] ?? 0) < MASTERY_WEAK_THRESHOLD)
+          .slice(0, 3)
+          .map((t) => t.title);
+        setWeakTopics(weak.length ? weak : ["Structure and calculation", "Linear equations"]);
+        setLoading(false);
+        return;
+      }
+
       const supabase = createClient();
       const {
         data: { user },
       } = await supabase.auth.getUser();
-      if (!user) return;
+      if (!user) {
+        const demoProfile = getDemoProfile();
+        setProfile(demoProfile);
+        setPlan(getDemoPlan());
+        setLoading(false);
+        return;
+      }
 
       const [profileRes, planRes, masteryRes] = await Promise.all([
         supabase.from("user_profiles").select("*").eq("user_id", user.id).single(),
@@ -34,7 +64,7 @@ export default function DashboardPage() {
           .eq("user_id", user.id)
           .eq("plan_date", todayISO())
           .maybeSingle(),
-        supabase.from("topic_mastery").select("mastery_score").eq("user_id", user.id),
+        supabase.from("topic_mastery").select("topic_id, mastery_score").eq("user_id", user.id),
       ]);
 
       if (profileRes.error) {
@@ -46,9 +76,14 @@ export default function DashboardPage() {
       setProfile(profileRes.data);
       setPlan(planRes.data);
 
-      const weak =
-        masteryRes.data?.filter((m) => m.mastery_score < 60).length ?? countTopics();
-      setWeakCount(weak);
+      const masteryMap = new Map(
+        (masteryRes.data ?? []).map((m) => [m.topic_id, m.mastery_score])
+      );
+      const weak = getAllTopics()
+        .filter((t) => (masteryMap.get(t.id) ?? 0) < MASTERY_WEAK_THRESHOLD)
+        .slice(0, 3)
+        .map((t) => t.title);
+      setWeakTopics(weak);
       setLoading(false);
     }
 
@@ -56,6 +91,10 @@ export default function DashboardPage() {
   }, []);
 
   async function generatePlan() {
+    if (!isSupabaseConfigured()) {
+      setPlan(generateDemoPlan());
+      return;
+    }
     const res = await fetch("/api/plan/daily", { method: "POST" });
     if (!res.ok) {
       setError("Failed to generate plan");
@@ -65,20 +104,38 @@ export default function DashboardPage() {
     setPlan(data.plan);
   }
 
+  function handleToggleTask(taskId: string) {
+    if (!isSupabaseConfigured()) {
+      setPlan(toggleDemoTask(taskId));
+    }
+  }
+
   if (loading) return <LoadingState />;
   if (error) return <ErrorState message={error} />;
 
   const daysLeft = profile?.exam_date ? daysUntil(profile.exam_date) : null;
+  const weakCount =
+    weakTopics.length ||
+    getDemoMistakes().filter((m) => !m.reviewed).length ||
+    countTopics();
 
   return (
     <div>
+      <DemoBanner />
       <PageHeader
         title={`Hi${profile?.display_name ? `, ${profile.display_name}` : ""}`}
         description="Your AQA GCSE Maths study hub"
         action={
-          <Button href="/practice" variant="secondary">
-            Start practice
-          </Button>
+          <div className="flex gap-2">
+            {!profile?.onboarding_complete && (
+              <Button href="/onboarding" variant="secondary">
+                Complete profile
+              </Button>
+            )}
+            <Button href="/practice" variant="secondary">
+              Start practice
+            </Button>
+          </div>
         }
       />
 
@@ -104,13 +161,24 @@ export default function DashboardPage() {
           <p className="mt-1 text-3xl font-bold text-slate-900">{weakCount}</p>
         </Card>
         <Card>
-          <p className="text-sm text-slate-500">Syllabus coverage</p>
-          <p className="mt-1 text-3xl font-bold text-slate-900">
-            {countTopics()} topics
-          </p>
+          <p className="text-sm text-slate-500">Syllabus</p>
+          <p className="mt-1 text-3xl font-bold text-slate-900">{countTopics()} topics</p>
           <p className="text-xs text-slate-500">{countObjectives()} objectives</p>
         </Card>
       </div>
+
+      {weakTopics.length > 0 && (
+        <Card className="mb-6">
+          <CardHeader title="Focus areas" />
+          <ul className="flex flex-wrap gap-2">
+            {weakTopics.map((title) => (
+              <li key={title}>
+                <Badge tone="warning">{title}</Badge>
+              </li>
+            ))}
+          </ul>
+        </Card>
+      )}
 
       <Card>
         <CardHeader
@@ -132,15 +200,23 @@ export default function DashboardPage() {
           </p>
         ) : (
           <ul className="space-y-3">
-            {(plan.tasks as DailyPlan["tasks"]).map((task) => (
+            {plan.tasks.map((task) => (
               <li
                 key={task.id}
-                className="flex items-center justify-between rounded-lg border border-slate-100 px-4 py-3"
+                className="flex items-center justify-between gap-4 rounded-lg border border-slate-100 px-4 py-3"
               >
-                <div>
-                  <p className="font-medium text-slate-800">{task.title}</p>
-                  <p className="text-xs text-slate-500">{task.minutes} minutes</p>
-                </div>
+                <label className="flex flex-1 cursor-pointer items-start gap-3">
+                  <input
+                    type="checkbox"
+                    checked={task.completed}
+                    onChange={() => handleToggleTask(task.id)}
+                    className="mt-1"
+                  />
+                  <div>
+                    <p className="font-medium text-slate-800">{task.title}</p>
+                    <p className="text-xs text-slate-500">{task.minutes} minutes</p>
+                  </div>
+                </label>
                 <Link
                   href={
                     task.type === "mistake_review"
@@ -151,7 +227,7 @@ export default function DashboardPage() {
                           ? `/practice?topic=${task.topicId}`
                           : "/practice"
                   }
-                  className="text-sm font-medium text-indigo-600 hover:underline"
+                  className="shrink-0 text-sm font-medium text-indigo-600 hover:underline"
                 >
                   Start
                 </Link>

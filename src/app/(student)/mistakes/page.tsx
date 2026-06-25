@@ -1,9 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { createClient } from "@/lib/supabase/client";
+import { createClient, isSupabaseConfigured } from "@/lib/supabase/client";
+import { getDemoMistakes, markDemoMistakeReviewed } from "@/lib/demo/store";
 import { Card, CardHeader } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
+import { DemoBanner } from "@/components/layout/DemoBanner";
 import { PageHeader, LoadingState, ErrorState } from "@/components/layout/PageHeader";
 import { formatDate } from "@/lib/utils";
 import { MISTAKE_CAUSE_LABELS } from "@/lib/constants";
@@ -19,7 +21,23 @@ export default function MistakesPage() {
   }, []);
 
   async function loadMistakes() {
+    if (!isSupabaseConfigured()) {
+      setMistakes(getDemoMistakes());
+      setLoading(false);
+      return;
+    }
+
     const supabase = createClient();
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+
+    if (!user) {
+      setMistakes(getDemoMistakes());
+      setLoading(false);
+      return;
+    }
+
     const { data, error: mError } = await supabase
       .from("mistakes")
       .select("*")
@@ -30,11 +48,16 @@ export default function MistakesPage() {
       setLoading(false);
       return;
     }
-    setMistakes(data ?? []);
+    setMistakes([...(data ?? []), ...getDemoMistakes()]);
     setLoading(false);
   }
 
   async function markReviewed(id: string) {
+    if (id.startsWith("demo-")) {
+      markDemoMistakeReviewed(id);
+      setMistakes(getDemoMistakes());
+      return;
+    }
     const supabase = createClient();
     await supabase.from("mistakes").update({ reviewed: true }).eq("id", id);
     loadMistakes();
@@ -44,9 +67,11 @@ export default function MistakesPage() {
   if (error) return <ErrorState message={error} />;
 
   const due = mistakes.filter((m) => !m.reviewed);
+  const reviewed = mistakes.filter((m) => m.reviewed).slice(0, 5);
 
   return (
     <div>
+      <DemoBanner />
       <PageHeader
         title="Mistake book"
         description="Review errors by pattern — units, keywords, working, concept, exam technique."
@@ -55,7 +80,13 @@ export default function MistakesPage() {
       <Card className="mb-6">
         <CardHeader title={`Due for review (${due.length})`} />
         {due.length === 0 ? (
-          <p className="text-sm text-slate-500">No mistakes due. Keep practising!</p>
+          <p className="text-sm text-slate-500">
+            No mistakes yet — practise on the{" "}
+            <a href="/practice" className="text-indigo-600 hover:underline">
+              practice page
+            </a>
+            .
+          </p>
         ) : (
           <ul className="space-y-3">
             {due.map((m) => (
@@ -82,6 +113,19 @@ export default function MistakesPage() {
           </ul>
         )}
       </Card>
+
+      {reviewed.length > 0 && (
+        <Card>
+          <CardHeader title="Recently reviewed" />
+          <ul className="space-y-2 text-sm text-slate-500">
+            {reviewed.map((m) => (
+              <li key={m.id} className="border-b border-slate-50 pb-2 last:border-0">
+                {MISTAKE_CAUSE_LABELS[m.cause]} — {m.explanation.slice(0, 60)}…
+              </li>
+            ))}
+          </ul>
+        </Card>
+      )}
     </div>
   );
 }

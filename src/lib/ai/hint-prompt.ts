@@ -1,4 +1,4 @@
-import type { MarkSchemeStep, QuestionHint } from "@/lib/types";
+import type { MarkSchemeStep, QuestionHint, MistakeCause } from "@/lib/types";
 
 export function buildHintSystemPrompt(params: {
   questionText: string;
@@ -24,7 +24,7 @@ Rules:
 - If the error is about units, keywords, working, or concept, name it without solving`;
 }
 
-export function classifyMistakeCause(studentAnswer: string, expected: string): string {
+export function classifyMistakeCause(studentAnswer: string, expected: string): MistakeCause {
   const s = studentAnswer.toLowerCase();
   if (/cm|mm|m²|kg|°|unit/.test(s) && !studentAnswer.includes(expected.split(",")[0]?.trim() ?? "")) {
     return "units";

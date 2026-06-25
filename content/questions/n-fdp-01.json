@@ -1,0 +1,49 @@
+[
+  {
+    "id": "n-fdp-01-q01",
+    "objectiveId": "n-fdp-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out 2/3 + 1/4. Give your answer as a fraction in its simplest form.",
+    "finalAnswer": "11/12",
+    "solutionSteps": "Common denominator 12: 8/12 + 3/12 = 11/12",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Common denominator or equivalent fractions", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "11/12", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "You need a common denominator before adding the numerators." },
+      { "level": 2, "text": "The LCM of 3 and 4 is 12. Convert both fractions." },
+      { "level": 3, "text": "M1: 8/12 + 3/12. A1: 11/12 (already in simplest form)." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-01-q02",
+    "objectiveId": "n-fdp-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A coat costs £80. In a sale it is reduced by 15%. Work out the sale price.",
+    "finalAnswer": "68",
+    "solutionSteps": "15% of 80 = 12, sale price = 80 - 12 = £68",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Finds 15% of 80", "points": 1 },
+      { "stepOrder": 2, "markCode": "M1", "description": "Subtracts from original", "points": 1 },
+      { "stepOrder": 3, "markCode": "A1", "description": "£68", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "First find how much the price decreases, then subtract." },
+      { "level": 2, "text": "15% of 80 = 0.15 × 80." },
+      { "level": 3, "text": "Reduction is £12. Sale price = 80 − 12 = £68." }
+    ],
+    "status": "published"
+  }
+]

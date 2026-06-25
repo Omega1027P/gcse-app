@@ -40,9 +40,20 @@ export function normaliseAnswer(answer: string): string {
   return answer
     .toLowerCase()
     .replace(/\s+/g, "")
-    .replace(/,/g, "");
+    .replace(/,/g, "")
+    .replace(/£/g, "")
+    .replace(/^x=/, "")
+    .replace(/cm$/g, "");
 }
 
 export function answersMatch(student: string, expected: string): boolean {
-  return normaliseAnswer(student) === normaliseAnswer(expected);
+  const s = normaliseAnswer(student);
+  const e = normaliseAnswer(expected);
+  if (s === e) return true;
+  // Accept comma-separated lists in any order
+  if (s.includes(",") || e.includes(",")) {
+    const sortParts = (v: string) => v.split(/[,/]/).map((p) => p.trim()).filter(Boolean).toSorted().join("|");
+    return sortParts(s) === sortParts(e);
+  }
+  return false;
 }

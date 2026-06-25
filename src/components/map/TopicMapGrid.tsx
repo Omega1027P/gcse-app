@@ -19,7 +19,7 @@ export function TopicMapGrid({ topics }: { topics: TopicWithMastery[] }) {
   return (
     <div className="space-y-8">
       {Object.entries(byUnit).map(([unitTitle, unitTopics]) => (
-        <section key={unitTitle}>
+        <section key={unitTitle} id={unitTopics[0]?.unitId}>
           <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-slate-500">
             {unitTitle}
           </h2>

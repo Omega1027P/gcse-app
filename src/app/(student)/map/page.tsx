@@ -1,7 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { createClient } from "@/lib/supabase/client";
+import { createClient, isSupabaseConfigured } from "@/lib/supabase/client";
+import { getDemoMastery } from "@/lib/demo/store";
+import { DemoBanner } from "@/components/layout/DemoBanner";
 import { PageHeader, LoadingState } from "@/components/layout/PageHeader";
 import { TopicMapGrid } from "@/components/map/TopicMapGrid";
 import { getAllTopics } from "@/lib/syllabus/loader";
@@ -12,18 +14,28 @@ export default function MapPage() {
 
   useEffect(() => {
     async function load() {
+      if (!isSupabaseConfigured()) {
+        setMasteryMap(getDemoMastery());
+        setLoading(false);
+        return;
+      }
+
       const supabase = createClient();
       const {
         data: { user },
       } = await supabase.auth.getUser();
-      if (!user) return;
+      if (!user) {
+        setMasteryMap(getDemoMastery());
+        setLoading(false);
+        return;
+      }
 
       const { data } = await supabase
         .from("topic_mastery")
         .select("topic_id, mastery_score")
         .eq("user_id", user.id);
 
-      const map: Record<string, number> = {};
+      const map: Record<string, number> = { ...getDemoMastery() };
       for (const row of data ?? []) {
         map[row.topic_id] = row.mastery_score;
       }
@@ -43,11 +55,12 @@ export default function MapPage() {
 
   return (
     <div>
+      <DemoBanner />
       <PageHeader
         title="Specification Map"
         description="See what you know and what needs work. Green = strong, amber = OK, red = weak."
       />
-      <div className="mb-4 flex gap-4 text-xs text-slate-600">
+      <div className="mb-4 flex flex-wrap gap-4 text-xs text-slate-600">
         <span className="flex items-center gap-1">
           <span className="h-2 w-2 rounded-full bg-emerald-500" /> Strong (80%+)
         </span>

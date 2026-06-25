@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { createClient } from "@/lib/supabase/client";
+import { createClient, isSupabaseConfigured } from "@/lib/supabase/client";
 import { cn } from "@/lib/utils";
 
 const navItems = [
@@ -13,20 +13,23 @@ const navItems = [
   { href: "/past-paper", label: "Past Paper" },
 ];
 
-export function Sidebar() {
+export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
   const pathname = usePathname();
   const router = useRouter();
 
   async function handleLogout() {
-    const supabase = createClient();
-    await supabase.auth.signOut();
+    if (isSupabaseConfigured()) {
+      const supabase = createClient();
+      await supabase.auth.signOut();
+    }
     router.push("/login");
     router.refresh();
+    onNavigate?.();
   }
 
   return (
     <aside className="flex w-full flex-col border-r border-slate-200 bg-white lg:w-64 lg:min-h-screen">
-      <div className="border-b border-slate-200 px-5 py-5">
+      <div className="hidden border-b border-slate-200 px-5 py-5 lg:block">
         <p className="text-xs font-semibold uppercase tracking-wide text-indigo-600">
           GCSE App
         </p>
@@ -37,6 +40,7 @@ export function Sidebar() {
           <Link
             key={item.href}
             href={item.href}
+            onClick={onNavigate}
             className={cn(
               "rounded-lg px-3 py-2 text-sm font-medium transition-colors",
               pathname === item.href || pathname.startsWith(item.href + "/")

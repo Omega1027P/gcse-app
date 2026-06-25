@@ -1,0 +1,25 @@
+[
+  {
+    "id": "p-se-01-q01",
+    "objectiveId": "p-se-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A fair six-sided dice is rolled. What is the probability of rolling an even number?",
+    "finalAnswer": "1/2",
+    "solutionSteps": "Even numbers are 2, 4, 6 — three outcomes out of six. P = 3/6 = 1/2",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Identifies 3 favourable outcomes", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "1/2", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "List the even numbers on a standard dice." },
+      { "level": 2, "text": "Probability = favourable outcomes ÷ total outcomes." },
+      { "level": 3, "text": "3 even numbers out of 6: P = 3/6 = 1/2." }
+    ],
+    "status": "published"
+  }
+]

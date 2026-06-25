@@ -1,0 +1,49 @@
+[
+  {
+    "id": "a-ei-01-q01",
+    "objectiveId": "a-ei-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve 3x + 5 = 20",
+    "finalAnswer": "x=5",
+    "solutionSteps": "3x = 15, x = 5",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Isolates 3x", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "x = 5", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Get the x term on its own first." },
+      { "level": 2, "text": "Subtract 5 from both sides, then divide by 3." },
+      { "level": 3, "text": "M1: 3x = 15. A1: x = 5." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-01-q02",
+    "objectiveId": "a-ei-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve 4(x - 2) = 12",
+    "finalAnswer": "x=5",
+    "solutionSteps": "x - 2 = 3, x = 5. Or expand: 4x - 8 = 12, 4x = 20, x = 5",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Divides by 4 or expands brackets", "points": 1 },
+      { "stepOrder": 2, "markCode": "M1", "description": "Correct rearrangement", "points": 1 },
+      { "stepOrder": 3, "markCode": "A1", "description": "x = 5", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "You can divide both sides by 4 first, or expand the brackets." },
+      { "level": 2, "text": "Dividing by 4 gives x - 2 = 3." },
+      { "level": 3, "text": "x - 2 = 3, so x = 5." }
+    ],
+    "status": "published"
+  }
+]

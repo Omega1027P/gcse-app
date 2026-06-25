@@ -1,0 +1,26 @@
+[
+  {
+    "id": "g-pt-01-q01",
+    "objectiveId": "g-pt-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A right-angled triangle has shorter sides of 6 cm and 8 cm. Work out the length of the hypotenuse.",
+    "finalAnswer": "10",
+    "solutionSteps": "c² = 6² + 8² = 36 + 64 = 100, c = 10 cm",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Uses a² + b² = c²", "points": 1 },
+      { "stepOrder": 2, "markCode": "M1", "description": "Correct substitution", "points": 1 },
+      { "stepOrder": 3, "markCode": "A1", "description": "10 cm", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Which theorem links the three sides of a right-angled triangle?" },
+      { "level": 2, "text": "Use a² + b² = c² where c is the hypotenuse." },
+      { "level": 3, "text": "6² + 8² = 100, so c = √100 = 10 cm." }
+    ],
+    "status": "published"
+  }
+]

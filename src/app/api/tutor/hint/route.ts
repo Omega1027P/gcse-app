@@ -1,17 +1,9 @@
 import { NextResponse } from "next/server";
+import { getContentQuestionById } from "@/lib/content/questions";
 import { createClient } from "@/lib/supabase/server";
 import { buildHintSystemPrompt } from "@/lib/ai/hint-prompt";
 
 export async function POST(request: Request) {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  if (!user) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
-
   const body = await request.json();
   const { questionId, hintLevel } = body as {
     questionId: string;
@@ -21,6 +13,25 @@ export async function POST(request: Request) {
 
   if (!questionId || !hintLevel || hintLevel < 1 || hintLevel > 3) {
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
+  }
+
+  const contentQ = getContentQuestionById(questionId);
+  if (contentQ) {
+    const hint = contentQ.hints.find((h) => h.level === hintLevel);
+    return NextResponse.json({
+      message: hint?.text ?? "Break the problem into smaller steps.",
+      level: hintLevel,
+      source: "content",
+    });
+  }
+
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
   const [questionRes, hintsRes, markRes] = await Promise.all([

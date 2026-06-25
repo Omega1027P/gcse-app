@@ -1,0 +1,25 @@
+[
+  {
+    "id": "n-sc-01-q01",
+    "objectiveId": "n-sc-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Put these numbers in order from smallest to largest: 0.4, 3/8, 0.35, 2/5",
+    "finalAnswer": "0.35, 3/8, 0.4, 2/5",
+    "solutionSteps": "Convert to decimals: 3/8 = 0.375, 2/5 = 0.4. Order: 0.35 < 0.375 < 0.4",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Converts fractions to decimals or common form", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "Correct order", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Try converting all values to the same type — either all decimals or all fractions." },
+      { "level": 2, "text": "Convert 3/8 and 2/5 to decimals first, then compare with 0.4 and 0.35." },
+      { "level": 3, "text": "M1: convert fractions. A1: order from smallest — 0.35, then 0.375, then 0.4." }
+    ],
+    "status": "published"
+  }
+]

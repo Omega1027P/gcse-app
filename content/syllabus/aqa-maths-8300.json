@@ -1,0 +1,544 @@
+{
+  "version": "2024.1",
+  "examBoard": "AQA",
+  "qualification": "GCSE",
+  "subject": "Mathematics",
+  "specCode": "8300",
+  "tiers": ["Foundation", "Higher"],
+  "papers": [
+    { "id": "paper-1", "title": "Paper 1: Non-Calculator", "calculator": false },
+    { "id": "paper-2", "title": "Paper 2: Calculator", "calculator": true },
+    { "id": "paper-3", "title": "Paper 3: Calculator", "calculator": true }
+  ],
+  "units": [
+    {
+      "id": "number",
+      "title": "Number",
+      "order": 1,
+      "topics": [
+        {
+          "id": "number-structure-calculation",
+          "title": "Structure and calculation",
+          "order": 1,
+          "learningObjectives": [
+            {
+              "id": "n-sc-01",
+              "code": "N1",
+              "title": "Order integers, decimals and fractions",
+              "description": "Order positive and negative integers, decimals and fractions; use the symbols =, ≠, <, >, ≤, ≥",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "comparison"]
+            },
+            {
+              "id": "n-sc-02",
+              "code": "N2",
+              "title": "Four operations with integers",
+              "description": "Apply the four operations to integers, decimals and fractions (positive and negative)",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "multi_step"]
+            },
+            {
+              "id": "n-sc-03",
+              "code": "N3",
+              "title": "Powers and roots",
+              "description": "Use powers and roots; know the laws of indices for positive integer exponents",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "reasoning"]
+            },
+            {
+              "id": "n-sc-04",
+              "code": "N4",
+              "title": "Prime factorisation",
+              "description": "Use prime factor decomposition, HCF and LCM including product of primes",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "proof_short"]
+            }
+          ]
+        },
+        {
+          "id": "number-fractions-decimals-percentages",
+          "title": "Fractions, decimals and percentages",
+          "order": 2,
+          "learningObjectives": [
+            {
+              "id": "n-fdp-01",
+              "code": "N5",
+              "title": "Fraction operations",
+              "description": "Add, subtract, multiply and divide fractions; convert between mixed numbers and improper fractions",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "multi_step"]
+            },
+            {
+              "id": "n-fdp-02",
+              "code": "N6",
+              "title": "Decimal and percentage equivalence",
+              "description": "Convert between fractions, decimals and percentages; recurring decimals (Higher)",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "conversion"]
+            },
+            {
+              "id": "n-fdp-03",
+              "code": "N7",
+              "title": "Percentage change",
+              "description": "Calculate percentage increase and decrease; reverse percentages",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["word_problem", "multi_step"]
+            }
+          ]
+        },
+        {
+          "id": "number-measures-accuracy",
+          "title": "Measures and accuracy",
+          "order": 3,
+          "learningObjectives": [
+            {
+              "id": "n-ma-01",
+              "code": "N8",
+              "title": "Standard form",
+              "description": "Use standard form for very large and very small numbers; calculate with values in standard form",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "conversion"]
+            },
+            {
+              "id": "n-ma-02",
+              "code": "N9",
+              "title": "Rounding and estimation",
+              "description": "Round to a given number of decimal places or significant figures; estimate answers",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "estimation"]
+            },
+            {
+              "id": "n-ma-03",
+              "code": "N10",
+              "title": "Bounds and error intervals",
+              "description": "Apply limits of accuracy; upper and lower bounds (Higher emphasis)",
+              "tiers": ["Higher"],
+              "questionTypes": ["reasoning", "multi_step"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "title": "Algebra",
+      "order": 2,
+      "topics": [
+        {
+          "id": "algebra-notation-manipulation",
+          "title": "Notation, vocabulary and manipulation",
+          "order": 1,
+          "learningObjectives": [
+            {
+              "id": "a-nm-01",
+              "code": "A1",
+              "title": "Algebraic notation",
+              "description": "Use and interpret algebraic notation including ab, 3y, a², a³, a/b",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "reasoning"]
+            },
+            {
+              "id": "a-nm-02",
+              "code": "A2",
+              "title": "Simplify expressions",
+              "description": "Substitute values; simplify and manipulate algebraic expressions including expanding products",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "multi_step"]
+            },
+            {
+              "id": "a-nm-03",
+              "code": "A3",
+              "title": "Factorise expressions",
+              "description": "Factorise linear expressions; factorise quadratic expressions (Higher)",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "multi_step"]
+            },
+            {
+              "id": "a-nm-04",
+              "code": "A4",
+              "title": "Algebraic fractions",
+              "description": "Simplify and manipulate algebraic fractions (Higher)",
+              "tiers": ["Higher"],
+              "questionTypes": ["calculation", "multi_step"]
+            }
+          ]
+        },
+        {
+          "id": "algebra-graphs",
+          "title": "Graphs",
+          "order": 2,
+          "learningObjectives": [
+            {
+              "id": "a-gr-01",
+              "code": "A5",
+              "title": "Plot and interpret graphs",
+              "description": "Plot graphs of linear, quadratic and reciprocal relationships; interpret gradients and intercepts",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["graph", "reasoning"]
+            },
+            {
+              "id": "a-gr-02",
+              "code": "A6",
+              "title": "Equation of a line",
+              "description": "Find the equation of a straight line in the form y = mx + c",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "graph"]
+            },
+            {
+              "id": "a-gr-03",
+              "code": "A7",
+              "title": "Non-linear graphs",
+              "description": "Recognise and sketch graphs of quadratic, cubic and reciprocal functions (Higher)",
+              "tiers": ["Higher"],
+              "questionTypes": ["graph", "reasoning"]
+            }
+          ]
+        },
+        {
+          "id": "algebra-equations-inequalities",
+          "title": "Solving equations and inequalities",
+          "order": 3,
+          "learningObjectives": [
+            {
+              "id": "a-ei-01",
+              "code": "A8",
+              "title": "Linear equations",
+              "description": "Solve linear equations in one unknown; equations with unknowns on both sides",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "multi_step"]
+            },
+            {
+              "id": "a-ei-02",
+              "code": "A9",
+              "title": "Quadratic equations",
+              "description": "Solve quadratic equations by factorising, completing the square or formula (Higher)",
+              "tiers": ["Higher"],
+              "questionTypes": ["calculation", "multi_step"]
+            },
+            {
+              "id": "a-ei-03",
+              "code": "A10",
+              "title": "Simultaneous equations",
+              "description": "Solve simultaneous equations in two variables (linear and quadratic on Higher)",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "multi_step", "word_problem"]
+            },
+            {
+              "id": "a-ei-04",
+              "code": "A11",
+              "title": "Inequalities",
+              "description": "Solve linear inequalities; represent solutions on a number line",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "reasoning"]
+            }
+          ]
+        },
+        {
+          "id": "algebra-sequences",
+          "title": "Sequences",
+          "order": 4,
+          "learningObjectives": [
+            {
+              "id": "a-sq-01",
+              "code": "A12",
+              "title": "Generate sequences",
+              "description": "Generate terms of a sequence from a term-to-term or position-to-term rule",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "reasoning"]
+            },
+            {
+              "id": "a-sq-02",
+              "code": "A13",
+              "title": "nth term",
+              "description": "Deduce expressions for the nth term of linear sequences; quadratic nth term (Higher)",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "multi_step"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ratio-proportion",
+      "title": "Ratio, proportion and rates of change",
+      "order": 3,
+      "topics": [
+        {
+          "id": "ratio-proportion-basics",
+          "title": "Ratio and proportion",
+          "order": 1,
+          "learningObjectives": [
+            {
+              "id": "r-rp-01",
+              "code": "R1",
+              "title": "Simplify and divide ratios",
+              "description": "Simplify ratio notation; divide a quantity in a given ratio",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "word_problem"]
+            },
+            {
+              "id": "r-rp-02",
+              "code": "R2",
+              "title": "Direct and inverse proportion",
+              "description": "Solve problems involving direct and inverse proportion",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["word_problem", "multi_step"]
+            },
+            {
+              "id": "r-rp-03",
+              "code": "R3",
+              "title": "Compound measures",
+              "description": "Use compound units such as speed, density and pressure",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["word_problem", "calculation"]
+            }
+          ]
+        },
+        {
+          "id": "ratio-rates-of-change",
+          "title": "Rates of change",
+          "order": 2,
+          "learningObjectives": [
+            {
+              "id": "r-roc-01",
+              "code": "R4",
+              "title": "Gradient as rate of change",
+              "description": "Interpret the gradient of a straight line graph as a rate of change",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["graph", "reasoning"]
+            },
+            {
+              "id": "r-roc-02",
+              "code": "R5",
+              "title": "Instantaneous rate of change",
+              "description": "Estimate gradients of curves and areas under graphs (Higher)",
+              "tiers": ["Higher"],
+              "questionTypes": ["graph", "estimation"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geometry-measures",
+      "title": "Geometry and measures",
+      "order": 4,
+      "topics": [
+        {
+          "id": "geometry-properties-constructions",
+          "title": "Properties and constructions",
+          "order": 1,
+          "learningObjectives": [
+            {
+              "id": "g-pc-01",
+              "code": "G1",
+              "title": "Angle facts",
+              "description": "Apply angle facts at a point, on a line, in triangles and quadrilaterals",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "reasoning"]
+            },
+            {
+              "id": "g-pc-02",
+              "code": "G2",
+              "title": "Circle theorems",
+              "description": "Apply circle theorems (Higher)",
+              "tiers": ["Higher"],
+              "questionTypes": ["reasoning", "proof_short"]
+            },
+            {
+              "id": "g-pc-03",
+              "code": "G3",
+              "title": "Constructions and loci",
+              "description": "Construct perpendicular bisectors, angles and loci",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["construction", "reasoning"]
+            }
+          ]
+        },
+        {
+          "id": "geometry-mensuration",
+          "title": "Mensuration and calculation",
+          "order": 2,
+          "learningObjectives": [
+            {
+              "id": "g-me-01",
+              "code": "G4",
+              "title": "Area and perimeter",
+              "description": "Calculate area and perimeter of rectangles, triangles, parallelograms and trapezia",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "word_problem"]
+            },
+            {
+              "id": "g-me-02",
+              "code": "G5",
+              "title": "Volume and surface area",
+              "description": "Calculate volume and surface area of prisms, cylinders, spheres and cones",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "multi_step"]
+            },
+            {
+              "id": "g-me-03",
+              "code": "G6",
+              "title": "Arcs and sectors",
+              "description": "Calculate arc lengths and areas of sectors (Higher)",
+              "tiers": ["Higher"],
+              "questionTypes": ["calculation", "multi_step"]
+            }
+          ]
+        },
+        {
+          "id": "geometry-pythagoras-trigonometry",
+          "title": "Pythagoras' theorem and trigonometry",
+          "order": 3,
+          "learningObjectives": [
+            {
+              "id": "g-pt-01",
+              "code": "G7",
+              "title": "Pythagoras' theorem",
+              "description": "Use Pythagoras' theorem in 2D and 3D problems",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "word_problem"]
+            },
+            {
+              "id": "g-pt-02",
+              "code": "G8",
+              "title": "Trigonometry",
+              "description": "Use sin, cos and tan in right-angled triangles; exact trig values (Higher)",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "multi_step"]
+            },
+            {
+              "id": "g-pt-03",
+              "code": "G9",
+              "title": "Sine and cosine rules",
+              "description": "Use sine rule, cosine rule and area formula ½ab sin C (Higher)",
+              "tiers": ["Higher"],
+              "questionTypes": ["calculation", "multi_step"]
+            }
+          ]
+        },
+        {
+          "id": "geometry-vectors",
+          "title": "Vectors",
+          "order": 4,
+          "learningObjectives": [
+            {
+              "id": "g-ve-01",
+              "code": "G10",
+              "title": "Vector notation and operations",
+              "description": "Describe translations as 2D vectors; add and subtract vectors (Higher)",
+              "tiers": ["Higher"],
+              "questionTypes": ["calculation", "reasoning"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "probability",
+      "title": "Probability",
+      "order": 5,
+      "topics": [
+        {
+          "id": "probability-single-events",
+          "title": "Single events",
+          "order": 1,
+          "learningObjectives": [
+            {
+              "id": "p-se-01",
+              "code": "P1",
+              "title": "Probability scale",
+              "description": "Record outcomes and calculate probabilities as fractions, decimals or percentages",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "reasoning"]
+            },
+            {
+              "id": "p-se-02",
+              "code": "P2",
+              "title": "Mutually exclusive events",
+              "description": "Use the sum of probabilities for mutually exclusive events",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "multi_step"]
+            }
+          ]
+        },
+        {
+          "id": "probability-combined-events",
+          "title": "Combined events",
+          "order": 2,
+          "learningObjectives": [
+            {
+              "id": "p-ce-01",
+              "code": "P3",
+              "title": "Sample space diagrams",
+              "description": "Use sample space diagrams, tables and tree diagrams",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["diagram", "multi_step"]
+            },
+            {
+              "id": "p-ce-02",
+              "code": "P4",
+              "title": "Independent and conditional probability",
+              "description": "Calculate probabilities of independent and conditional events (Higher)",
+              "tiers": ["Higher"],
+              "questionTypes": ["multi_step", "reasoning"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics",
+      "order": 6,
+      "topics": [
+        {
+          "id": "statistics-diagrams",
+          "title": "Statistical diagrams",
+          "order": 1,
+          "learningObjectives": [
+            {
+              "id": "s-sd-01",
+              "code": "S1",
+              "title": "Charts and diagrams",
+              "description": "Construct and interpret bar charts, pie charts, histograms and cumulative frequency graphs",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["diagram", "interpretation"]
+            },
+            {
+              "id": "s-sd-02",
+              "code": "S2",
+              "title": "Scatter graphs",
+              "description": "Draw and interpret scatter graphs; describe correlation; line of best fit",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["graph", "interpretation"]
+            }
+          ]
+        },
+        {
+          "id": "statistics-data-analysis",
+          "title": "Data analysis",
+          "order": 2,
+          "learningObjectives": [
+            {
+              "id": "s-da-01",
+              "code": "S3",
+              "title": "Averages and spread",
+              "description": "Calculate mean, median, mode and range; choose appropriate averages",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "reasoning"]
+            },
+            {
+              "id": "s-da-02",
+              "code": "S4",
+              "title": "Grouped data",
+              "description": "Estimate mean and median from grouped data; compare distributions",
+              "tiers": ["Foundation", "Higher"],
+              "questionTypes": ["calculation", "interpretation"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

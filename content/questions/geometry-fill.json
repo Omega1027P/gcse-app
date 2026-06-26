@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "g-pc-01-q02",
+    "objectiveId": "g-pc-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Two angles on a straight line are (3x + 10)° and (2x + 30)°. Find x.",
+    "finalAnswer": "28",
+    "solutionSteps": "3x+10+2x+30=180, 5x=140, x=28",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Angles on a straight line sum to 180°."
+      },
+      {
+        "level": 2,
+        "text": "5x + 40 = 180."
+      },
+      {
+        "level": 3,
+        "text": "M1: equation. A1: x=28."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "28",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-01-q03",
+    "objectiveId": "g-pc-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "In a triangle, two angles are 52° and 71°. Find the third angle.",
+    "finalAnswer": "57",
+    "solutionSteps": "180 − 52 − 71 = 57°",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Angles in a triangle sum to 180°."
+      },
+      {
+        "level": 2,
+        "text": "Subtract both angles from 180."
+      },
+      {
+        "level": 3,
+        "text": "M1: 180−123. A1: 57°."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "57",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-02-q01",
+    "objectiveId": "g-pc-02",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "AB is a diameter of a circle. C is a point on the circle. Angle ACB = ?°",
+    "finalAnswer": "90",
+    "solutionSteps": "Angle in a semicircle is 90°",
+    "hints": [
+      {
+        "level": 1,
+        "text": "This uses the angle in a semicircle theorem."
+      },
+      {
+        "level": 2,
+        "text": "A diameter subtends a right angle."
+      },
+      {
+        "level": 3,
+        "text": "B1: 90°."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "90",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-02-q02",
+    "objectiveId": "g-pc-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Tangent meets radius at point of contact. The angle between tangent and a chord is 38°. Find the angle in the alternate segment.",
+    "finalAnswer": "38",
+    "solutionSteps": "Alternate segment theorem: angle between tangent and chord equals angle in alternate segment",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use the alternate segment theorem."
+      },
+      {
+        "level": 2,
+        "text": "The angle in the alternate segment equals the angle between tangent and chord."
+      },
+      {
+        "level": 3,
+        "text": "M1: identifies theorem. A1: 38°."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "38",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-02-q03",
+    "objectiveId": "g-pc-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "In a circle, angle at centre is 110°. Find the angle at the circumference standing on the same arc.",
+    "finalAnswer": "55",
+    "solutionSteps": "Angle at centre = 2 × angle at circumference. 110/2 = 55°",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Angle at centre is twice angle at circumference."
+      },
+      {
+        "level": 2,
+        "text": "Divide 110 by 2."
+      },
+      {
+        "level": 3,
+        "text": "M1: theorem. A1: 55°."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "55",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-03-q01",
+    "objectiveId": "g-pc-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "construction",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Describe how to construct the perpendicular bisector of a line segment AB.",
+    "finalAnswer": "arcs from A and B",
+    "solutionSteps": "Draw arcs of equal radius from A and B above and below the line; join the intersection points",
+    "hints": [
+      {
+        "level": 1,
+        "text": "You need compasses."
+      },
+      {
+        "level": 2,
+        "text": "Arcs from both endpoints with equal radius."
+      },
+      {
+        "level": 3,
+        "text": "M1: arcs from A and B. A1: join intersections."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "arcs from A and B",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-03-q02",
+    "objectiveId": "g-pc-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A locus of points equidistant from A and B is a ___?",
+    "finalAnswer": "perpendicular bisector",
+    "solutionSteps": "Points equidistant from A and B lie on the perpendicular bisector of AB",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Equidistant means equal distance from both points."
+      },
+      {
+        "level": 2,
+        "text": "This is a standard locus result."
+      },
+      {
+        "level": 3,
+        "text": "B1: perpendicular bisector of AB."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "perpendicular bisector",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-03-q03",
+    "objectiveId": "g-pc-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "construction",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Describe the locus of points 3 cm from a fixed point P.",
+    "finalAnswer": "circle radius 3",
+    "solutionSteps": "A circle with centre P and radius 3 cm",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Fixed distance from a point."
+      },
+      {
+        "level": 2,
+        "text": "All points at distance 3 cm form a circle."
+      },
+      {
+        "level": 3,
+        "text": "B1: circle, centre P, radius 3 cm."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "circle radius 3",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-01-q02",
+    "objectiveId": "g-me-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A triangle has base 12 cm and height 5 cm. Find its area.",
+    "finalAnswer": "30",
+    "solutionSteps": "Area = ½ × 12 × 5 = 30 cm²",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Area of triangle = ½ × base × height."
+      },
+      {
+        "level": 2,
+        "text": "½ × 12 × 5."
+      },
+      {
+        "level": 3,
+        "text": "M1: formula. A1: 30 cm²."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "30",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-01-q03",
+    "objectiveId": "g-me-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A parallelogram has base 8 cm and perpendicular height 6 cm. Find its area.",
+    "finalAnswer": "48",
+    "solutionSteps": "Area = base × height = 8 × 6 = 48 cm²",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Area of parallelogram = base × perpendicular height."
+      },
+      {
+        "level": 2,
+        "text": "8 × 6."
+      },
+      {
+        "level": 3,
+        "text": "M1: formula. A1: 48 cm²."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "48",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-02-q02",
+    "objectiveId": "g-me-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A cuboid is 4 cm by 5 cm by 6 cm. Find its volume.",
+    "finalAnswer": "120",
+    "solutionSteps": "V = 4 × 5 × 6 = 120 cm³",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Volume = length × width × height."
+      },
+      {
+        "level": 2,
+        "text": "Multiply all three dimensions."
+      },
+      {
+        "level": 3,
+        "text": "M1: multiplies. A1: 120 cm³."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "120",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-02-q03",
+    "objectiveId": "g-me-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A cylinder has radius 3 cm and height 10 cm. Work out its volume. Give your answer in terms of π.",
+    "finalAnswer": "90π",
+    "solutionSteps": "V = πr²h = π × 9 × 10 = 90π cm³",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use V = πr²h."
+      },
+      {
+        "level": 2,
+        "text": "r = 3, so r² = 9."
+      },
+      {
+        "level": 3,
+        "text": "M1: πr². M1: ×10. A1: 90π cm³."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "90π",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-03-q01",
+    "objectiveId": "g-me-03",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A sector has radius 6 cm and angle 60°. Work out the arc length. Give your answer in terms of π.",
+    "finalAnswer": "2π",
+    "solutionSteps": "Arc = (60/360) × 2π × 6 = (1/6) × 12π = 2π cm",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Arc length = (θ/360) × 2πr."
+      },
+      {
+        "level": 2,
+        "text": "θ = 60, r = 6."
+      },
+      {
+        "level": 3,
+        "text": "M1: formula. M1: substitutes. A1: 2π cm."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "2π",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-03-q02",
+    "objectiveId": "g-me-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A sector has radius 10 cm and angle 90°. Find the area of the sector. Give your answer in terms of π.",
+    "finalAnswer": "25π",
+    "solutionSteps": "Area = (90/360) × π × 100 = ¼ × 100π = 25π cm²",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Sector area = (θ/360) × πr²."
+      },
+      {
+        "level": 2,
+        "text": "r² = 100, θ/360 = 1/4."
+      },
+      {
+        "level": 3,
+        "text": "M1: πr². M1: ×90/360. A1: 25π cm²."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "25π",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-03-q03",
+    "objectiveId": "g-me-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "An arc has length 5π cm and radius 10 cm. Find the angle of the sector in degrees.",
+    "finalAnswer": "90",
+    "solutionSteps": "5π = (θ/360) × 2π × 10, 5 = (θ/360) × 20, θ = 90°",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use arc length formula and solve for θ."
+      },
+      {
+        "level": 2,
+        "text": "Divide both sides by 2π × 10."
+      },
+      {
+        "level": 3,
+        "text": "M1: sets up equation. M1: solves. A1: 90°."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "90",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-01-q02",
+    "objectiveId": "g-pt-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A right-angled triangle has legs 5 cm and 12 cm. Find the hypotenuse.",
+    "finalAnswer": "13",
+    "solutionSteps": "c² = 5² + 12² = 25 + 144 = 169, c = 13",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use a² + b² = c²."
+      },
+      {
+        "level": 2,
+        "text": "5² + 12² = 169."
+      },
+      {
+        "level": 3,
+        "text": "M1: 169. A1: 13 cm."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "13",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-01-q03",
+    "objectiveId": "g-pt-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "word_problem",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A ladder 5 m long leans against a wall. The base is 1.5 m from the wall. How high up the wall does it reach?",
+    "finalAnswer": "4.77",
+    "solutionSteps": "h² = 5² − 1.5² = 25 − 2.25 = 22.75, h ≈ 4.77 m",
+    "hints": [
+      {
+        "level": 1,
+        "text": "The ladder is the hypotenuse."
+      },
+      {
+        "level": 2,
+        "text": "h² = 5² − 1.5²."
+      },
+      {
+        "level": 3,
+        "text": "M1: 22.75. A1: 4.77 m (3 sf)."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "4.77",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-02-q02",
+    "objectiveId": "g-pt-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "In a right triangle, the opposite side is 8 cm and the hypotenuse is 10 cm. Find sin θ.",
+    "finalAnswer": "0.8",
+    "solutionSteps": "sin θ = opposite/hypotenuse = 8/10 = 0.8",
+    "hints": [
+      {
+        "level": 1,
+        "text": "sin θ = opposite ÷ hypotenuse."
+      },
+      {
+        "level": 2,
+        "text": "8/10."
+      },
+      {
+        "level": 3,
+        "text": "M1: identifies sides. A1: 0.8."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "0.8",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-02-q03",
+    "objectiveId": "g-pt-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the exact value of sin 30° + cos 60°",
+    "finalAnswer": "1",
+    "solutionSteps": "sin 30° = ½, cos 60° = ½, sum = 1",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Recall exact trig values."
+      },
+      {
+        "level": 2,
+        "text": "Both sin 30° and cos 60° equal ½."
+      },
+      {
+        "level": 3,
+        "text": "M1: ½+½. A1: 1."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "1",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-03-q01",
+    "objectiveId": "g-pt-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "In triangle ABC, a = 7 cm, b = 9 cm, C = 120°. Find side c correct to 1 decimal place.",
+    "finalAnswer": "13.9",
+    "solutionSteps": "c² = 7² + 9² − 2(7)(9)cos120° = 49+81+63 = 193, c = √193 ≈ 13.9 cm",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use cosine rule: c² = a²+b²−2ab cos C."
+      },
+      {
+        "level": 2,
+        "text": "cos 120° = −0.5."
+      },
+      {
+        "level": 3,
+        "text": "M1: substitutes. M1: calculates. A1: 13.9 cm."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "13.9",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-03-q02",
+    "objectiveId": "g-pt-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "In triangle PQR, p = 10 cm, q = 8 cm, P = 40°. Find angle Q correct to 1 decimal place.",
+    "finalAnswer": "30.9",
+    "solutionSteps": "sin Q / 8 = sin 40° / 10, sin Q = 0.514, Q ≈ 30.9°",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use sine rule: sin Q / q = sin P / p."
+      },
+      {
+        "level": 2,
+        "text": "sin Q = 8 sin 40° / 10."
+      },
+      {
+        "level": 3,
+        "text": "M1: sine rule. M1: calculates. A1: 30.9°."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "30.9",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-03-q03",
+    "objectiveId": "g-pt-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the area of a triangle with sides 6 cm and 8 cm and included angle 30°.",
+    "finalAnswer": "12",
+    "solutionSteps": "Area = ½ × 6 × 8 × sin 30° = ½ × 48 × 0.5 = 12 cm²",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use Area = ½ab sin C."
+      },
+      {
+        "level": 2,
+        "text": "sin 30° = 0.5."
+      },
+      {
+        "level": 3,
+        "text": "M1: formula. M1: substitutes. A1: 12 cm²."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "12",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-ve-01-q01",
+    "objectiveId": "g-ve-01",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "a = (3, 4) and b = (1, −2). Find a + b.",
+    "finalAnswer": "(4,2)",
+    "solutionSteps": "(3+1, 4+(−2)) = (4, 2)",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Add corresponding components."
+      },
+      {
+        "level": 2,
+        "text": "3+1 and 4+(−2)."
+      },
+      {
+        "level": 3,
+        "text": "M1: adds x. A1: (4, 2)."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "(4,2)",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-ve-01-q02",
+    "objectiveId": "g-ve-01",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Find 3 × (2, −1)",
+    "finalAnswer": "(6,-3)",
+    "solutionSteps": "3(2, −1) = (6, −3)",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Multiply each component by 3."
+      },
+      {
+        "level": 2,
+        "text": "3×2 and 3×(−1)."
+      },
+      {
+        "level": 3,
+        "text": "M1: multiplies. A1: (6, −3)."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "(6,-3)",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-ve-01-q03",
+    "objectiveId": "g-ve-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "reasoning",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Points A(1, 2) and B(4, 6). Write the vector AB.",
+    "finalAnswer": "(3,4)",
+    "solutionSteps": "AB = (4−1, 6−2) = (3, 4)",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Vector AB = B − A."
+      },
+      {
+        "level": 2,
+        "text": "Subtract coordinates."
+      },
+      {
+        "level": 3,
+        "text": "M1: subtracts x. M1: subtracts y. A1: (3, 4)."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "(3,4)",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  }
+]

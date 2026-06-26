@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "a-nm-01-q02",
+    "objectiveId": "a-nm-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "If x = 4, work out the value of 3x² − 5",
+    "finalAnswer": "43",
+    "solutionSteps": "3(4)² − 5 = 3(16) − 5 = 48 − 5 = 43",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Substitute x = 4 into the expression."
+      },
+      {
+        "level": 2,
+        "text": "Work out 4² first, then multiply by 3."
+      },
+      {
+        "level": 3,
+        "text": "M1: 48. A1: 43."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "43",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-01-q03",
+    "objectiveId": "a-nm-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Write an expression for the perimeter of a rectangle with width w and length 2w + 3.",
+    "finalAnswer": "6w+6",
+    "solutionSteps": "P = 2(w + 2w + 3) = 2(3w + 3) = 6w + 6",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Perimeter = 2 × (width + length)."
+      },
+      {
+        "level": 2,
+        "text": "Sum of sides: w + (2w + 3)."
+      },
+      {
+        "level": 3,
+        "text": "M1: 2(3w+3). A1: 6w + 6."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "6w+6",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-02-q03",
+    "objectiveId": "a-nm-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Expand and simplify 3(2x − 4) + 5x",
+    "finalAnswer": "11x-12",
+    "solutionSteps": "6x − 12 + 5x = 11x − 12",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Expand the bracket first."
+      },
+      {
+        "level": 2,
+        "text": "3×2x = 6x and 3×(−4) = −12."
+      },
+      {
+        "level": 3,
+        "text": "M1: 6x−12. A1: 11x − 12."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "11x-12",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-03-q02",
+    "objectiveId": "a-nm-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Factorise fully 6x + 15",
+    "finalAnswer": "3(2x+5)",
+    "solutionSteps": "HCF is 3: 3(2x + 5)",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the highest common factor of 6 and 15."
+      },
+      {
+        "level": 2,
+        "text": "The HCF is 3."
+      },
+      {
+        "level": 3,
+        "text": "M1: factor 3. A1: 3(2x + 5)."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3(2x+5)",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-03-q03",
+    "objectiveId": "a-nm-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Factorise x² + 7x + 12",
+    "finalAnswer": "(x+3)(x+4)",
+    "solutionSteps": "Find two numbers that multiply to 12 and add to 7: 3 and 4",
+    "hints": [
+      {
+        "level": 1,
+        "text": "You need two numbers that multiply to 12."
+      },
+      {
+        "level": 2,
+        "text": "They must also add to 7."
+      },
+      {
+        "level": 3,
+        "text": "M1: identifies 3,4. A1: (x+3)(x+4)."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "(x+3)(x+4)",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-04-q01",
+    "objectiveId": "a-nm-04",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Simplify (x² − 9)/(x + 3)",
+    "finalAnswer": "x-3",
+    "solutionSteps": "x² − 9 = (x+3)(x−3), so (x+3)(x−3)/(x+3) = x − 3",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Factorise the numerator — difference of two squares."
+      },
+      {
+        "level": 2,
+        "text": "x² − 9 = (x+3)(x−3)."
+      },
+      {
+        "level": 3,
+        "text": "M1: factorise. M1: cancel. A1: x − 3."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "x-3",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-04-q02",
+    "objectiveId": "a-nm-04",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Simplify (2x)/(3) + (x)/(6)",
+    "finalAnswer": "5x/6",
+    "solutionSteps": "4x/6 + x/6 = 5x/6",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use a common denominator of 6."
+      },
+      {
+        "level": 2,
+        "text": "2x/3 = 4x/6."
+      },
+      {
+        "level": 3,
+        "text": "M1: common denominator. M1: add. A1: 5x/6."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "5x/6",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-04-q03",
+    "objectiveId": "a-nm-04",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Simplify (x² − 4x)/(x² − 16)",
+    "finalAnswer": "x/(x+4)",
+    "solutionSteps": "x(x−4)/((x+4)(x−4)) = x/(x+4)",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Factorise numerator and denominator."
+      },
+      {
+        "level": 2,
+        "text": "Numerator: x(x−4). Denominator: (x+4)(x−4)."
+      },
+      {
+        "level": 3,
+        "text": "M1: factorise num. M1: factorise den. A1: x/(x+4)."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "x/(x+4)",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-01-q02",
+    "objectiveId": "a-gr-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "graph",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "The graph of y = 2x − 1 passes through (0, c). What is c?",
+    "finalAnswer": "-1",
+    "solutionSteps": "When x = 0, y = 2(0) − 1 = −1, so c = −1",
+    "hints": [
+      {
+        "level": 1,
+        "text": "c is the y-intercept."
+      },
+      {
+        "level": 2,
+        "text": "Substitute x = 0 into y = 2x − 1."
+      },
+      {
+        "level": 3,
+        "text": "M1: substitutes. A1: c = −1."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "-1",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-01-q03",
+    "objectiveId": "a-gr-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A line has gradient 3. Which table shows a relationship with gradient 3? (A) x:1,2,3 y:4,5,6  (B) x:1,2,3 y:3,6,9",
+    "finalAnswer": "B",
+    "solutionSteps": "B: change in y / change in x = 6/2 = 3. A: gradient = 1.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Gradient = change in y ÷ change in x."
+      },
+      {
+        "level": 2,
+        "text": "Check each table using two points."
+      },
+      {
+        "level": 3,
+        "text": "M1: calculates gradient. A1: B."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "B",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-02-q02",
+    "objectiveId": "a-gr-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the equation of the line passing through (0, 2) and (3, 8).",
+    "finalAnswer": "y=2x+2",
+    "solutionSteps": "Gradient = (8−2)/(3−0) = 2. y-intercept = 2. y = 2x + 2",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find gradient first, then y-intercept."
+      },
+      {
+        "level": 2,
+        "text": "m = (8−2)/(3−0)."
+      },
+      {
+        "level": 3,
+        "text": "M1: m=2. M1: c=2. A1: y=2x+2."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "y=2x+2",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-02-q03",
+    "objectiveId": "a-gr-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A line passes through (2, 5) and (6, 13). Find its equation in the form y = mx + c.",
+    "finalAnswer": "y=2x+1",
+    "solutionSteps": "m = (13−5)/(6−2) = 2. 5 = 2(2) + c → c = 1. y = 2x + 1",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Gradient m = rise over run."
+      },
+      {
+        "level": 2,
+        "text": "Substitute one point to find c."
+      },
+      {
+        "level": 3,
+        "text": "M1: m=2. M1: finds c. A1: y=2x+1."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "y=2x+1",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-03-q01",
+    "objectiveId": "a-gr-03",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "graph",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "The graph of y = x² − 4 crosses the x-axis at two points. Write the x-coordinates.",
+    "finalAnswer": "-2,2",
+    "solutionSteps": "x² − 4 = 0, (x+2)(x−2) = 0, x = −2 or 2",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Set y = 0 and solve."
+      },
+      {
+        "level": 2,
+        "text": "This is a difference of two squares."
+      },
+      {
+        "level": 3,
+        "text": "M1: factorise. A1: x = −2, 2."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "-2,2",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-03-q02",
+    "objectiveId": "a-gr-03",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Which shape describes the graph y = 1/x?",
+    "finalAnswer": "reciprocal",
+    "solutionSteps": "y = 1/x is a reciprocal graph (hyperbola)",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Think about what happens as x gets very large."
+      },
+      {
+        "level": 2,
+        "text": "It is not a straight line or parabola."
+      },
+      {
+        "level": 3,
+        "text": "B1: reciprocal (hyperbola)."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "reciprocal",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-03-q03",
+    "objectiveId": "a-gr-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "reasoning",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "y = x³ passes through (2, 8). What is the y-coordinate when x = −2?",
+    "finalAnswer": "-8",
+    "solutionSteps": "(−2)³ = −8",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Substitute x = −2 into y = x³."
+      },
+      {
+        "level": 2,
+        "text": "A negative number cubed is negative."
+      },
+      {
+        "level": 3,
+        "text": "M1: (−2)³. A1: −8."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "-8",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-01-q03",
+    "objectiveId": "a-ei-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve 5x − 3 = 2x + 9",
+    "finalAnswer": "4",
+    "solutionSteps": "5x − 2x = 9 + 3, 3x = 12, x = 4",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Collect x terms on one side, numbers on the other."
+      },
+      {
+        "level": 2,
+        "text": "3x = 12."
+      },
+      {
+        "level": 3,
+        "text": "M1: collects terms. M1: 3x=12. A1: x=4."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "4",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-02-q01",
+    "objectiveId": "a-ei-02",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve x² − 5x + 6 = 0",
+    "finalAnswer": "2,3",
+    "solutionSteps": "(x−2)(x−3) = 0, x = 2 or x = 3",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Try to factorise the quadratic."
+      },
+      {
+        "level": 2,
+        "text": "Two numbers multiply to 6 and add to −5."
+      },
+      {
+        "level": 3,
+        "text": "M1: factorise. A1: x=2,3."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "2,3",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-02-q02",
+    "objectiveId": "a-ei-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Solve x² − 6x + 2 = 0. Give answers correct to 2 decimal places.",
+    "finalAnswer": "0.54,5.46",
+    "solutionSteps": "x = (6 ± √(36−8))/2 = (6 ± √28)/2 ≈ 0.54, 5.46",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use the quadratic formula."
+      },
+      {
+        "level": 2,
+        "text": "a=1, b=−6, c=2."
+      },
+      {
+        "level": 3,
+        "text": "M1: formula. M1: √28. A1: 0.54 and 5.46."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "0.54,5.46",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-02-q03",
+    "objectiveId": "a-ei-02",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve x² = 49",
+    "finalAnswer": "-7,7",
+    "solutionSteps": "x = ±√49 = ±7",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Take the square root of both sides."
+      },
+      {
+        "level": 2,
+        "text": "Remember both positive and negative roots."
+      },
+      {
+        "level": 3,
+        "text": "M1: √49. A1: x = −7, 7."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "-7,7",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-03-q02",
+    "objectiveId": "a-ei-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve simultaneously: y = 2x + 1 and y = 7 − x",
+    "finalAnswer": "x=2,y=5",
+    "solutionSteps": "2x + 1 = 7 − x, 3x = 6, x = 2, y = 5",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Set the two expressions for y equal."
+      },
+      {
+        "level": 2,
+        "text": "2x + 1 = 7 − x."
+      },
+      {
+        "level": 3,
+        "text": "M1: equates. M1: x=2. A1: y=5."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "x=2,y=5",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-03-q03",
+    "objectiveId": "a-ei-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve: x + y = 10 and x² + y² = 58",
+    "finalAnswer": "x=3,y=7",
+    "solutionSteps": "y = 10−x. x²+(10−x)²=58 → 2x²−20x+42=0 → x²−10x+21=0 → (x−3)(x−7)=0. Pairs: (3,7) and (7,3)",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Substitute y = 10 − x into the second equation."
+      },
+      {
+        "level": 2,
+        "text": "Expand and simplify to a quadratic in x."
+      },
+      {
+        "level": 3,
+        "text": "M1: substitutes. M1: quadratic. A1: (3,7) and (7,3)."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "x=3,y=7",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-04-q01",
+    "objectiveId": "a-ei-04",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve 3x + 4 < 16",
+    "finalAnswer": "x<4",
+    "solutionSteps": "3x < 12, x < 4",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Treat like an equation but keep the inequality sign."
+      },
+      {
+        "level": 2,
+        "text": "Subtract 4, then divide by 3."
+      },
+      {
+        "level": 3,
+        "text": "M1: 3x<12. A1: x<4."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "x<4",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-04-q02",
+    "objectiveId": "a-ei-04",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve −2x + 6 ≥ 0",
+    "finalAnswer": "x≤3",
+    "solutionSteps": "−2x ≥ −6, x ≤ 3 (inequality flips when dividing by negative)",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Isolate x."
+      },
+      {
+        "level": 2,
+        "text": "When dividing by −2, reverse the inequality."
+      },
+      {
+        "level": 3,
+        "text": "M1: −2x≥−6. M1: flip sign. A1: x≤3."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "x≤3",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-04-q03",
+    "objectiveId": "a-ei-04",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Write the integer values of x that satisfy 1 ≤ 2x − 3 < 7",
+    "finalAnswer": "2,3,4",
+    "solutionSteps": "Add 3: 4 ≤ 2x < 10. Divide by 2: 2 ≤ x < 5. Integers: 2, 3, 4",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Solve the double inequality in two steps."
+      },
+      {
+        "level": 2,
+        "text": "Add 3 throughout, then divide by 2."
+      },
+      {
+        "level": 3,
+        "text": "M1: 2≤x<5. A1: 2, 3, 4."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "2,3,4",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-sq-01-q02",
+    "objectiveId": "a-sq-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "The nth term of a sequence is 3n + 1. Write the first 4 terms.",
+    "finalAnswer": "4,7,10,13",
+    "solutionSteps": "n=1→4, n=2→7, n=3→10, n=4→13",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Substitute n = 1, 2, 3, 4."
+      },
+      {
+        "level": 2,
+        "text": "3(1)+1 = 4 for the first term."
+      },
+      {
+        "level": 3,
+        "text": "M1: first two terms. A1: 4,7,10,13."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "4,7,10,13",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-sq-01-q03",
+    "objectiveId": "a-sq-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A sequence starts 5, 8, 11, 14, … Write the term-to-term rule.",
+    "finalAnswer": "add 3",
+    "solutionSteps": "Each term increases by 3",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the difference between consecutive terms."
+      },
+      {
+        "level": 2,
+        "text": "8 − 5 = 3."
+      },
+      {
+        "level": 3,
+        "text": "B1: add 3 (or +3)."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "add 3",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-sq-02-q02",
+    "objectiveId": "a-sq-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Find the nth term of the sequence 7, 10, 13, 16, …",
+    "finalAnswer": "3n+4",
+    "solutionSteps": "Common difference 3, nth term = 3n + 4",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the common difference."
+      },
+      {
+        "level": 2,
+        "text": "Compare with 3n: when n=1, 3(1)=3 but first term is 7."
+      },
+      {
+        "level": 3,
+        "text": "M1: d=3. M1: offset. A1: 3n+4."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3n+4",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-sq-02-q03",
+    "objectiveId": "a-sq-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "The nth term of a sequence is n² + 1. Which term has value 50?",
+    "finalAnswer": "7",
+    "solutionSteps": "n² + 1 = 50, n² = 49, n = 7",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Set n² + 1 = 50."
+      },
+      {
+        "level": 2,
+        "text": "Solve n² = 49."
+      },
+      {
+        "level": 3,
+        "text": "M1: n²=49. A1: n=7."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "7",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  }
+]

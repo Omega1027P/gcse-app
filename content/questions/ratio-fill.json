@@ -1,0 +1,506 @@
+[
+  {
+    "id": "r-rp-01-q02",
+    "objectiveId": "r-rp-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Simplify the ratio 18 : 24",
+    "finalAnswer": "3:4",
+    "solutionSteps": "HCF 6: 18/6 : 24/6 = 3 : 4",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the HCF of 18 and 24."
+      },
+      {
+        "level": 2,
+        "text": "Divide both parts by 6."
+      },
+      {
+        "level": 3,
+        "text": "M1: HCF. A1: 3:4."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3:4",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-01-q03",
+    "objectiveId": "r-rp-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Share £120 in the ratio 2 : 3 : 5",
+    "finalAnswer": "24,36,60",
+    "solutionSteps": "Total parts = 10. £12 per part. Shares: £24, £36, £60",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Add the ratio parts: 2+3+5."
+      },
+      {
+        "level": 2,
+        "text": "Divide £120 by total parts."
+      },
+      {
+        "level": 3,
+        "text": "M1: 10 parts. M1: £12 each. A1: 24,36,60."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "24,36,60",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-02-q02",
+    "objectiveId": "r-rp-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "y is directly proportional to x. When x = 4, y = 20. Find y when x = 7.",
+    "finalAnswer": "35",
+    "solutionSteps": "y = kx, 20 = 4k, k = 5. y = 5(7) = 35",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Direct proportion: y = kx."
+      },
+      {
+        "level": 2,
+        "text": "Find k using x=4, y=20."
+      },
+      {
+        "level": 3,
+        "text": "M1: k=5. M1: substitute. A1: 35."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "35",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-02-q03",
+    "objectiveId": "r-rp-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "y is inversely proportional to x. When x = 5, y = 8. Find y when x = 10.",
+    "finalAnswer": "4",
+    "solutionSteps": "y = k/x, 8 = k/5, k = 40. y = 40/10 = 4",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Inverse proportion: y = k/x."
+      },
+      {
+        "level": 2,
+        "text": "k = xy = 5 × 8 = 40."
+      },
+      {
+        "level": 3,
+        "text": "M1: k=40. M1: substitute. A1: 4."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "4",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-03-q02",
+    "objectiveId": "r-rp-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A car travels 180 miles in 3 hours. Work out its average speed in mph.",
+    "finalAnswer": "60",
+    "solutionSteps": "Speed = distance ÷ time = 180 ÷ 3 = 60 mph",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use speed = distance ÷ time."
+      },
+      {
+        "level": 2,
+        "text": "180 ÷ 3."
+      },
+      {
+        "level": 3,
+        "text": "M1: formula. M1: divides. A1: 60 mph."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "60",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-03-q03",
+    "objectiveId": "r-rp-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A block has mass 240 g and volume 30 cm³. Work out its density in g/cm³.",
+    "finalAnswer": "8",
+    "solutionSteps": "Density = mass ÷ volume = 240 ÷ 30 = 8 g/cm³",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Density = mass ÷ volume."
+      },
+      {
+        "level": 2,
+        "text": "240 ÷ 30."
+      },
+      {
+        "level": 3,
+        "text": "M1: formula. M1: divides. A1: 8."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "8",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-roc-01-q01",
+    "objectiveId": "r-roc-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "graph",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A distance-time graph shows a straight line from (0,0) to (2, 100). What is the speed?",
+    "finalAnswer": "50",
+    "solutionSteps": "Speed = gradient = 100/2 = 50 units per hour",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Speed equals the gradient on a distance-time graph."
+      },
+      {
+        "level": 2,
+        "text": "Gradient = rise ÷ run."
+      },
+      {
+        "level": 3,
+        "text": "M1: 100/2. A1: 50."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "50",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-roc-01-q02",
+    "objectiveId": "r-roc-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A line has equation d = 30t. What does 30 represent?",
+    "finalAnswer": "speed",
+    "solutionSteps": "30 is the gradient = speed (distance per unit time)",
+    "hints": [
+      {
+        "level": 1,
+        "text": "d = 30t is like y = mx."
+      },
+      {
+        "level": 2,
+        "text": "The coefficient of t is the rate of change."
+      },
+      {
+        "level": 3,
+        "text": "B1: speed (30 units of distance per unit time)."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "speed",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-roc-01-q03",
+    "objectiveId": "r-roc-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "graph",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "On a velocity-time graph, a line goes from (0, 0) to (5, 20). Work out the acceleration.",
+    "finalAnswer": "4",
+    "solutionSteps": "Acceleration = gradient = 20/5 = 4 m/s²",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Acceleration is the gradient on a velocity-time graph."
+      },
+      {
+        "level": 2,
+        "text": "20 ÷ 5."
+      },
+      {
+        "level": 3,
+        "text": "M1: gradient. A1: 4 m/s²."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "4",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-roc-02-q01",
+    "objectiveId": "r-roc-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "estimation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Estimate the gradient of the curve y = x² at x = 3 by using the points (2.9, 8.41) and (3.1, 9.61).",
+    "finalAnswer": "6",
+    "solutionSteps": "Gradient ≈ (9.61 − 8.41)/(3.1 − 2.9) = 1.2/0.2 = 6",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use gradient = (y₂−y₁)/(x₂−x₁) with points close to x=3."
+      },
+      {
+        "level": 2,
+        "text": "Difference in y over difference in x."
+      },
+      {
+        "level": 3,
+        "text": "M1: sets up fraction. M1: calculates. A1: 6."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "6",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-roc-02-q02",
+    "objectiveId": "r-roc-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "estimation",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A velocity-time graph shows velocity increasing linearly from 0 to 12 m/s in 6 s. Estimate the distance travelled.",
+    "finalAnswer": "36",
+    "solutionSteps": "Area under graph = ½ × base × height = ½ × 6 × 12 = 36 m",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Distance = area under a velocity-time graph."
+      },
+      {
+        "level": 2,
+        "text": "The shape is a triangle."
+      },
+      {
+        "level": 3,
+        "text": "M1: identifies triangle. M1: area formula. A1: 36 m."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "36",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-roc-02-q03",
+    "objectiveId": "r-roc-02",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "graph",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "On a distance-time graph, what does a horizontal section indicate?",
+    "finalAnswer": "stationary",
+    "solutionSteps": "Zero gradient means distance not changing — object is stationary",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Horizontal means no change in the y-value."
+      },
+      {
+        "level": 2,
+        "text": "Distance is not changing over time."
+      },
+      {
+        "level": 3,
+        "text": "B1: stationary / at rest / not moving."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "stationary",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  }
+]

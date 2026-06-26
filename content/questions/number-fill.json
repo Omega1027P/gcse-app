@@ -1,0 +1,691 @@
+[
+  {
+    "id": "n-sc-01-q04",
+    "objectiveId": "n-sc-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "comparison",
+    "marks": 1,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "Write =, < or > to make a true statement: 0.7 ___ 7/10",
+    "finalAnswer": "=",
+    "solutionSteps": "7/10 = 0.7, so 0.7 = 7/10",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Convert the fraction to a decimal."
+      },
+      {
+        "level": 2,
+        "text": "7 ÷ 10 = 0.7."
+      },
+      {
+        "level": 3,
+        "text": "B1: they are equal, so use =."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "B1",
+        "description": "Correct method or partial working",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-02-q02",
+    "objectiveId": "n-sc-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Work out 18 ÷ 0.3",
+    "finalAnswer": "60",
+    "solutionSteps": "18 ÷ 0.3 = 180 ÷ 3 = 60",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Multiply top and bottom by 10 to remove the decimal."
+      },
+      {
+        "level": 2,
+        "text": "18 ÷ 0.3 = 180 ÷ 3."
+      },
+      {
+        "level": 3,
+        "text": "M1: equivalent division. A1: 60."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "60",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-02-q03",
+    "objectiveId": "n-sc-02",
+    "tier": "Foundation",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out 3/4 − 1/3 + 1/6. Give your answer as a fraction in simplest form.",
+    "finalAnswer": "7/12",
+    "solutionSteps": "LCD 12: 9/12 − 4/12 + 2/12 = 7/12",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find a common denominator of 12."
+      },
+      {
+        "level": 2,
+        "text": "Convert each fraction: 9/12, 4/12, 2/12."
+      },
+      {
+        "level": 3,
+        "text": "M1: common denominator. M1: combine. A1: 7/12."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "7/12",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-03-q03",
+    "objectiveId": "n-sc-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out 5² − 2³",
+    "finalAnswer": "17",
+    "solutionSteps": "5² = 25, 2³ = 8, 25 − 8 = 17",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Evaluate each power first."
+      },
+      {
+        "level": 2,
+        "text": "5² = 25 and 2³ = 8."
+      },
+      {
+        "level": 3,
+        "text": "M1: 25 and 8. A1: 17."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "17",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-04-q03",
+    "objectiveId": "n-sc-04",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Find the LCM of 12 and 18.",
+    "finalAnswer": "36",
+    "solutionSteps": "12 = 2²×3, 18 = 2×3². LCM = 2²×3² = 36",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Prime factorise both numbers."
+      },
+      {
+        "level": 2,
+        "text": "Take the highest power of each prime."
+      },
+      {
+        "level": 3,
+        "text": "M1: factorise. M1: combine. A1: 36."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "36",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-01-q03",
+    "objectiveId": "n-fdp-01",
+    "tier": "Foundation",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out 2/5 ÷ 3/10",
+    "finalAnswer": "4/3",
+    "solutionSteps": "2/5 ÷ 3/10 = 2/5 × 10/3 = 20/15 = 4/3",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Keep, change, flip: multiply by the reciprocal."
+      },
+      {
+        "level": 2,
+        "text": "2/5 × 10/3."
+      },
+      {
+        "level": 3,
+        "text": "M1: correct flip. M1: multiply. A1: 4/3."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "4/3",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-01-q04",
+    "objectiveId": "n-fdp-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out 1 2/3 × 3/4. Give your answer as a mixed number in simplest form.",
+    "finalAnswer": "1 1/4",
+    "solutionSteps": "5/3 × 3/4 = 15/12 = 5/4 = 1 1/4",
+    "hints": [
+      { "level": 1, "text": "Convert the mixed number to an improper fraction." },
+      { "level": 2, "text": "5/3 × 3/4 — cancel the 3s if you can." },
+      { "level": 3, "text": "M1: 15/12. A1: 1 1/4." }
+    ],
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Correct method or partial working", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "1 1/4", "points": 1 }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-02-q03",
+    "objectiveId": "n-fdp-02",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "conversion",
+    "marks": 2,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "Write 0.375 as a fraction in its simplest form.",
+    "finalAnswer": "3/8",
+    "solutionSteps": "0.375 = 375/1000 = 3/8",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Write as a fraction over 1000 first."
+      },
+      {
+        "level": 2,
+        "text": "375/1000 — simplify by dividing by 125."
+      },
+      {
+        "level": 3,
+        "text": "M1: 375/1000. A1: 3/8."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3/8",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-03-q02",
+    "objectiveId": "n-fdp-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "After a 20% pay rise, Tom earns £24 000 per year. What was his salary before the rise?",
+    "finalAnswer": "20000",
+    "solutionSteps": "120% = 24000, so 100% = 24000 ÷ 1.2 = £20 000",
+    "hints": [
+      {
+        "level": 1,
+        "text": "£24 000 represents 120% of the original salary."
+      },
+      {
+        "level": 2,
+        "text": "Divide by 1.2 to find 100%."
+      },
+      {
+        "level": 3,
+        "text": "M1: identifies 120%. M1: ÷1.2. A1: £20 000."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "20000",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-03-q03",
+    "objectiveId": "n-fdp-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A population increases by 5% each year. It is now 21 000. What was it 2 years ago?",
+    "finalAnswer": "19048",
+    "solutionSteps": "After 2 rises: P × 1.05² = 21000, P = 21000/1.1025 ≈ 19048",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Two successive 5% increases multiply by 1.05 twice."
+      },
+      {
+        "level": 2,
+        "text": "Divide 21 000 by 1.05²."
+      },
+      {
+        "level": 3,
+        "text": "M1: 1.05². M1: divide. A1: 19 048 (accept 19 047–19 049)."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "19048",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-01-q02",
+    "objectiveId": "n-ma-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "conversion",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Write 4 500 000 in standard form.",
+    "finalAnswer": "4.5×10^6",
+    "solutionSteps": "4 500 000 = 4.5 × 10⁶",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Move the decimal point so one digit is before it."
+      },
+      {
+        "level": 2,
+        "text": "4.5 — how many places did you move?"
+      },
+      {
+        "level": 3,
+        "text": "M1: 4.5. A1: ×10⁶."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "4.5×10^6",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-01-q03",
+    "objectiveId": "n-ma-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Work out (3 × 10⁴) × (2 × 10⁻³). Give your answer in standard form.",
+    "finalAnswer": "6×10^1",
+    "solutionSteps": "3×2 = 6, 10⁴ × 10⁻³ = 10¹, answer 6 × 10¹ = 60",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Multiply the numbers and the powers of 10 separately."
+      },
+      {
+        "level": 2,
+        "text": "10⁴ × 10⁻³ = 10¹."
+      },
+      {
+        "level": 3,
+        "text": "M1: 6. M1: 10¹. A1: 6×10¹ or 60."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "6×10^1",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-02-q02",
+    "objectiveId": "n-ma-02",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "estimation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Round 4.683 to 2 decimal places.",
+    "finalAnswer": "4.68",
+    "solutionSteps": "Third decimal is 3 < 5, so 4.68",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Look at the third decimal place."
+      },
+      {
+        "level": 2,
+        "text": "3 is less than 5, so do not round up."
+      },
+      {
+        "level": 3,
+        "text": "M1: identifies 3rd dp. A1: 4.68."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "4.68",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-02-q03",
+    "objectiveId": "n-ma-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "estimation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Estimate the value of (49.8 × 6.1) ÷ 2.9",
+    "finalAnswer": "100",
+    "solutionSteps": "≈ (50 × 6) ÷ 3 = 300 ÷ 3 = 100",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Round each number to 1 significant figure."
+      },
+      {
+        "level": 2,
+        "text": "50 × 6 = 300, then divide by 3."
+      },
+      {
+        "level": 3,
+        "text": "M1: rounds. M1: calculates. A1: 100."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "100",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-03-q01",
+    "objectiveId": "n-ma-03",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A rod has length 15 cm correct to the nearest cm. Write the error interval for the length.",
+    "finalAnswer": "14.5≤l<15.5",
+    "solutionSteps": "Lower bound 14.5 cm, upper bound 15.5 cm",
+    "hints": [
+      {
+        "level": 1,
+        "text": "±0.5 cm from the rounded value."
+      },
+      {
+        "level": 2,
+        "text": "Lower bound is 0.5 below, upper is 0.5 below next integer."
+      },
+      {
+        "level": 3,
+        "text": "M1: 14.5. M1: 15.5. A1: 14.5 ≤ l < 15.5."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "14.5≤l<15.5",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-03-q02",
+    "objectiveId": "n-ma-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "a = 5.2 to 1 dp and b = 3.1 to 1 dp. Work out the upper bound of a − b.",
+    "finalAnswer": "2.20",
+    "solutionSteps": "Upper a = 5.25, lower b = 3.05. Upper bound of a−b = 5.25 − 3.05 = 2.20",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Upper bound of a difference uses upper a and lower b."
+      },
+      {
+        "level": 2,
+        "text": "a: 5.15–5.25, b: 3.05–3.15."
+      },
+      {
+        "level": 3,
+        "text": "M1: bounds. M1: subtract. A1: 2.20."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "2.20",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-03-q03",
+    "objectiveId": "n-ma-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A rectangle has width 4 cm (to nearest cm) and length 7 cm (to nearest cm). Work out the lower bound of its area.",
+    "finalAnswer": "22.75",
+    "solutionSteps": "LB width = 3.5, LB length = 6.5. Min area = 3.5 × 6.5 = 22.75 cm²",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use lower bound of each measurement."
+      },
+      {
+        "level": 2,
+        "text": "Width: 3.5 to 4.5, length: 6.5 to 7.5."
+      },
+      {
+        "level": 3,
+        "text": "M1: 3.5 and 6.5. M1: multiply. A1: 22.75 cm²."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "22.75",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  }
+]

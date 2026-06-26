@@ -16,8 +16,9 @@ import { Card, CardHeader } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { DemoBanner } from "@/components/layout/DemoBanner";
 import { PageHeader, LoadingState, ErrorState } from "@/components/layout/PageHeader";
-import { formatDate, daysUntil, todayISO } from "@/lib/utils";
+import { formatCount, formatDate, daysUntil, todayISO } from "@/lib/utils";
 import { countTopics, countObjectives, getAllTopics } from "@/lib/syllabus/loader";
+import { getAllContentQuestions } from "@/lib/content/questions";
 import { MASTERY_WEAK_THRESHOLD } from "@/lib/constants";
 import type { DailyPlan, UserProfile } from "@/lib/types";
 
@@ -161,9 +162,13 @@ export default function DashboardPage() {
           <p className="mt-1 text-3xl font-bold text-slate-900">{weakCount}</p>
         </Card>
         <Card>
-          <p className="text-sm text-slate-500">Syllabus</p>
-          <p className="mt-1 text-3xl font-bold text-slate-900">{countTopics()} topics</p>
-          <p className="text-xs text-slate-500">{countObjectives()} objectives</p>
+          <p className="text-sm text-slate-500">Question bank</p>
+          <p className="mt-1 text-3xl font-bold text-slate-900">
+            {getAllContentQuestions().length}
+          </p>
+          <p className="text-xs text-slate-500">
+            {formatCount(countObjectives(), "learning objective")}
+          </p>
         </Card>
       </div>
 

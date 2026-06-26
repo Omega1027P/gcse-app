@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { countObjectives, countTopics, getUnits } from "@/lib/syllabus/loader";
+import { formatCount } from "@/lib/utils";
 
 export default function LandingPage() {
   const units = getUnits();
@@ -44,7 +45,7 @@ export default function LandingPage() {
           {[
             {
               title: "Specification map",
-              body: `${countTopics()} topics · ${countObjectives()} objectives — see what you know at a glance.`,
+              body: `${formatCount(countTopics(), "topic")} · ${formatCount(countObjectives(), "learning objective")} — see what you know at a glance.`,
             },
             {
               title: "Daily study loop",

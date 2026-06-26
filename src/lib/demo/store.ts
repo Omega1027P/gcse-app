@@ -7,6 +7,7 @@ const KEYS = {
   mastery: "gcse_demo_mastery",
   mistakes: "gcse_demo_mistakes",
   plan: "gcse_demo_plan",
+  lastPractice: "gcse_demo_last_practice",
 } as const;
 
 function read<T>(key: string, fallback: T): T {
@@ -49,6 +50,25 @@ export function updateDemoMastery(topicId: string, correct: boolean) {
   const delta = correct ? 8 : -4;
   map[topicId] = Math.max(0, Math.min(100, current + delta));
   write(KEYS.mastery, map);
+  setLastPracticedTopic(topicId);
+}
+
+export interface LastPractice {
+  topicId: string;
+  objectiveId?: string;
+  at: string;
+}
+
+export function getLastPracticed(): LastPractice | null {
+  return read<LastPractice | null>(KEYS.lastPractice, null);
+}
+
+export function setLastPracticedTopic(topicId: string, objectiveId?: string) {
+  write(KEYS.lastPractice, {
+    topicId,
+    objectiveId,
+    at: new Date().toISOString(),
+  });
 }
 
 export function getDemoMistakes(): Mistake[] {

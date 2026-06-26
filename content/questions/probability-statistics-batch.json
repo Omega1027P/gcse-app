@@ -1,0 +1,116 @@
+[
+  {
+    "id": "p-se-02-q01",
+    "objectiveId": "p-se-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A bag has 3 red and 5 blue counters. One counter is taken at random. What is the probability it is red?",
+    "finalAnswer": "3/8",
+    "solutionSteps": "P(red) = 3/8",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "3 out of 8", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "3/8", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Probability = favourable outcomes ÷ total outcomes." },
+      { "level": 2, "text": "Total counters = 8, red = 3." },
+      { "level": 3, "text": "3/8." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "p-ce-01-q01",
+    "objectiveId": "p-ce-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A coin is flipped and a fair six-sided dice is rolled. List the probability of getting a head and an even number.",
+    "finalAnswer": "1/4",
+    "solutionSteps": "P(H and even) = 1/2 × 3/6 = 1/2 × 1/2 = 1/4",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Identifies independent events", "points": 1 },
+      { "stepOrder": 2, "markCode": "M1", "description": "P(even) = 1/2", "points": 1 },
+      { "stepOrder": 3, "markCode": "A1", "description": "1/4", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Multiply the probabilities of independent events." },
+      { "level": 2, "text": "P(head) = 1/2. P(even on dice) = 3/6." },
+      { "level": 3, "text": "1/2 × 1/2 = 1/4." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "s-sd-01-q01",
+    "objectiveId": "s-sd-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "interpretation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A bar chart shows books read: Mon 2, Tue 5, Wed 3. How many more books were read on Tuesday than Monday?",
+    "finalAnswer": "3",
+    "solutionSteps": "5 - 2 = 3",
+    "markScheme": [{ "stepOrder": 1, "markCode": "B1", "description": "3", "points": 2 }],
+    "hints": [
+      { "level": 1, "text": "Compare the heights for Monday and Tuesday." },
+      { "level": 2, "text": "Tuesday is 5, Monday is 2." },
+      { "level": 3, "text": "5 - 2 = 3." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "s-da-01-q01",
+    "objectiveId": "s-da-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Find the mean of 4, 6, 8, 10.",
+    "finalAnswer": "7",
+    "solutionSteps": "Sum = 28, mean = 28 ÷ 4 = 7",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Adds and divides by 4", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "7", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Mean = total ÷ how many values." },
+      { "level": 2, "text": "4 + 6 + 8 + 10 = 28." },
+      { "level": 3, "text": "28 ÷ 4 = 7." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "s-da-02-q01",
+    "objectiveId": "s-da-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Estimate the mean from this grouped data: 0-10 (freq 5), 10-20 (freq 15). Use midpoints.",
+    "finalAnswer": "12.5",
+    "solutionSteps": "Midpoints 5 and 15. Σfx = 5×5 + 15×15 = 250. Total freq = 20. Mean = 250 ÷ 20 = 12.5",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Uses midpoints", "points": 1 },
+      { "stepOrder": 2, "markCode": "M1", "description": "Σfx", "points": 1 },
+      { "stepOrder": 3, "markCode": "A1", "description": "12.5", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Use the midpoint of each class × frequency." },
+      { "level": 2, "text": "Midpoints are 5 and 15." },
+      { "level": 3, "text": "(5×5 + 15×15) ÷ 20 = 12.5." }
+    ],
+    "status": "published"
+  }
+]

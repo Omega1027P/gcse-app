@@ -1,0 +1,181 @@
+[
+  {
+    "id": "n-sc-03-q01",
+    "objectiveId": "n-sc-03",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out 2³ × 3²",
+    "finalAnswer": "72",
+    "solutionSteps": "2³ = 8, 3² = 9, 8 × 9 = 72",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Evaluates powers correctly", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "72", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Work out each power before multiplying." },
+      { "level": 2, "text": "2³ means 2×2×2 and 3² means 3×3." },
+      { "level": 3, "text": "M1: 8 and 9. A1: 8×9 = 72." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-03-q02",
+    "objectiveId": "n-sc-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "Work out √81",
+    "finalAnswer": "9",
+    "solutionSteps": "9 × 9 = 81, so √81 = 9",
+    "markScheme": [{ "stepOrder": 1, "markCode": "B1", "description": "9", "points": 2 }],
+    "hints": [
+      { "level": 1, "text": "Which number multiplied by itself gives 81?" },
+      { "level": 2, "text": "Try numbers near 9." },
+      { "level": 3, "text": "9² = 81." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-04-q01",
+    "objectiveId": "n-sc-04",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Write 60 as a product of prime factors.",
+    "finalAnswer": "2²×3×5",
+    "solutionSteps": "60 = 2×30 = 2×2×15 = 2×2×3×5 = 2²×3×5",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Begins correct factor tree or division", "points": 1 },
+      { "stepOrder": 2, "markCode": "M1", "description": "All primes identified", "points": 1 },
+      { "stepOrder": 3, "markCode": "A1", "description": "2²×3×5", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Divide by the smallest prime until you reach 1." },
+      { "level": 2, "text": "60 ÷ 2 = 30, keep dividing." },
+      { "level": 3, "text": "2, 2, 3, 5 → 2²×3×5." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-04-q02",
+    "objectiveId": "n-sc-04",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Find the HCF of 24 and 36.",
+    "finalAnswer": "12",
+    "solutionSteps": "24 = 2³×3, 36 = 2²×3². HCF = 2²×3 = 12",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Prime factors of both numbers", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "12", "points": 2 }
+    ],
+    "hints": [
+      { "level": 1, "text": "List factors common to both numbers, or use prime factorisation." },
+      { "level": 2, "text": "Take the lowest power of each common prime." },
+      { "level": 3, "text": "Common primes: 2² and 3 → 4×3 = 12." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-02-q01",
+    "objectiveId": "n-fdp-02",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "conversion",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Write 3/5 as a percentage.",
+    "finalAnswer": "60%",
+    "solutionSteps": "3/5 = 0.6 = 60%",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Converts to decimal or equivalent fraction out of 100", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "60%", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Percent means out of 100." },
+      { "level": 2, "text": "Multiply numerator and denominator to make denominator 100, or divide 3÷5." },
+      { "level": 3, "text": "3÷5 = 0.6 = 60%." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-02-q02",
+    "objectiveId": "n-fdp-02",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "conversion",
+    "marks": 1,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "Write 0.125 as a fraction in its simplest form.",
+    "finalAnswer": "1/8",
+    "solutionSteps": "0.125 = 125/1000 = 1/8",
+    "markScheme": [{ "stepOrder": 1, "markCode": "B1", "description": "1/8", "points": 1 }],
+    "hints": [
+      { "level": 1, "text": "Write as a fraction over 1000 first, then simplify." },
+      { "level": 2, "text": "125/1000 — divide top and bottom by 125." },
+      { "level": 3, "text": "1/8." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-01-q01",
+    "objectiveId": "n-ma-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "conversion",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Write 4,500,000 in standard form.",
+    "finalAnswer": "4.5×10⁶",
+    "solutionSteps": "Move decimal 6 places left: 4.5 × 10⁶",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Correct value between 1 and 10", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "×10⁶", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Standard form is a × 10ⁿ where 1 ≤ a < 10." },
+      { "level": 2, "text": "Count how many places the decimal moves from 4500000.0" },
+      { "level": 3, "text": "4.5 × 10⁶." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-02-q01",
+    "objectiveId": "n-ma-02",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "estimation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Estimate the value of 4.8 × 19.2 by rounding each number to 1 significant figure.",
+    "finalAnswer": "100",
+    "solutionSteps": "4.8 ≈ 5, 19.2 ≈ 20, 5 × 20 = 100",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Rounds both values appropriately", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "100", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Round each number to 1 significant figure first." },
+      { "level": 2, "text": "4.8 → 5 and 19.2 → 20." },
+      { "level": 3, "text": "5 × 20 = 100." }
+    ],
+    "status": "published"
+  }
+]

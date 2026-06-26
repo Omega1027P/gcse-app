@@ -1,0 +1,758 @@
+[
+  {
+    "id": "p-se-01-q02",
+    "objectiveId": "p-se-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A fair dice is rolled. What is the probability of getting an even number?",
+    "finalAnswer": "1/2",
+    "solutionSteps": "Even numbers: 2, 4, 6. P = 3/6 = 1/2",
+    "hints": [
+      {
+        "level": 1,
+        "text": "List the even outcomes."
+      },
+      {
+        "level": 2,
+        "text": "There are 3 even numbers out of 6."
+      },
+      {
+        "level": 3,
+        "text": "M1: 3/6. A1: 1/2."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "1/2",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "p-se-01-q03",
+    "objectiveId": "p-se-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A bag has 5 red and 3 blue counters. Find P(red).",
+    "finalAnswer": "5/8",
+    "solutionSteps": "P(red) = 5/8",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Probability = favourable / total."
+      },
+      {
+        "level": 2,
+        "text": "Total counters = 8."
+      },
+      {
+        "level": 3,
+        "text": "M1: 5/8. A1: 5/8."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "5/8",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "p-se-02-q02",
+    "objectiveId": "p-se-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "P(A) = 0.3 and P(B) = 0.45. A and B are mutually exclusive. Find P(A or B).",
+    "finalAnswer": "0.75",
+    "solutionSteps": "P(A or B) = 0.3 + 0.45 = 0.75",
+    "hints": [
+      {
+        "level": 1,
+        "text": "For mutually exclusive events, add the probabilities."
+      },
+      {
+        "level": 2,
+        "text": "0.3 + 0.45."
+      },
+      {
+        "level": 3,
+        "text": "M1: adds. A1: 0.75."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "0.75",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "p-se-02-q03",
+    "objectiveId": "p-se-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "The probability of rain is 0.35. What is the probability it does not rain?",
+    "finalAnswer": "0.65",
+    "solutionSteps": "P(not rain) = 1 − 0.35 = 0.65",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Probabilities sum to 1."
+      },
+      {
+        "level": 2,
+        "text": "1 − 0.35."
+      },
+      {
+        "level": 3,
+        "text": "M1: 1−0.35. A1: 0.65."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "0.65",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "p-ce-01-q02",
+    "objectiveId": "p-ce-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Two coins are flipped. List all outcomes and find P(both heads).",
+    "finalAnswer": "1/4",
+    "solutionSteps": "Outcomes: HH, HT, TH, TT. P(HH) = 1/4",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Draw a sample space for two coins."
+      },
+      {
+        "level": 2,
+        "text": "Only one outcome is HH out of four."
+      },
+      {
+        "level": 3,
+        "text": "M1: sample space. A1: 1/4."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "1/4",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "p-ce-01-q03",
+    "objectiveId": "p-ce-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A bag has 4 red and 6 blue. Two counters drawn without replacement. Find P(both red).",
+    "finalAnswer": "2/15",
+    "solutionSteps": "P = 4/10 × 3/9 = 12/90 = 2/15",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Multiply probabilities for successive draws."
+      },
+      {
+        "level": 2,
+        "text": "First red: 4/10, second red: 3/9."
+      },
+      {
+        "level": 3,
+        "text": "M1: 4/10. M1: ×3/9. A1: 2/15."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "2/15",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "p-ce-02-q01",
+    "objectiveId": "p-ce-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "P(A) = 0.4, P(B) = 0.5, A and B independent. Find P(A and B).",
+    "finalAnswer": "0.2",
+    "solutionSteps": "P(A and B) = 0.4 × 0.5 = 0.2",
+    "hints": [
+      {
+        "level": 1,
+        "text": "For independent events, multiply."
+      },
+      {
+        "level": 2,
+        "text": "0.4 × 0.5."
+      },
+      {
+        "level": 3,
+        "text": "M1: multiplies. A1: 0.2."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "0.2",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "p-ce-02-q02",
+    "objectiveId": "p-ce-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "In a class, 60% study French and 40% of those also study German. Find P(French and German).",
+    "finalAnswer": "0.24",
+    "solutionSteps": "P(F∩G) = 0.6 × 0.4 = 0.24",
+    "hints": [
+      {
+        "level": 1,
+        "text": "German given French means multiply."
+      },
+      {
+        "level": 2,
+        "text": "0.6 × 0.4."
+      },
+      {
+        "level": 3,
+        "text": "M1: identifies conditional. A1: 0.24."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "0.24",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "p-ce-02-q03",
+    "objectiveId": "p-ce-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "reasoning",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "P(A) = 0.3, P(B|A) = 0.6. Find P(A and B).",
+    "finalAnswer": "0.18",
+    "solutionSteps": "P(A∩B) = P(A) × P(B|A) = 0.3 × 0.6 = 0.18",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use P(A and B) = P(A) × P(B given A)."
+      },
+      {
+        "level": 2,
+        "text": "0.3 × 0.6."
+      },
+      {
+        "level": 3,
+        "text": "M1: formula. A1: 0.18."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "0.18",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "s-sd-01-q02",
+    "objectiveId": "s-sd-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "interpretation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A pie chart shows Sport 90°, Art 120°, Music 150°. Which activity is most popular?",
+    "finalAnswer": "Music",
+    "solutionSteps": "150° is the largest sector — Music",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Compare the angles."
+      },
+      {
+        "level": 2,
+        "text": "Largest angle = most popular."
+      },
+      {
+        "level": 3,
+        "text": "B1: Music."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "Music",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "s-sd-01-q03",
+    "objectiveId": "s-sd-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "80 students chose a subject. The pie chart shows Maths at 90°. How many chose Maths?",
+    "finalAnswer": "20",
+    "solutionSteps": "90/360 × 80 = 20 students",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Fraction of circle = angle/360."
+      },
+      {
+        "level": 2,
+        "text": "90/360 of 80."
+      },
+      {
+        "level": 3,
+        "text": "M1: 90/360. A1: 20."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "20",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "s-sd-02-q01",
+    "objectiveId": "s-sd-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "interpretation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A scatter graph shows points rising from left to right. Describe the correlation.",
+    "finalAnswer": "positive",
+    "solutionSteps": "As x increases, y increases — positive correlation",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Look at the overall trend."
+      },
+      {
+        "level": 2,
+        "text": "Rising pattern means positive."
+      },
+      {
+        "level": 3,
+        "text": "B1: positive correlation."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "positive",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "s-sd-02-q02",
+    "objectiveId": "s-sd-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "graph",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "On a scatter graph, points are randomly spread with no pattern. What type of correlation?",
+    "finalAnswer": "none",
+    "solutionSteps": "No pattern indicates no correlation",
+    "hints": [
+      {
+        "level": 1,
+        "text": "No trend up or down."
+      },
+      {
+        "level": 2,
+        "text": "Random scatter."
+      },
+      {
+        "level": 3,
+        "text": "B1: no correlation / zero correlation."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "none",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "s-sd-02-q03",
+    "objectiveId": "s-sd-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "interpretation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A line of best fit is y = 2x + 5. Estimate y when x = 7.",
+    "finalAnswer": "19",
+    "solutionSteps": "y = 2(7) + 5 = 19",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Substitute x = 7 into the equation."
+      },
+      {
+        "level": 2,
+        "text": "2(7) + 5."
+      },
+      {
+        "level": 3,
+        "text": "M1: substitutes. A1: 19."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "19",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "s-da-01-q02",
+    "objectiveId": "s-da-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the median of: 4, 7, 2, 9, 7",
+    "finalAnswer": "7",
+    "solutionSteps": "Ordered: 2, 4, 7, 7, 9. Median = 7",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Put the numbers in order first."
+      },
+      {
+        "level": 2,
+        "text": "The middle value of 5 numbers."
+      },
+      {
+        "level": 3,
+        "text": "M1: orders. A1: 7."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "7",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "s-da-01-q03",
+    "objectiveId": "s-da-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Data: 2, 3, 3, 100. Which average best represents a typical value and why?",
+    "finalAnswer": "median",
+    "solutionSteps": "100 is an outlier; median (3) is not affected",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Look for outliers."
+      },
+      {
+        "level": 2,
+        "text": "The mean would be pulled up by 100."
+      },
+      {
+        "level": 3,
+        "text": "M1: identifies outlier. A1: median."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "median",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "s-da-02-q02",
+    "objectiveId": "s-da-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Grouped data: 0–10 (freq 5), 10–20 (freq 15). Estimate the mean using midpoints.",
+    "finalAnswer": "12.5",
+    "solutionSteps": "Midpoints 5 and 15. Σfx = 5×5+15×15 = 250. Total=20. Mean=12.5",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use class midpoints 5 and 15."
+      },
+      {
+        "level": 2,
+        "text": "Σfx ÷ Σf."
+      },
+      {
+        "level": 3,
+        "text": "M1: midpoints. A1: 12.5."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "12.5",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "s-da-02-q03",
+    "objectiveId": "s-da-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "interpretation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Two classes: Class A mean 65, Class B mean 72. Class B has a larger range. Which class is more consistent?",
+    "finalAnswer": "A",
+    "solutionSteps": "Smaller range means more consistent — Class A",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Consistency relates to spread."
+      },
+      {
+        "level": 2,
+        "text": "Lower range = less variation."
+      },
+      {
+        "level": 3,
+        "text": "B1: Class A (smaller range)."
+      }
+    ],
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "A",
+        "points": 1
+      }
+    ],
+    "status": "published"
+  }
+]

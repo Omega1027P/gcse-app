@@ -4,7 +4,7 @@ import { Suspense, useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { createClient, isSupabaseConfigured } from "@/lib/supabase/client";
 import { getPracticeQuestions } from "@/lib/content/questions";
-import { addDemoMistake, updateDemoMastery } from "@/lib/demo/store";
+import { addDemoMistake, setLastPracticedTopic, updateDemoMastery } from "@/lib/demo/store";
 import { classifyMistakeCause } from "@/lib/ai/hint-prompt";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
@@ -12,14 +12,17 @@ import { Badge } from "@/components/ui/Badge";
 import { DemoBanner } from "@/components/layout/DemoBanner";
 import { PageHeader, LoadingState } from "@/components/layout/PageHeader";
 import { answersMatch } from "@/lib/grading/aqa-boundaries";
-import { findTopicById } from "@/lib/syllabus/loader";
+import { findTopicById, getAllObjectives } from "@/lib/syllabus/loader";
+import { formatCount } from "@/lib/utils";
 import { MISTAKE_CAUSE_LABELS } from "@/lib/constants";
 import type { MistakeCause, Question } from "@/lib/types";
 
 function PracticeContent() {
   const searchParams = useSearchParams();
   const topicId = searchParams.get("topic");
+  const objectiveId = searchParams.get("objective");
   const [questions, setQuestions] = useState<Question[]>([]);
+  const [order, setOrder] = useState<number[]>([]);
   const [current, setCurrent] = useState(0);
   const [answer, setAnswer] = useState("");
   const [feedback, setFeedback] = useState("");
@@ -29,12 +32,24 @@ function PracticeContent() {
   const [loading, setLoading] = useState(true);
 
   const topic = topicId ? findTopicById(topicId) : null;
+  const objective = objectiveId
+    ? getAllObjectives().find((lo) => lo.id === objectiveId)
+    : null;
 
   useEffect(() => {
     async function load() {
-      const contentQs = getPracticeQuestions(topicId);
+      let contentQs = getPracticeQuestions(topicId);
+      if (objectiveId) {
+        contentQs = contentQs.filter((q) => q.objective_id === objectiveId);
+      }
+
+      if (topicId) {
+        setLastPracticedTopic(topicId, objectiveId ?? undefined);
+      }
+
       if (!isSupabaseConfigured()) {
         setQuestions(contentQs);
+        setOrder(contentQs.map((_, i) => i).toSorted(() => Math.random() - 0.5));
         setLoading(false);
         return;
       }
@@ -42,7 +57,9 @@ function PracticeContent() {
       const supabase = createClient();
       let query = supabase.from("questions").select("*").eq("status", "published");
 
-      if (topicId) {
+      if (objectiveId) {
+        query = query.eq("objective_id", objectiveId);
+      } else if (topicId) {
         const t = findTopicById(topicId);
         if (t) {
           const objectiveIds = t.learningObjectives.map((lo) => lo.id);
@@ -50,8 +67,10 @@ function PracticeContent() {
         }
       }
 
-      const { data } = await query.limit(10);
-      setQuestions(data?.length ? data : contentQs);
+      const { data } = await query.limit(20);
+      const qs = data?.length ? data : contentQs;
+      setQuestions(qs);
+      setOrder(qs.map((_, i) => i).toSorted(() => Math.random() - 0.5));
       setLoading(false);
     }
 
@@ -62,10 +81,10 @@ function PracticeContent() {
     setHintLevel(0);
     setChecked(false);
     load();
-  }, [topicId]);
+  }, [topicId, objectiveId]);
 
   async function submitAnswer() {
-    const q = questions[current];
+    const q = questions[order[current] ?? current];
     if (!q) return;
 
     const correct = answersMatch(answer, q.final_answer);
@@ -118,7 +137,7 @@ function PracticeContent() {
   }
 
   async function requestHint() {
-    const q = questions[current];
+    const q = questions[order[current] ?? current];
     if (!q || hintLevel >= 3) return;
 
     const nextLevel = hintLevel + 1;
@@ -145,18 +164,26 @@ function PracticeContent() {
 
   if (loading) return <LoadingState />;
 
-  const q = questions[current];
+  const q = questions[order[current] ?? current];
   const progress = questions.length ? ((current + 1) / questions.length) * 100 : 0;
 
   return (
     <div>
       <DemoBanner />
       <PageHeader
-        title={topic ? `Practice: ${topic.title}` : "Practice"}
+        title={
+          objective
+            ? `${objective.code}: ${objective.title}`
+            : topic
+              ? `Practice: ${topic.title}`
+              : "Practice"
+        }
         description={
-          topic
-            ? `${topic.learningObjectives.length} learning objectives in this topic`
-            : `${questions.length} exam-style questions available`
+          objective
+            ? `${objective.topicTitle} · ${formatCount(questions.length, "question")}`
+            : topic
+              ? `${formatCount(topic.learningObjectives.length, "learning objective")} · ${formatCount(questions.length, "question")}`
+              : `${formatCount(questions.length, "exam-style question")} available`
         }
       />
 

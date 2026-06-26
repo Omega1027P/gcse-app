@@ -1,0 +1,1808 @@
+[
+  {
+    "id": "g-pc-01-q04",
+    "objectiveId": "g-pc-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Two angles on a straight line are (7x + 12) deg and (5x - 24) deg. Find x.",
+    "finalAnswer": "16",
+    "solutionSteps": "Angles on a straight line sum to 180: 7x+12+5x-24=180, so 12x-12=180, 12x=192, x=16.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "16",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use the straight-line angle fact."
+      },
+      {
+        "level": 2,
+        "text": "Form one linear equation in x."
+      },
+      {
+        "level": 3,
+        "text": "M1 for equation, M1 for rearranging, A1 for x=16."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-01-q05",
+    "objectiveId": "g-pc-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Vertically opposite angles are (3y + 8) deg and (5y - 22) deg. Find y.",
+    "finalAnswer": "15",
+    "solutionSteps": "Vertically opposite angles are equal: 3y+8 = 5y-22, so 30=2y and y=15.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "15",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Set vertically opposite angles equal."
+      },
+      {
+        "level": 2,
+        "text": "Solve the resulting equation."
+      },
+      {
+        "level": 3,
+        "text": "M1 for equal-angle equation, A1 for y=15."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-01-q06",
+    "objectiveId": "g-pc-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "In a triangle, two angles are 48 deg and 67 deg. Find the third angle.",
+    "finalAnswer": "65",
+    "solutionSteps": "Angles in a triangle total 180, so third angle = 180-48-67 = 65 deg.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "65",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use the triangle angle sum."
+      },
+      {
+        "level": 2,
+        "text": "Subtract the known angles from 180."
+      },
+      {
+        "level": 3,
+        "text": "M1 for 180-(48+67), A1 for 65 deg."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-01-q07",
+    "objectiveId": "g-pc-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Find one interior angle of a regular nonagon.",
+    "finalAnswer": "140",
+    "solutionSteps": "Interior angle of regular n-gon is ((n-2)x180)/n. For n=9: (7x180)/9 = 140 deg.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "140",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use the regular polygon interior-angle formula."
+      },
+      {
+        "level": 2,
+        "text": "Substitute n=9 carefully."
+      },
+      {
+        "level": 3,
+        "text": "M1 for correct formula, M1 for substitution, A1 for 140 deg."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-01-q08",
+    "objectiveId": "g-pc-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "reasoning",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Each interior angle of a regular polygon is 156 deg. How many sides does the polygon have?",
+    "finalAnswer": "15",
+    "solutionSteps": "Exterior angle = 180-156 = 24 deg. Number of sides = 360/24 = 15.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "15",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the exterior angle first."
+      },
+      {
+        "level": 2,
+        "text": "Use n = 360 / exterior angle."
+      },
+      {
+        "level": 3,
+        "text": "M1 for exterior angle, M1 for 360/24, A1 for 15 sides."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-02-q04",
+    "objectiveId": "g-pc-02",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "An angle at the centre of a circle is 84 deg. Find the angle at the circumference standing on the same arc.",
+    "finalAnswer": "42",
+    "solutionSteps": "Angle at centre is twice angle at circumference, so angle at circumference = 84/2 = 42 deg.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "42",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Recall centre angle is double circumference angle."
+      },
+      {
+        "level": 2,
+        "text": "Divide by 2."
+      },
+      {
+        "level": 3,
+        "text": "M1 for theorem use, A1 for 42 deg."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-02-q05",
+    "objectiveId": "g-pc-02",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Angles subtended by the same chord are equal. If one angle is 37 deg, find the other.",
+    "finalAnswer": "37",
+    "solutionSteps": "Angles in the same segment are equal, so the second angle is also 37 deg.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "37",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use the same-segment theorem."
+      },
+      {
+        "level": 2,
+        "text": "Equal angles subtend the same chord."
+      },
+      {
+        "level": 3,
+        "text": "B1 for 37 deg."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-02-q06",
+    "objectiveId": "g-pc-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "In a cyclic quadrilateral, one angle is 113 deg. Find the opposite angle.",
+    "finalAnswer": "67",
+    "solutionSteps": "Opposite angles in a cyclic quadrilateral sum to 180, so opposite angle = 180-113 = 67 deg.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "67",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use opposite angles in a cyclic quadrilateral."
+      },
+      {
+        "level": 2,
+        "text": "Subtract from 180."
+      },
+      {
+        "level": 3,
+        "text": "M1 for theorem, M1 for subtraction, A1 for 67 deg."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-02-q07",
+    "objectiveId": "g-pc-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "OA is a radius and AB is a tangent at A. If angle OBA = 32 deg, find angle AOB.",
+    "finalAnswer": "58",
+    "solutionSteps": "Radius is perpendicular to tangent, so angle OAB = 90 deg. In triangle OAB, AOB = 180-90-32 = 58 deg.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "58",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use radius-tangent perpendicular fact."
+      },
+      {
+        "level": 2,
+        "text": "Then use triangle angle sum."
+      },
+      {
+        "level": 3,
+        "text": "M1 for 90 deg at A, M1 for subtraction from 180, A1 for 58 deg."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-03-q04",
+    "objectiveId": "g-pc-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "construction",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "What geometric property does the perpendicular bisector of AB describe?",
+    "finalAnswer": "points equidistant from A and B",
+    "solutionSteps": "Any point on the perpendicular bisector is the same distance from A and B.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "points equidistant from A and B",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Think about equal distances to two fixed points."
+      },
+      {
+        "level": 2,
+        "text": "This is a standard locus statement."
+      },
+      {
+        "level": 3,
+        "text": "B1 for equidistant from A and B."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-03-q05",
+    "objectiveId": "g-pc-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "locus",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "How many points are exactly 4 cm from a straight line and exactly 3 cm from point P (assuming the circle crosses both parallel locus lines)?",
+    "finalAnswer": "4",
+    "solutionSteps": "Locus 4 cm from a line gives two parallel lines. Locus 3 cm from P is a circle. If both lines cut the circle twice, total intersections = 4.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "4",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Identify both loci first."
+      },
+      {
+        "level": 2,
+        "text": "Count circle-line intersections on both sides."
+      },
+      {
+        "level": 3,
+        "text": "M1 for both loci identified, A1 for 4 points."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-03-q06",
+    "objectiveId": "g-pc-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "construction",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Describe the locus of points 5 cm from a fixed point O.",
+    "finalAnswer": "a circle with centre O and radius 5 cm",
+    "solutionSteps": "All points a fixed distance from one point form a circle centred at that point.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "a circle with centre O and radius 5 cm",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Fixed distance from one point gives a circle."
+      },
+      {
+        "level": 2,
+        "text": "The fixed point becomes the centre."
+      },
+      {
+        "level": 3,
+        "text": "B1 for circle, centre O, radius 5 cm."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-03-q07",
+    "objectiveId": "g-pc-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "construction",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A point is equidistant from two intersecting lines l1 and l2. On which loci can the point lie?",
+    "finalAnswer": "the two angle bisectors of l1 and l2",
+    "solutionSteps": "Points equidistant from two intersecting lines lie on either angle bisector.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "the two angle bisectors of l1 and l2",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Think of equal perpendicular distances to each line."
+      },
+      {
+        "level": 2,
+        "text": "There are two angle bisectors at an intersection."
+      },
+      {
+        "level": 3,
+        "text": "B1 for angle bisectors (both)."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-01-q04",
+    "objectiveId": "g-me-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A trapezium has parallel sides 8 cm and 14 cm, and height 5 cm. Find its area.",
+    "finalAnswer": "55",
+    "solutionSteps": "Area of trapezium = 0.5x(a+b)xh = 0.5x(8+14)x5 = 55 cm^2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "55",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use the trapezium area formula."
+      },
+      {
+        "level": 2,
+        "text": "Add the parallel sides first."
+      },
+      {
+        "level": 3,
+        "text": "M1 for formula, A1 for 55 cm^2."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-01-q05",
+    "objectiveId": "g-me-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the circumference of a circle of radius 7 cm in terms of pi.",
+    "finalAnswer": "14pi",
+    "solutionSteps": "Circumference = 2pir = 2pix7 = 14pi cm.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "14pi",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use C = 2pir."
+      },
+      {
+        "level": 2,
+        "text": "Substitute r = 7."
+      },
+      {
+        "level": 3,
+        "text": "M1 for formula, A1 for 14pi cm."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-01-q06",
+    "objectiveId": "g-me-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the area of a circle with diameter 10 cm in terms of pi.",
+    "finalAnswer": "25pi",
+    "solutionSteps": "Radius is 5 cm. Area = pir^2 = pix25 = 25pi cm^2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "25pi",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the radius from the diameter first."
+      },
+      {
+        "level": 2,
+        "text": "Use A = pir^2."
+      },
+      {
+        "level": 3,
+        "text": "M1 for r=5, A1 for 25pi cm^2."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-01-q07",
+    "objectiveId": "g-me-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A rectangle is 12 cm by 9 cm. A 4 cm by 3 cm rectangle is cut out from one corner. Find the remaining area.",
+    "finalAnswer": "96",
+    "solutionSteps": "Original area = 12x9 = 108. Cut-out area = 4x3 = 12. Remaining area = 108-12 = 96 cm^2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "96",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the full rectangle area."
+      },
+      {
+        "level": 2,
+        "text": "Subtract the cut-out area."
+      },
+      {
+        "level": 3,
+        "text": "M1 for 108, M1 for 12, A1 for 96 cm^2."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-01-q08",
+    "objectiveId": "g-me-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the perimeter of a semicircle of radius 6 cm, including the diameter. Give your answer in terms of pi.",
+    "finalAnswer": "6pi+12",
+    "solutionSteps": "Perimeter = half circumference + diameter = pir + 2r = 6pi + 12 cm.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "6pi+12",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Half circumference is pir."
+      },
+      {
+        "level": 2,
+        "text": "Do not forget to add the diameter."
+      },
+      {
+        "level": 3,
+        "text": "M1 for semicircle arc, M1 for +12, A1 for 6pi+12."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-02-q04",
+    "objectiveId": "g-me-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A prism has cross-sectional area 18 cm^2 and length 12 cm. Find the volume.",
+    "finalAnswer": "216",
+    "solutionSteps": "Volume of prism = cross-sectional area x length = 18x12 = 216 cm^3.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "216",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use prism volume formula."
+      },
+      {
+        "level": 2,
+        "text": "Multiply 18 by 12."
+      },
+      {
+        "level": 3,
+        "text": "M1 for method, A1 for 216 cm^3."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-02-q05",
+    "objectiveId": "g-me-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the total surface area of a cuboid 5 cm by 4 cm by 3 cm.",
+    "finalAnswer": "94",
+    "solutionSteps": "Surface area = 2(lw+lh+wh)=2(5x4 + 5x3 + 4x3)=2(20+15+12)=94 cm^2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "94",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use 2(lw+lh+wh)."
+      },
+      {
+        "level": 2,
+        "text": "Calculate each pair product first."
+      },
+      {
+        "level": 3,
+        "text": "M1 for structure, M1 for inside sum, A1 for 94 cm^2."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-02-q06",
+    "objectiveId": "g-me-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A cylinder has radius 4 cm and height 9 cm. Find its volume in terms of pi.",
+    "finalAnswer": "144pi",
+    "solutionSteps": "Volume = pir^2h = pix16x9 = 144pi cm^3.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "144pi",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use V = pir^2h."
+      },
+      {
+        "level": 2,
+        "text": "Square the radius first."
+      },
+      {
+        "level": 3,
+        "text": "M1 for formula, M1 for substitution, A1 for 144pi cm^3."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-02-q07",
+    "objectiveId": "g-me-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "conversion",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Convert 2500 cm^3 to litres.",
+    "finalAnswer": "2.5",
+    "solutionSteps": "1000 cm^3 = 1 litre, so 2500 cm^3 = 2.5 litres.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "2.5",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Recall 1 litre = 1000 cm^3."
+      },
+      {
+        "level": 2,
+        "text": "Divide by 1000."
+      },
+      {
+        "level": 3,
+        "text": "M1 for conversion method, A1 for 2.5 litres."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-03-q04",
+    "objectiveId": "g-me-03",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the arc length of a sector with radius 9 cm and angle 80 deg, in terms of pi.",
+    "finalAnswer": "4pi",
+    "solutionSteps": "Arc length = (theta/360)x2pir = (80/360)x2pix9 = (2/9)x18pi = 4pi cm.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "4pi",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use arc length formula for sectors."
+      },
+      {
+        "level": 2,
+        "text": "Substitute theta=80 and r=9."
+      },
+      {
+        "level": 3,
+        "text": "M1 for formula, M1 for substitution, A1 for 4pi cm."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-03-q05",
+    "objectiveId": "g-me-03",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the area of a sector with radius 12 cm and angle 150 deg, in terms of pi.",
+    "finalAnswer": "60pi",
+    "solutionSteps": "Sector area = (theta/360)pir^2 = (150/360)xpix144 = (5/12)x144pi = 60pi cm^2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "60pi",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use sector area formula."
+      },
+      {
+        "level": 2,
+        "text": "Compute r^2 first."
+      },
+      {
+        "level": 3,
+        "text": "M1 for formula, M1 for arithmetic, A1 for 60pi cm^2."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-03-q06",
+    "objectiveId": "g-me-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A sector has area 45pi cm^2 and radius 9 cm. Find the angle of the sector in degrees.",
+    "finalAnswer": "200",
+    "solutionSteps": "45pi = (theta/360)xpi x81. Cancel pi: 45 = 81theta/360. So theta = 45x360/81 = 200 deg.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "200",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Start from sector area formula and solve for theta."
+      },
+      {
+        "level": 2,
+        "text": "Cancel pi first to simplify."
+      },
+      {
+        "level": 3,
+        "text": "M1 for correct equation, M1 for rearranging, A1 for 200 deg."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-03-q07",
+    "objectiveId": "g-me-03",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A circle has circumference 30pi cm. One arc is 9pi cm. Find the length of the major arc.",
+    "finalAnswer": "21pi",
+    "solutionSteps": "Major arc = total circumference - minor arc = 30pi - 9pi = 21pi cm.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "21pi",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Major arc is the rest of the circle."
+      },
+      {
+        "level": 2,
+        "text": "Subtract the given arc from the full circumference."
+      },
+      {
+        "level": 3,
+        "text": "M1 for subtraction setup, A1 for 21pi cm."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-01-q04",
+    "objectiveId": "g-pt-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A right-angled triangle has legs 9 cm and 12 cm. Find the hypotenuse.",
+    "finalAnswer": "15",
+    "solutionSteps": "Hypotenuse^2 = 9^2 + 12^2 = 81+144=225, so hypotenuse = 15 cm.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "15",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use a^2+b^2=c^2."
+      },
+      {
+        "level": 2,
+        "text": "Add the two squared legs."
+      },
+      {
+        "level": 3,
+        "text": "M1 for 9^2+12^2, A1 for 15 cm."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-01-q05",
+    "objectiveId": "g-pt-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A right triangle has hypotenuse 26 cm and one leg 10 cm. Find the other leg.",
+    "finalAnswer": "24",
+    "solutionSteps": "Other leg^2 = 26^2-10^2 = 676-100 = 576, so other leg = 24 cm.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "24",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Rearrange Pythagoras to c^2-a^2."
+      },
+      {
+        "level": 2,
+        "text": "Square before subtracting."
+      },
+      {
+        "level": 3,
+        "text": "M1 for 676-100, M1 for square root, A1 for 24 cm."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-01-q06",
+    "objectiveId": "g-pt-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the diagonal of a rectangle with sides 8 cm and 15 cm.",
+    "finalAnswer": "17",
+    "solutionSteps": "Diagonal^2 = 8^2+15^2 = 64+225 = 289, so diagonal = 17 cm.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "17",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Model the diagonal as hypotenuse."
+      },
+      {
+        "level": 2,
+        "text": "Use Pythagoras on 8 and 15."
+      },
+      {
+        "level": 3,
+        "text": "M1 for 64+225, A1 for 17 cm."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-01-q07",
+    "objectiveId": "g-pt-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "coordinates",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the distance between A(2,3) and B(11,15).",
+    "finalAnswer": "15",
+    "solutionSteps": "Differences are 9 and 12. Distance = sqrt(9^2+12^2) = sqrt(225) = 15.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "15",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find horizontal and vertical differences first."
+      },
+      {
+        "level": 2,
+        "text": "Apply Pythagoras to those differences."
+      },
+      {
+        "level": 3,
+        "text": "M1 for differences, M1 for 9^2+12^2, A1 for 15."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-01-q08",
+    "objectiveId": "g-pt-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "reasoning",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Do side lengths 7 cm, 24 cm and 25 cm form a right-angled triangle? Give a reason.",
+    "finalAnswer": "yes",
+    "solutionSteps": "Check: 7^2+24^2 = 49+576 = 625 = 25^2, so it is right-angled.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "yes",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Compare a^2+b^2 with c^2."
+      },
+      {
+        "level": 2,
+        "text": "Take the largest side as c."
+      },
+      {
+        "level": 3,
+        "text": "M1 for correct check, A1 for yes with valid reason."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-02-q04",
+    "objectiveId": "g-pt-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "In a right triangle, adjacent = 12 cm and hypotenuse = 13 cm. Find cos theta.",
+    "finalAnswer": "12/13",
+    "solutionSteps": "cos theta = adjacent/hypotenuse = 12/13.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "12/13",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use cos = adjacent over hypotenuse."
+      },
+      {
+        "level": 2,
+        "text": "Identify the two required sides."
+      },
+      {
+        "level": 3,
+        "text": "M1 for ratio choice, A1 for 12/13."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-02-q05",
+    "objectiveId": "g-pt-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "In a right triangle, opposite = 7 cm and hypotenuse = 25 cm. Find theta to 1 decimal place.",
+    "finalAnswer": "16.3",
+    "solutionSteps": "sin theta = 7/25 = 0.28, so theta = sin^-1(0.28) = 16.3 deg (1 dp).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "16.3",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Choose sine because opposite and hypotenuse are known."
+      },
+      {
+        "level": 2,
+        "text": "Find theta using inverse sine."
+      },
+      {
+        "level": 3,
+        "text": "M1 for sin theta=7/25, M1 for inverse trig, A1 for 16.3 deg."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-02-q06",
+    "objectiveId": "g-pt-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A ladder makes an angle of 52 deg with the ground. Its base is 4.8 m from the wall. Find how high it reaches on the wall, to 1 dp.",
+    "finalAnswer": "6.1",
+    "solutionSteps": "tan 52 = height/4.8, so height = 4.8 tan 52 = 6.144... = 6.1 m (1 dp).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "6.1",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Opposite and adjacent suggest tangent."
+      },
+      {
+        "level": 2,
+        "text": "Rearrange tan theta = opp/adj for opp."
+      },
+      {
+        "level": 3,
+        "text": "M1 for trig setup, M1 for substitution, A1 for 6.1 m."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-02-q07",
+    "objectiveId": "g-pt-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "In a right triangle, adjacent = 10 cm and theta = 34 deg. Find the opposite side to 1 dp.",
+    "finalAnswer": "6.7",
+    "solutionSteps": "tan 34 = opposite/10, so opposite = 10 tan 34 = 6.746... = 6.7 cm (1 dp).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "6.7",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use tangent with opposite and adjacent."
+      },
+      {
+        "level": 2,
+        "text": "Multiply 10 by tan 34."
+      },
+      {
+        "level": 3,
+        "text": "M1 for equation, M1 for calculator step, A1 for 6.7 cm."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-02-q08",
+    "objectiveId": "g-pt-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "word_problem",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "The angle of elevation to the top of a tower is 35 deg from a point 20 m away horizontally. Find the tower height to 1 dp.",
+    "finalAnswer": "14.0",
+    "solutionSteps": "tan 35 = height/20, so height = 20 tan 35 = 14.004... = 14.0 m (1 dp).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "14.0",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Draw a right triangle model."
+      },
+      {
+        "level": 2,
+        "text": "Use tan theta = opposite/adjacent."
+      },
+      {
+        "level": 3,
+        "text": "M1 for trig equation, M1 for substitution, A1 for 14.0 m."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-03-q04",
+    "objectiveId": "g-pt-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "In triangle ABC, sides a=11 cm and b=14 cm with included angle C=60 deg. Find side c to 1 dp.",
+    "finalAnswer": "12.8",
+    "solutionSteps": "Cosine rule: c^2 = 11^2+14^2-2x11x14xcos60 = 121+196-154 = 163. So c = sqrt(163) = 12.8 cm (1 dp).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "12.8",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use cosine rule for two sides and included angle."
+      },
+      {
+        "level": 2,
+        "text": "cos 60 = 0.5."
+      },
+      {
+        "level": 3,
+        "text": "M1 for formula, M1 for substitution, A1 for 12.8 cm."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-03-q05",
+    "objectiveId": "g-pt-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "In triangle ABC, a=12 cm, b=10 cm and angle A=50 deg. Find angle B to 1 dp.",
+    "finalAnswer": "39.7",
+    "solutionSteps": "Sine rule: sinB/10 = sin50/12, so sinB = (10sin50)/12 = 0.6384. Therefore B = sin^-1(0.6384) = 39.7 deg (1 dp).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "39.7",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use sine rule to link sides and opposite angles."
+      },
+      {
+        "level": 2,
+        "text": "Rearrange to get sinB first."
+      },
+      {
+        "level": 3,
+        "text": "M1 for sine-rule setup, M1 for sinB value, A1 for 39.7 deg."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-03-q06",
+    "objectiveId": "g-pt-03",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the area of a triangle with sides 13 cm and 9 cm and included angle 48 deg, to 1 dp.",
+    "finalAnswer": "43.5",
+    "solutionSteps": "Area = 0.5ab sinC = 0.5x13x9xsin48 = 43.470... = 43.5 cm^2 (1 dp).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "43.5",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use area formula 0.5ab sinC."
+      },
+      {
+        "level": 2,
+        "text": "Substitute the included angle."
+      },
+      {
+        "level": 3,
+        "text": "M1 for formula, M1 for substitution, A1 for 43.5 cm^2."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-03-q07",
+    "objectiveId": "g-pt-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "In triangle ABC, A=42 deg, B=67 deg and side a=8 cm. Find side b to 1 dp.",
+    "finalAnswer": "11.0",
+    "solutionSteps": "Sine rule: b/sin67 = 8/sin42. So b = 8sin67/sin42 = 10.988... = 11.0 cm (1 dp).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "11.0",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use sine rule with known side-angle pair."
+      },
+      {
+        "level": 2,
+        "text": "Rearrange to isolate b."
+      },
+      {
+        "level": 3,
+        "text": "M1 for correct sine-rule equation, M1 for substitution, A1 for 11.0 cm."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-ve-01-q04",
+    "objectiveId": "g-ve-01",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Given a=(5,-3) and b=(-2,7), find a-b.",
+    "finalAnswer": "(7,-10)",
+    "solutionSteps": "a-b = (5-(-2), -3-7) = (7,-10).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "(7,-10)",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Subtract components separately."
+      },
+      {
+        "level": 2,
+        "text": "Be careful with negatives."
+      },
+      {
+        "level": 3,
+        "text": "M1 for one correct component, A1 for (7,-10)."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-ve-01-q05",
+    "objectiveId": "g-ve-01",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "coordinates",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A(2,1) and B(10,9). Find the midpoint M of AB.",
+    "finalAnswer": "(6,5)",
+    "solutionSteps": "Midpoint is ((2+10)/2, (1+9)/2) = (6,5).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "(6,5)",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use midpoint formula for each coordinate."
+      },
+      {
+        "level": 2,
+        "text": "Average x-values and y-values separately."
+      },
+      {
+        "level": 3,
+        "text": "M1 for x-midpoint, M1 for y-midpoint, A1 for (6,5)."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-ve-01-q06",
+    "objectiveId": "g-ve-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Given AB=(4,6) and BC=(-1,3), find AC.",
+    "finalAnswer": "(3,9)",
+    "solutionSteps": "AC = AB + BC = (4,6)+(-1,3) = (3,9).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "(3,9)",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use vector addition along the path A->B->C."
+      },
+      {
+        "level": 2,
+        "text": "Add corresponding components."
+      },
+      {
+        "level": 3,
+        "text": "M1 for method AC=AB+BC, A1 for (3,9)."
+      }
+    ],
+    "status": "published"
+  }
+]

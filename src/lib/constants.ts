@@ -12,6 +12,27 @@ export const DAILY_PLAN_MINUTES = {
 
 export const MASTERY_WEAK_THRESHOLD = 60;
 
+export const CALCULATOR_FILTER_OPTIONS = [
+  { id: "all", label: "All papers" },
+  { id: "calculator", label: "Calculator" },
+  { id: "non-calculator", label: "Non-calculator" },
+  { id: "mixed", label: "Mixed" },
+] as const;
+
+export const TIER_FILTER_OPTIONS = [
+  { id: "all", label: "All tiers" },
+  { id: "Foundation", label: "Foundation" },
+  { id: "Higher", label: "Higher" },
+] as const;
+
+export const MASTERY_FILTER_OPTIONS = [
+  { id: "all", label: "All mastery" },
+  { id: "not-started", label: "Not started" },
+  { id: "weak", label: "Weak" },
+  { id: "ok", label: "OK" },
+  { id: "strong", label: "Strong" },
+] as const;
+
 export const SRS_INTERVALS_DAYS = [1, 3, 7, 14, 30] as const;
 
 export const MISTAKE_CAUSE_LABELS: Record<string, string> = {

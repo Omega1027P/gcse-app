@@ -1,0 +1,926 @@
+[
+  {
+    "id": "r-rp-01-q04",
+    "objectiveId": "r-rp-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Simplify the ratio 42 : 56.",
+    "finalAnswer": "3:4",
+    "solutionSteps": "The HCF of 42 and 56 is 14, so 42:56 = 3:4.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3:4",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the highest common factor of 42 and 56."
+      },
+      {
+        "level": 2,
+        "text": "Divide both parts by 14."
+      },
+      {
+        "level": 3,
+        "text": "M1 for a valid common-factor method, A1 for 3:4."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-01-q05",
+    "objectiveId": "r-rp-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Share GBP180 in the ratio 2 : 7.",
+    "finalAnswer": "GBP40 and GBP140",
+    "solutionSteps": "Total parts = 2 + 7 = 9. One part = 180/9 = 20. Shares are 2x20=40 and 7x20=140.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "GBP40 and GBP140",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Add the ratio parts first."
+      },
+      {
+        "level": 2,
+        "text": "Divide GBP180 by the total number of parts."
+      },
+      {
+        "level": 3,
+        "text": "M1 for total parts, M1 for value of one part, A1 for GBP40 and GBP140."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-01-q06",
+    "objectiveId": "r-rp-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Red and blue counters are in the ratio 5 : 3. There are 64 counters in total. How many are red?",
+    "finalAnswer": "40",
+    "solutionSteps": "Total parts = 5+3=8. One part = 64/8=8. Red counters = 5x8 = 40.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "40",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the total number of ratio parts."
+      },
+      {
+        "level": 2,
+        "text": "Work out the value of one part from the total."
+      },
+      {
+        "level": 3,
+        "text": "M1 for 8 parts, M1 for one part = 8, A1 for 40 red counters."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-01-q07",
+    "objectiveId": "r-rp-01",
+    "tier": "Foundation",
+    "difficulty": "Hard",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "In a recipe, flour : sugar = 4 : 1. If 600 g of flour is used, how much sugar is needed?",
+    "finalAnswer": "150 g",
+    "solutionSteps": "If 4 parts = 600 g, then 1 part = 600/4 = 150 g. Sugar is 1 part, so 150 g.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "150 g",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Match 4 parts to 600 g."
+      },
+      {
+        "level": 2,
+        "text": "Find one part by dividing by 4."
+      },
+      {
+        "level": 3,
+        "text": "M1 for one-part value, A1 for 150 g."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-01-q08",
+    "objectiveId": "r-rp-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A map scale is 1 : 25000. Two towns are 8 cm apart on the map. Find the real distance in km.",
+    "finalAnswer": "2 km",
+    "solutionSteps": "Real distance = 8 x 25000 cm = 200000 cm. Since 100000 cm = 1 km, distance = 2 km.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "2 km",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use map distance x scale factor."
+      },
+      {
+        "level": 2,
+        "text": "Convert centimetres to kilometres at the end."
+      },
+      {
+        "level": 3,
+        "text": "M1 for 200000 cm, M1 for conversion, A1 for 2 km."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-02-q04",
+    "objectiveId": "r-rp-02",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "y is directly proportional to x. When x = 3, y = 18. Find the constant of proportionality k.",
+    "finalAnswer": "6",
+    "solutionSteps": "For direct proportion y = kx. So 18 = 3k, giving k = 6.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "6",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Write the model y = kx."
+      },
+      {
+        "level": 2,
+        "text": "Substitute x=3 and y=18."
+      },
+      {
+        "level": 3,
+        "text": "M1 for equation with k, A1 for k=6."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-02-q05",
+    "objectiveId": "r-rp-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Cost C is directly proportional to distance d. If C = GBP15.50 when d = 5 km, find C when d = 8 km.",
+    "finalAnswer": "GBP24.80",
+    "solutionSteps": "C = kd. So k = 15.50/5 = 3.10. For d=8, C = 3.10 x 8 = 24.80.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "GBP24.80",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find k using the first pair of values."
+      },
+      {
+        "level": 2,
+        "text": "Then substitute d = 8."
+      },
+      {
+        "level": 3,
+        "text": "M1 for k, M1 for substitution, A1 for GBP24.80."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-02-q06",
+    "objectiveId": "r-rp-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "p is inversely proportional to t. When t = 4, p = 120. Find t when p = 80.",
+    "finalAnswer": "6",
+    "solutionSteps": "For inverse proportion p = k/t. Then k = pt = 120 x 4 = 480. If p=80, then 80 = 480/t so t=6.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "6",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use p = k/t for inverse proportion."
+      },
+      {
+        "level": 2,
+        "text": "Find k from the first values using k = pt."
+      },
+      {
+        "level": 3,
+        "text": "M1 for k=480, M1 for equation in t, A1 for t=6."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-02-q07",
+    "objectiveId": "r-rp-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "y is directly proportional to x^2. When x = 3, y = 45. Find y when x = 5.",
+    "finalAnswer": "125",
+    "solutionSteps": "y = kx^2. 45 = 9k so k=5. Then y = 5 x 5^2 = 5 x 25 = 125.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "125",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use the model y = kx^2."
+      },
+      {
+        "level": 2,
+        "text": "Find k from x=3 and y=45."
+      },
+      {
+        "level": 3,
+        "text": "M1 for correct model, M1 for k=5, A1 for y=125."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-02-q08",
+    "objectiveId": "r-rp-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Force F is inversely proportional to mass m. When m = 4.5 kg, F = 18 N. Find F when m = 6 kg.",
+    "finalAnswer": "13.5 N",
+    "solutionSteps": "F = k/m. Then k = Fm = 18 x 4.5 = 81. For m=6, F = 81/6 = 13.5 N.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "13.5 N",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Write F = k/m."
+      },
+      {
+        "level": 2,
+        "text": "Use the first values to find k."
+      },
+      {
+        "level": 3,
+        "text": "M1 for k=81, M1 for substitution, A1 for 13.5 N."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-03-q04",
+    "objectiveId": "r-rp-03",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A car travels 150 km in 2.5 hours. Find its average speed in km/h.",
+    "finalAnswer": "60",
+    "solutionSteps": "Speed = distance/time = 150/2.5 = 60 km/h.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "60",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use speed = distance divided by time."
+      },
+      {
+        "level": 2,
+        "text": "Compute 150/2.5."
+      },
+      {
+        "level": 3,
+        "text": "M1 for formula use, A1 for 60 km/h."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-03-q05",
+    "objectiveId": "r-rp-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A solid has mass 780 g and volume 65 cm^3. Find its density in g/cm^3.",
+    "finalAnswer": "12",
+    "solutionSteps": "Density = mass/volume = 780/65 = 12 g/cm^3.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "12",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use density = mass divided by volume."
+      },
+      {
+        "level": 2,
+        "text": "Substitute 780 and 65."
+      },
+      {
+        "level": 3,
+        "text": "M1 for formula, M1 for correct substitution, A1 for 12 g/cm^3."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-03-q06",
+    "objectiveId": "r-rp-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A force of 360 N acts on an area of 0.12 m^2. Find the pressure in N/m^2.",
+    "finalAnswer": "3000",
+    "solutionSteps": "Pressure = force/area = 360/0.12 = 3000 N/m^2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3000",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use pressure = force divided by area."
+      },
+      {
+        "level": 2,
+        "text": "Divide by 0.12 carefully."
+      },
+      {
+        "level": 3,
+        "text": "M1 for formula, M1 for substitution, A1 for 3000 N/m^2."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-03-q07",
+    "objectiveId": "r-rp-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "3 kg of apples cost GBP7.20. Work out the cost per kg.",
+    "finalAnswer": "GBP2.40 per kg",
+    "solutionSteps": "Unit cost = 7.20/3 = 2.40, so GBP2.40 per kg.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "GBP2.40 per kg",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Unit rate means amount for 1 kg."
+      },
+      {
+        "level": 2,
+        "text": "Divide total cost by total kilograms."
+      },
+      {
+        "level": 3,
+        "text": "M1 for division, A1 for GBP2.40 per kg."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-03-q08",
+    "objectiveId": "r-rp-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "conversion",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Convert 72 km/h to m/s.",
+    "finalAnswer": "20",
+    "solutionSteps": "72 km/h = 72 x (1000/3600) m/s = 72/3.6 = 20 m/s.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "20",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use 1 m/s = 3.6 km/h."
+      },
+      {
+        "level": 2,
+        "text": "So divide 72 by 3.6."
+      },
+      {
+        "level": 3,
+        "text": "M1 for method using 3.6 (or 1000/3600), A1 for 20 m/s."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-roc-01-q04",
+    "objectiveId": "r-roc-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "graph",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A straight-line graph passes through (2,5) and (8,23). Find the rate of change.",
+    "finalAnswer": "3",
+    "solutionSteps": "Rate of change is gradient: (23-5)/(8-2) = 18/6 = 3.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use gradient = change in y over change in x."
+      },
+      {
+        "level": 2,
+        "text": "Subtract y-values and x-values in the same order."
+      },
+      {
+        "level": 3,
+        "text": "M1 for gradient fraction, M1 for simplification, A1 for 3."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-roc-01-q05",
+    "objectiveId": "r-roc-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A temperature rises from 12 deg C to 30 deg C in 6 hours. Find the average rate of change in deg C per hour.",
+    "finalAnswer": "3",
+    "solutionSteps": "Change in temperature = 30-12=18. Rate = 18/6 = 3 deg C per hour.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find total change first."
+      },
+      {
+        "level": 2,
+        "text": "Divide by the time interval."
+      },
+      {
+        "level": 3,
+        "text": "M1 for 18/6, A1 for 3 deg C per hour."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-roc-01-q06",
+    "objectiveId": "r-roc-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "On a distance-time graph, what does a horizontal line segment mean?",
+    "finalAnswer": "stationary",
+    "solutionSteps": "A horizontal segment has gradient 0, so distance is not changing and the object is stationary.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "stationary",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "A horizontal line means no change in the y-value."
+      },
+      {
+        "level": 2,
+        "text": "Distance is constant while time increases."
+      },
+      {
+        "level": 3,
+        "text": "B1 for stationary / not moving."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-roc-01-q07",
+    "objectiveId": "r-roc-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "reasoning",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "The table gives x: 1, 3, 7 and y: 4, 10, 22. Show the rate of change is constant and state its value.",
+    "finalAnswer": "3",
+    "solutionSteps": "From x=1 to 3, delta y/delta x = (10-4)/(3-1)=6/2=3. From x=3 to 7, (22-10)/(7-3)=12/4=3. Constant rate is 3.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Compute gradient between consecutive points."
+      },
+      {
+        "level": 2,
+        "text": "Compare both gradient values."
+      },
+      {
+        "level": 3,
+        "text": "M1 for one correct gradient, M1 for second gradient, A1 for constant rate 3."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-roc-02-q04",
+    "objectiveId": "r-roc-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "estimation",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Estimate the gradient of y = x^2 at x = 2 using points (1.8, 3.24) and (2.2, 4.84).",
+    "finalAnswer": "4",
+    "solutionSteps": "Estimated gradient = (4.84-3.24)/(2.2-1.8) = 1.60/0.40 = 4.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "4",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use the two points near x=2 in a gradient formula."
+      },
+      {
+        "level": 2,
+        "text": "Subtract y-values and x-values carefully."
+      },
+      {
+        "level": 3,
+        "text": "M1 for correct difference quotient, M1 for decimal arithmetic, A1 for 4."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-roc-02-q05",
+    "objectiveId": "r-roc-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A velocity-time graph is a straight line from 4 m/s at t=0 to 10 m/s at t=6 s. Estimate the distance travelled in 6 s.",
+    "finalAnswer": "42",
+    "solutionSteps": "Distance is area under graph. This is a trapezium: ((4+10)/2) x 6 = 7 x 6 = 42 m.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "42",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Distance from a velocity-time graph is area under the graph."
+      },
+      {
+        "level": 2,
+        "text": "For a straight-line increase, use trapezium area."
+      },
+      {
+        "level": 3,
+        "text": "M1 for area model, M1 for substitution, A1 for 42 m."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-roc-02-q06",
+    "objectiveId": "r-roc-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "graph",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A curve passes through (4,18) and (6,36). Estimate the average rate of change between these x-values.",
+    "finalAnswer": "9",
+    "solutionSteps": "Average rate of change = (36-18)/(6-4) = 18/2 = 9.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "9",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use average rate of change formula between two points."
+      },
+      {
+        "level": 2,
+        "text": "Work out the change in y and change in x."
+      },
+      {
+        "level": 3,
+        "text": "M1 for setting up the quotient, A1 for 9."
+      }
+    ],
+    "status": "published"
+  }
+]

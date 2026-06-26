@@ -42,6 +42,8 @@ export function normaliseAnswer(answer: string): string {
     .replace(/\s+/g, "")
     .replace(/,/g, "")
     .replace(/£/g, "")
+    .replace(/π/g, "pi")
+    .replace(/×/g, "x")
     .replace(/^x=/, "")
     .replace(/cm$/g, "");
 }

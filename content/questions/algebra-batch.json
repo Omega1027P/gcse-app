@@ -1,0 +1,210 @@
+[
+  {
+    "id": "a-nm-01-q01",
+    "objectiveId": "a-nm-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 1,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "Simplify a × a × a",
+    "finalAnswer": "a³",
+    "solutionSteps": "Three factors of a → a³",
+    "markScheme": [{ "stepOrder": 1, "markCode": "B1", "description": "a³", "points": 1 }],
+    "hints": [
+      { "level": 1, "text": "Repeated multiplication uses a power." },
+      { "level": 2, "text": "How many times does a appear?" },
+      { "level": 3, "text": "Three times → a³." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-02-q01",
+    "objectiveId": "a-nm-02",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Expand and simplify 3(x + 4)",
+    "finalAnswer": "3x+12",
+    "solutionSteps": "3×x + 3×4 = 3x + 12",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Expands bracket", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "3x + 12", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Multiply each term inside the bracket by 3." },
+      { "level": 2, "text": "3×x and 3×4." },
+      { "level": 3, "text": "3x + 12." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-02-q02",
+    "objectiveId": "a-nm-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Simplify 5a + 3b - 2a + b",
+    "finalAnswer": "3a+4b",
+    "solutionSteps": "Collect a terms: 3a. Collect b terms: 4b.",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Collects like terms", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "3a + 4b", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Group the a terms and the b terms separately." },
+      { "level": 2, "text": "5a - 2a = ? and 3b + b = ?" },
+      { "level": 3, "text": "3a + 4b." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-03-q01",
+    "objectiveId": "a-nm-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Factorise fully 6x + 15",
+    "finalAnswer": "3(2x+5)",
+    "solutionSteps": "HCF is 3: 3(2x + 5)",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Identifies common factor", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "3(2x + 5)", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Find the highest number that divides both terms." },
+      { "level": 2, "text": "Both 6 and 15 are divisible by 3." },
+      { "level": 3, "text": "3(2x + 5)." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-01-q01",
+    "objectiveId": "a-gr-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "graph",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A line passes through (0, 2) and (2, 6). Find the gradient of the line.",
+    "finalAnswer": "2",
+    "solutionSteps": "Gradient = (6-2)/(2-0) = 4/2 = 2",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Uses change in y ÷ change in x", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "2", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Gradient = rise ÷ run." },
+      { "level": 2, "text": "Change in y is 4, change in x is 2." },
+      { "level": 3, "text": "4 ÷ 2 = 2." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-02-q01",
+    "objectiveId": "a-gr-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the equation of the line with gradient 3 that passes through (0, -1).",
+    "finalAnswer": "y=3x-1",
+    "solutionSteps": "y = mx + c, m = 3, c = -1 → y = 3x - 1",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Uses y = mx + c", "points": 1 },
+      { "stepOrder": 2, "markCode": "M1", "description": "m = 3", "points": 1 },
+      { "stepOrder": 3, "markCode": "A1", "description": "y = 3x - 1", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Use y = mx + c where m is the gradient." },
+      { "level": 2, "text": "The y-intercept is -1, so c = -1." },
+      { "level": 3, "text": "y = 3x - 1." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-03-q01",
+    "objectiveId": "a-ei-03",
+    "tier": "Foundation",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve the simultaneous equations: x + y = 7 and x - y = 3",
+    "finalAnswer": "x=5,y=2",
+    "solutionSteps": "Add equations: 2x = 10, x = 5. Substitute: 5 + y = 7, y = 2",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Eliminates one variable", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "x = 5 or y = 2", "points": 1 },
+      { "stepOrder": 3, "markCode": "M1", "description": "Substitutes back", "points": 1 },
+      { "stepOrder": 4, "markCode": "A1", "description": "x = 5, y = 2", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Try adding or subtracting the equations to eliminate x or y." },
+      { "level": 2, "text": "Adding gives 2x = 10." },
+      { "level": 3, "text": "x = 5, then y = 2." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-sq-01-q01",
+    "objectiveId": "a-sq-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Write down the next two terms of the sequence: 4, 7, 10, 13, ...",
+    "finalAnswer": "16,19",
+    "solutionSteps": "Add 3 each time: 16, 19",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "B1", "description": "16", "points": 1 },
+      { "stepOrder": 2, "markCode": "B1", "description": "19", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Find the difference between consecutive terms." },
+      { "level": 2, "text": "The sequence increases by 3 each time." },
+      { "level": 3, "text": "13 + 3 = 16, 16 + 3 = 19." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-sq-02-q01",
+    "objectiveId": "a-sq-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Find the nth term of the sequence 5, 8, 11, 14, ...",
+    "finalAnswer": "3n+2",
+    "solutionSteps": "Common difference 3 → 3n. When n=1, need 5, so +2. nth term = 3n + 2",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "3n", "points": 1 },
+      { "stepOrder": 2, "markCode": "M1", "description": "Finds constant term", "points": 1 },
+      { "stepOrder": 3, "markCode": "A1", "description": "3n + 2", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Linear sequences have nth term an + b where a is the common difference." },
+      { "level": 2, "text": "Difference is 3, so start with 3n." },
+      { "level": 3, "text": "3(1) = 3 but first term is 5, so add 2 → 3n + 2." }
+    ],
+    "status": "published"
+  }
+]

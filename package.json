@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "check:content": "tsx scripts/check-content-gaps.ts",
+    "generate:questions": "tsx scripts/generate-question-fill.ts",
+    "generate:ext": "tsx scripts/generate-question-ext.ts",
+    "sync:questions": "tsx scripts/sync-question-imports.ts",
     "db:types": "echo 'Generate types from Supabase dashboard or supabase gen types'"
   },
   "dependencies": {

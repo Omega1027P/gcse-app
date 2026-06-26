@@ -1,0 +1,1778 @@
+[
+  {
+    "id": "n-sc-01-q05",
+    "objectiveId": "n-sc-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "comparison",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Put these numbers in ascending order: -2, -1.7, -9/5, -1.68",
+    "finalAnswer": "-2, -9/5, -1.7, -1.68",
+    "solutionSteps": "-9/5 = -1.8, so -2 < -1.8 < -1.7 < -1.68.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "-2, -9/5, -1.7, -1.68",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Convert the fraction to a decimal first."
+      },
+      {
+        "level": 2,
+        "text": "-9/5 is -1.8."
+      },
+      {
+        "level": 3,
+        "text": "Then order the negatives from most negative to least negative."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-01-q06",
+    "objectiveId": "n-sc-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "comparison",
+    "marks": 1,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "Which is greater: 5/12 or 0.41?",
+    "finalAnswer": "5/12",
+    "solutionSteps": "5/12 = 0.4166... which is greater than 0.41.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "B1",
+        "description": "Correct method or partial working",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Convert the fraction to a decimal."
+      },
+      {
+        "level": 2,
+        "text": "5 divided by 12 is 0.4166... recurring."
+      },
+      {
+        "level": 3,
+        "text": "Compare 0.4166... with 0.41."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-01-q07",
+    "objectiveId": "n-sc-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "comparison",
+    "marks": 1,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Write <, > or = : -0.27 ___ -1/4",
+    "finalAnswer": "<",
+    "solutionSteps": "-1/4 = -0.25. Since -0.27 is more negative, -0.27 < -0.25.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "B1",
+        "description": "Correct method or partial working",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Turn -1/4 into a decimal."
+      },
+      {
+        "level": 2,
+        "text": "-1/4 = -0.25."
+      },
+      {
+        "level": 3,
+        "text": "On a number line, -0.27 is to the left of -0.25."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-01-q08",
+    "objectiveId": "n-sc-01",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "comparison",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Write these in descending order: 3/5, 0.62, 61%, 0.603",
+    "finalAnswer": "0.62, 61%, 0.603, 3/5",
+    "solutionSteps": "3/5 = 0.6 and 61% = 0.61. So 0.62 > 0.61 > 0.603 > 0.6.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "0.62, 61%, 0.603, 3/5",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Convert everything to decimals."
+      },
+      {
+        "level": 2,
+        "text": "3/5 = 0.6 and 61% = 0.61."
+      },
+      {
+        "level": 3,
+        "text": "Descending means largest to smallest."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-01-q09",
+    "objectiveId": "n-sc-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Let A = -0.333..., B = -1/3, C = -0.34. Compare A, B and C from greatest to smallest.",
+    "finalAnswer": "A = B > C",
+    "solutionSteps": "-1/3 = -0.333..., so A and B are equal. Both are greater than -0.34.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "A = B > C",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Rewrite -1/3 as a decimal."
+      },
+      {
+        "level": 2,
+        "text": "-1/3 is exactly -0.333... recurring."
+      },
+      {
+        "level": 3,
+        "text": "A and B are equal, and both are less negative than C."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-02-q04",
+    "objectiveId": "n-sc-02",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 1,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "Work out (-18) + 7",
+    "finalAnswer": "-11",
+    "solutionSteps": "Starting at -18 and moving 7 right gives -11.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "B1",
+        "description": "Correct method or partial working",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Add 7 to -18."
+      },
+      {
+        "level": 2,
+        "text": "You are moving towards zero."
+      },
+      {
+        "level": 3,
+        "text": "Count up: -18, -17, ..., -11."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-02-q05",
+    "objectiveId": "n-sc-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Work out 4.8 ÷ 0.6 + 1.25 x 4",
+    "finalAnswer": "13",
+    "solutionSteps": "4.8 ÷ 0.6 = 8 and 1.25 x 4 = 5. Then 8 + 5 = 13.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "13",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Do division and multiplication before addition."
+      },
+      {
+        "level": 2,
+        "text": "4.8/0.6 = 8 and 1.25 x 4 = 5."
+      },
+      {
+        "level": 3,
+        "text": "Now add the two results."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-02-q06",
+    "objectiveId": "n-sc-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out 7/12 - 5/18. Give your answer in simplest form.",
+    "finalAnswer": "11/36",
+    "solutionSteps": "Common denominator is 36: 7/12 = 21/36 and 5/18 = 10/36. Difference is 11/36.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "11/36",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the LCM of 12 and 18."
+      },
+      {
+        "level": 2,
+        "text": "Convert both fractions to denominator 36."
+      },
+      {
+        "level": 3,
+        "text": "Subtract numerators and simplify if needed."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-02-q07",
+    "objectiveId": "n-sc-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out (3/4 + 5/6) x 2/5. Give your answer in simplest form.",
+    "finalAnswer": "19/30",
+    "solutionSteps": "3/4 + 5/6 = 9/12 + 10/12 = 19/12. Then 19/12 x 2/5 = 38/60 = 19/30.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "19/30",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Add inside the bracket first."
+      },
+      {
+        "level": 2,
+        "text": "Use denominator 12 for 3/4 and 5/6."
+      },
+      {
+        "level": 3,
+        "text": "Then multiply by 2/5 and simplify."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-02-q08",
+    "objectiveId": "n-sc-02",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "At 7 am the temperature is -3C. It rises by 11C by midday, then falls by 7C by evening. What is the evening temperature?",
+    "finalAnswer": "1C",
+    "solutionSteps": "-3 + 11 = 8, then 8 - 7 = 1.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "1C",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the midday temperature first."
+      },
+      {
+        "level": 2,
+        "text": "-3 + 11 = 8."
+      },
+      {
+        "level": 3,
+        "text": "Now subtract 7."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-03-q04",
+    "objectiveId": "n-sc-03",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 1,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "Work out sqrt(289).",
+    "finalAnswer": "17",
+    "solutionSteps": "17 x 17 = 289, so sqrt(289) = 17.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "B1",
+        "description": "Correct method or partial working",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Think of a square number close to 289."
+      },
+      {
+        "level": 2,
+        "text": "15^2 = 225 and 20^2 = 400."
+      },
+      {
+        "level": 3,
+        "text": "17^2 = 289 exactly."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-03-q05",
+    "objectiveId": "n-sc-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out 2^4 x 2^5.",
+    "finalAnswer": "512",
+    "solutionSteps": "When multiplying powers with the same base, add indices: 2^(4+5) = 2^9 = 512.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "512",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use the index law for same bases."
+      },
+      {
+        "level": 2,
+        "text": "4 + 5 = 9."
+      },
+      {
+        "level": 3,
+        "text": "Now evaluate 2^9."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-03-q06",
+    "objectiveId": "n-sc-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out 3^7 ÷ 3^3.",
+    "finalAnswer": "81",
+    "solutionSteps": "When dividing powers with the same base, subtract indices: 3^(7-3) = 3^4 = 81.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "81",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use the division index law."
+      },
+      {
+        "level": 2,
+        "text": "7 - 3 = 4."
+      },
+      {
+        "level": 3,
+        "text": "3^4 = 81."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-03-q07",
+    "objectiveId": "n-sc-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out (5^3 x 5^2) ÷ 5^4.",
+    "finalAnswer": "5",
+    "solutionSteps": "Combine indices in the numerator: 5^(3+2) = 5^5. Then 5^5 ÷ 5^4 = 5^(5-4) = 5.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "5",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "First combine powers in the numerator."
+      },
+      {
+        "level": 2,
+        "text": "Then divide powers by subtracting indices."
+      },
+      {
+        "level": 3,
+        "text": "Anything to power 1 is itself."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-03-q08",
+    "objectiveId": "n-sc-03",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "If 2^n = 128, find n.",
+    "finalAnswer": "7",
+    "solutionSteps": "128 = 2 x 2 x 2 x 2 x 2 x 2 x 2 = 2^7, so n = 7.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "7",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Write 128 as a power of 2."
+      },
+      {
+        "level": 2,
+        "text": "Keep halving by 2: 128, 64, 32, 16, 8, 4, 2, 1."
+      },
+      {
+        "level": 3,
+        "text": "Count the number of factors of 2."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-04-q04",
+    "objectiveId": "n-sc-04",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Write 180 as a product of prime factors.",
+    "finalAnswer": "2^2 x 3^2 x 5",
+    "solutionSteps": "180 = 18 x 10 = (2 x 3 x 3) x (2 x 5) = 2^2 x 3^2 x 5.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "2^2 x 3^2 x 5",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Keep splitting into factor pairs."
+      },
+      {
+        "level": 2,
+        "text": "Continue until all factors are prime."
+      },
+      {
+        "level": 3,
+        "text": "Collect repeated primes using powers."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-04-q05",
+    "objectiveId": "n-sc-04",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Find the HCF of 72 and 90.",
+    "finalAnswer": "18",
+    "solutionSteps": "72 = 2^3 x 3^2 and 90 = 2 x 3^2 x 5. Common primes give HCF = 2 x 3^2 = 18.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "18",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Prime factorise both numbers."
+      },
+      {
+        "level": 2,
+        "text": "Take only common prime factors with smallest powers."
+      },
+      {
+        "level": 3,
+        "text": "Multiply those common factors."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-04-q06",
+    "objectiveId": "n-sc-04",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Find the LCM of 24 and 36.",
+    "finalAnswer": "72",
+    "solutionSteps": "24 = 2^3 x 3 and 36 = 2^2 x 3^2. LCM uses highest powers: 2^3 x 3^2 = 72.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "72",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Prime factorise each number."
+      },
+      {
+        "level": 2,
+        "text": "For LCM, choose the highest power of each prime."
+      },
+      {
+        "level": 3,
+        "text": "Multiply the selected powers."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-sc-04-q07",
+    "objectiveId": "n-sc-04",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A bus to Town A leaves every 15 minutes and a bus to Town B leaves every 20 minutes. Both leave at 08:00. When will they next leave together?",
+    "finalAnswer": "09:00",
+    "solutionSteps": "Find LCM(15, 20) = 60 minutes. 08:00 + 60 minutes = 09:00.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "09:00",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "This is an LCM problem."
+      },
+      {
+        "level": 2,
+        "text": "List multiples of 15 and 20 or use prime factors."
+      },
+      {
+        "level": 3,
+        "text": "Add the common interval to 08:00."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-01-q05",
+    "objectiveId": "n-fdp-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out 2/3 + 5/9. Give your answer in simplest form.",
+    "finalAnswer": "11/9",
+    "solutionSteps": "2/3 = 6/9, so 6/9 + 5/9 = 11/9.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "11/9",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use a common denominator of 9."
+      },
+      {
+        "level": 2,
+        "text": "Convert 2/3 to ninths."
+      },
+      {
+        "level": 3,
+        "text": "Add numerators and keep denominator 9."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-01-q06",
+    "objectiveId": "n-fdp-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out 3 1/4 - 1 2/3. Give your answer as a mixed number.",
+    "finalAnswer": "1 7/12",
+    "solutionSteps": "3 1/4 = 13/4 and 1 2/3 = 5/3. 13/4 - 5/3 = 39/12 - 20/12 = 19/12 = 1 7/12.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "1 7/12",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Convert mixed numbers to improper fractions first."
+      },
+      {
+        "level": 2,
+        "text": "Use denominator 12."
+      },
+      {
+        "level": 3,
+        "text": "Subtract and convert back to a mixed number."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-01-q07",
+    "objectiveId": "n-fdp-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out 7/8 x 12/21. Give your answer in simplest form.",
+    "finalAnswer": "1/2",
+    "solutionSteps": "12/21 = 4/7. Then 7/8 x 4/7 = 4/8 = 1/2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "1/2",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Simplify before multiplying."
+      },
+      {
+        "level": 2,
+        "text": "12/21 simplifies to 4/7."
+      },
+      {
+        "level": 3,
+        "text": "Cancel common factors and simplify final answer."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-01-q08",
+    "objectiveId": "n-fdp-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out (5/6) ÷ (10/9). Give your answer in simplest form.",
+    "finalAnswer": "3/4",
+    "solutionSteps": "(5/6) ÷ (10/9) = (5/6) x (9/10) = 45/60 = 3/4.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3/4",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Dividing by a fraction means multiply by its reciprocal."
+      },
+      {
+        "level": 2,
+        "text": "Use (5/6) x (9/10)."
+      },
+      {
+        "level": 3,
+        "text": "Simplify after multiplying."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-02-q04",
+    "objectiveId": "n-fdp-02",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "conversion",
+    "marks": 2,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "Write 0.125 as a fraction in its simplest form.",
+    "finalAnswer": "1/8",
+    "solutionSteps": "0.125 = 125/1000. Divide top and bottom by 125 to get 1/8.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "1/8",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Write the decimal over 1000."
+      },
+      {
+        "level": 2,
+        "text": "125/1000 can be simplified."
+      },
+      {
+        "level": 3,
+        "text": "Divide numerator and denominator by 125."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-02-q05",
+    "objectiveId": "n-fdp-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "conversion",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Convert 35% to (a) a decimal and (b) a fraction in simplest form.",
+    "finalAnswer": "0.35 and 7/20",
+    "solutionSteps": "35% = 35/100 = 0.35. Also 35/100 simplifies to 7/20.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "0.35 and 7/20",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Percent means out of 100."
+      },
+      {
+        "level": 2,
+        "text": "35% = 35/100."
+      },
+      {
+        "level": 3,
+        "text": "Write as decimal and simplify the fraction."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-02-q06",
+    "objectiveId": "n-fdp-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "conversion",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Convert 3/40 to (a) a decimal and (b) a percentage.",
+    "finalAnswer": "0.075 and 7.5%",
+    "solutionSteps": "3/40 = 0.075. Multiply by 100 to get percentage: 7.5%.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "0.075 and 7.5%",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Divide 3 by 40 to get the decimal."
+      },
+      {
+        "level": 2,
+        "text": "To get a percentage, multiply decimal by 100."
+      },
+      {
+        "level": 3,
+        "text": "Check place value carefully."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-02-q07",
+    "objectiveId": "n-fdp-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "conversion",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Express 0.363636... as a fraction in simplest form.",
+    "finalAnswer": "4/11",
+    "solutionSteps": "Let x = 0.363636... Then 100x = 36.363636... Subtract: 99x = 36, so x = 36/99 = 4/11.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "4/11",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Call the recurring decimal x."
+      },
+      {
+        "level": 2,
+        "text": "Multiply by 100 to align the repeating block."
+      },
+      {
+        "level": 3,
+        "text": "Subtract and simplify the resulting fraction."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-03-q04",
+    "objectiveId": "n-fdp-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A jacket costs 150 pounds. It increases in price by 8%. Find the new price.",
+    "finalAnswer": "162",
+    "solutionSteps": "8% of 150 is 12. New price = 150 + 12 = 162.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "162",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find 8% of 150 first."
+      },
+      {
+        "level": 2,
+        "text": "8% = 0.08, so multiply 150 by 0.08."
+      },
+      {
+        "level": 3,
+        "text": "Add the increase to the original price."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-03-q05",
+    "objectiveId": "n-fdp-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A phone costs 500 pounds. In a sale it is reduced by 12%. Find the sale price.",
+    "finalAnswer": "440",
+    "solutionSteps": "12% of 500 is 60. Sale price = 500 - 60 = 440.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "440",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Work out the amount reduced first."
+      },
+      {
+        "level": 2,
+        "text": "12% = 0.12, so reduction is 500 x 0.12."
+      },
+      {
+        "level": 3,
+        "text": "Subtract the reduction from 500."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-03-q06",
+    "objectiveId": "n-fdp-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "After a 25% discount, a bike costs 54 pounds. Work out the original price.",
+    "finalAnswer": "72",
+    "solutionSteps": "After 25% off, price is 75% of original. So 0.75 x original = 54, giving original = 54/0.75 = 72.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "72",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "A 25% discount leaves 75%."
+      },
+      {
+        "level": 2,
+        "text": "Set up 0.75x = 54."
+      },
+      {
+        "level": 3,
+        "text": "Divide by 0.75."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-fdp-03-q07",
+    "objectiveId": "n-fdp-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A laptop worth 1200 pounds increases in value by 5% in year 1 and by 5% again in year 2. Find its value after 2 years.",
+    "finalAnswer": "1323",
+    "solutionSteps": "Multiply by 1.05 twice: 1200 x 1.05 x 1.05 = 1200 x 1.1025 = 1323.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "1323",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use a multiplier of 1.05 for each 5% increase."
+      },
+      {
+        "level": 2,
+        "text": "Two increases means multiply by 1.05^2."
+      },
+      {
+        "level": 3,
+        "text": "Now multiply by 1200."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-01-q04",
+    "objectiveId": "n-ma-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "conversion",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Write 0.000072 in standard form.",
+    "finalAnswer": "7.2 x 10^-5",
+    "solutionSteps": "Move the decimal 5 places right to get 7.2, so power is -5: 7.2 x 10^-5.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "7.2 x 10^-5",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Standard form is a x 10^n with 1 <= a < 10."
+      },
+      {
+        "level": 2,
+        "text": "Count how many places the decimal moves."
+      },
+      {
+        "level": 3,
+        "text": "Small numbers use a negative power."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-01-q05",
+    "objectiveId": "n-ma-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "conversion",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Write 9.03 x 10^4 as an ordinary number.",
+    "finalAnswer": "90300",
+    "solutionSteps": "10^4 means move decimal 4 places right: 9.03 -> 90300.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "90300",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Positive power means a large number."
+      },
+      {
+        "level": 2,
+        "text": "Move the decimal right by 4 places."
+      },
+      {
+        "level": 3,
+        "text": "Fill empty places with zeros."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-01-q06",
+    "objectiveId": "n-ma-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Work out (6 x 10^3) x (4 x 10^-2). Give your answer in standard form.",
+    "finalAnswer": "2.4 x 10^2",
+    "solutionSteps": "6 x 4 = 24 and 10^3 x 10^-2 = 10^1. So result is 24 x 10^1 = 2.4 x 10^2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "2.4 x 10^2",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Multiply numbers and powers separately."
+      },
+      {
+        "level": 2,
+        "text": "Add indices for powers of 10."
+      },
+      {
+        "level": 3,
+        "text": "Adjust so the first number is between 1 and 10."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-01-q07",
+    "objectiveId": "n-ma-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Work out (8.4 x 10^6) ÷ (2 x 10^3). Give your answer in standard form.",
+    "finalAnswer": "4.2 x 10^3",
+    "solutionSteps": "8.4/2 = 4.2 and 10^6 ÷ 10^3 = 10^(6-3) = 10^3. So answer is 4.2 x 10^3.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "4.2 x 10^3",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Divide the numbers and divide the powers separately."
+      },
+      {
+        "level": 2,
+        "text": "Subtract indices when dividing powers of 10."
+      },
+      {
+        "level": 3,
+        "text": "Check the result is in standard form."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-02-q04",
+    "objectiveId": "n-ma-02",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 1,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "Round 47.386 to 1 decimal place.",
+    "finalAnswer": "47.4",
+    "solutionSteps": "The second decimal digit is 8, so round the first decimal up: 47.4.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "B1",
+        "description": "Correct method or partial working",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "1 decimal place means keep tenths."
+      },
+      {
+        "level": 2,
+        "text": "Look at the hundredths digit."
+      },
+      {
+        "level": 3,
+        "text": "8 means round up."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-02-q05",
+    "objectiveId": "n-ma-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Round 0.009964 to 2 significant figures.",
+    "finalAnswer": "0.010",
+    "solutionSteps": "First two significant digits are 9 and 9. Next digit is 6, so 99 rounds to 100, giving 0.010.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "0.010",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Ignore leading zeros when counting significant figures."
+      },
+      {
+        "level": 2,
+        "text": "The first two significant digits are 9 and 9."
+      },
+      {
+        "level": 3,
+        "text": "Round up and keep place value."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-02-q06",
+    "objectiveId": "n-ma-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "estimation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Estimate (198 x 0.49) ÷ 9.8.",
+    "finalAnswer": "10",
+    "solutionSteps": "Round to 1 sf: 198 -> 200, 0.49 -> 0.5, 9.8 -> 10. Then (200 x 0.5)/10 = 100/10 = 10.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "10",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Round each number to 1 significant figure."
+      },
+      {
+        "level": 2,
+        "text": "Compute 200 x 0.5 first."
+      },
+      {
+        "level": 3,
+        "text": "Then divide by 10."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-02-q07",
+    "objectiveId": "n-ma-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "estimation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Estimate (7.98^2) ÷ 0.201.",
+    "finalAnswer": "320",
+    "solutionSteps": "Round to 1 sf: 7.98 -> 8 and 0.201 -> 0.2. So estimate is 8^2/0.2 = 64/0.2 = 320.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "320",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Round to convenient values first."
+      },
+      {
+        "level": 2,
+        "text": "Use 8^2 for the numerator."
+      },
+      {
+        "level": 3,
+        "text": "Dividing by 0.2 is the same as multiplying by 5."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-03-q04",
+    "objectiveId": "n-ma-03",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A length L is 12.4 cm correct to the nearest 0.1 cm. Write the error interval for L.",
+    "finalAnswer": "12.35 <= L < 12.45",
+    "solutionSteps": "Nearest 0.1 means half-step is 0.05. So lower bound is 12.35 and upper bound is 12.45.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "12.35 <= L < 12.45",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use half the rounding unit."
+      },
+      {
+        "level": 2,
+        "text": "0.1/2 = 0.05."
+      },
+      {
+        "level": 3,
+        "text": "Subtract and add 0.05 to 12.4."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-03-q05",
+    "objectiveId": "n-ma-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "a = 7.2 and b = 3.8, both correct to the nearest 0.1. Find the upper bound of a + b.",
+    "finalAnswer": "11.10",
+    "solutionSteps": "Upper bound of a is 7.25 and of b is 3.85. Upper bound of a + b is 7.25 + 3.85 = 11.10.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "11.10",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "For an upper bound of a sum, use upper bound of each value."
+      },
+      {
+        "level": 2,
+        "text": "Nearest 0.1 gives +0.05 for each upper bound."
+      },
+      {
+        "level": 3,
+        "text": "Add the two upper bounds."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-03-q06",
+    "objectiveId": "n-ma-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A rectangle has width 5 cm and length 9 cm, each correct to the nearest cm. Find the lower bound of its area.",
+    "finalAnswer": "38.25",
+    "solutionSteps": "Lower bounds are 4.5 cm and 8.5 cm. Lower bound area = 4.5 x 8.5 = 38.25 cm^2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "38.25",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use lower bounds for both dimensions."
+      },
+      {
+        "level": 2,
+        "text": "Nearest cm means subtract 0.5 from each measurement."
+      },
+      {
+        "level": 3,
+        "text": "Multiply the lower bounds."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "n-ma-03-q07",
+    "objectiveId": "n-ma-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "word_problem",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Distance is 60 km correct to the nearest km and time is 1.2 h correct to the nearest 0.1 h. Find the upper bound for speed.",
+    "finalAnswer": "52.61 km/h",
+    "solutionSteps": "Upper bound distance = 60.5 km. Lower bound time = 1.15 h. Upper bound speed = 60.5/1.15 = 52.608... so 52.61 km/h.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "52.61 km/h",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "For maximum speed use largest distance and smallest time."
+      },
+      {
+        "level": 2,
+        "text": "Nearest km gives +0.5 and nearest 0.1 h gives -0.05."
+      },
+      {
+        "level": 3,
+        "text": "Divide 60.5 by 1.15 and round appropriately."
+      }
+    ],
+    "status": "published"
+  }
+]

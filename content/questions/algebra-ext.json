@@ -1,0 +1,2366 @@
+[
+  {
+    "id": "a-nm-01-q04",
+    "objectiveId": "a-nm-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "reasoning",
+    "marks": 1,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "Write a x a x a x b x b using indices.",
+    "finalAnswer": "a^3b^2",
+    "solutionSteps": "There are three factors of a and two factors of b, so the expression is a^3b^2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "B1",
+        "description": "Correct method or partial working",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Count how many times each letter appears."
+      },
+      {
+        "level": 2,
+        "text": "Use powers to show repeated multiplication."
+      },
+      {
+        "level": 3,
+        "text": "Three a's and two b's gives a^3b^2."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-01-q05",
+    "objectiveId": "a-nm-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "If x = 3, work out 2x + 5.",
+    "finalAnswer": "11",
+    "solutionSteps": "Substitute x = 3: 2(3) + 5 = 6 + 5 = 11.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "11",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Replace x with 3."
+      },
+      {
+        "level": 2,
+        "text": "Work out 2 x 3 first."
+      },
+      {
+        "level": 3,
+        "text": "Then add 5 to get 11."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-01-q06",
+    "objectiveId": "a-nm-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A rectangle has length x + 2 and width x - 1. Write an expression for its perimeter.",
+    "finalAnswer": "4x+2",
+    "solutionSteps": "Perimeter = 2(length + width) = 2((x + 2) + (x - 1)) = 2(2x + 1) = 4x + 2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "4x+2",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Perimeter of a rectangle is 2(l + w)."
+      },
+      {
+        "level": 2,
+        "text": "Add the two expressions first."
+      },
+      {
+        "level": 3,
+        "text": "Multiply the bracket by 2."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-01-q07",
+    "objectiveId": "a-nm-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 1,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "In the expression 7p - 3, what is the coefficient of p?",
+    "finalAnswer": "7",
+    "solutionSteps": "The coefficient is the number multiplying p, which is 7.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "B1",
+        "description": "Correct method or partial working",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "The coefficient is the number in front of the variable."
+      },
+      {
+        "level": 2,
+        "text": "Look at the p term only."
+      },
+      {
+        "level": 3,
+        "text": "The p term is 7p, so coefficient is 7."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-01-q08",
+    "objectiveId": "a-nm-01",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "If m = -2, work out 4m^2 - 3.",
+    "finalAnswer": "13",
+    "solutionSteps": "Substitute m = -2: 4(-2)^2 - 3 = 4(4) - 3 = 16 - 3 = 13.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "13",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Substitute -2 for m."
+      },
+      {
+        "level": 2,
+        "text": "Square -2 before multiplying by 4."
+      },
+      {
+        "level": 3,
+        "text": "Then subtract 3."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-02-q04",
+    "objectiveId": "a-nm-02",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Expand and simplify 3(x + 4).",
+    "finalAnswer": "3x+12",
+    "solutionSteps": "Multiply 3 by each term: 3x + 12.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3x+12",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Multiply every term inside the bracket by 3."
+      },
+      {
+        "level": 2,
+        "text": "3 x x = 3x and 3 x 4 = 12."
+      },
+      {
+        "level": 3,
+        "text": "Write the result as 3x + 12."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-02-q05",
+    "objectiveId": "a-nm-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Simplify 5a + 3b - 2a + b.",
+    "finalAnswer": "3a+4b",
+    "solutionSteps": "Collect like terms: 5a - 2a = 3a and 3b + b = 4b, so 3a + 4b.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3a+4b",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Group a terms and b terms separately."
+      },
+      {
+        "level": 2,
+        "text": "5a - 2a gives the a part."
+      },
+      {
+        "level": 3,
+        "text": "3b + b gives the b part."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-02-q06",
+    "objectiveId": "a-nm-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Expand and simplify -2(3x - 5) + x.",
+    "finalAnswer": "-5x+10",
+    "solutionSteps": "-2(3x - 5) = -6x + 10, then add x: -6x + 10 + x = -5x + 10.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "-5x+10",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Multiply -2 by both terms in the bracket."
+      },
+      {
+        "level": 2,
+        "text": "Be careful with signs: -2 x -5 is +10."
+      },
+      {
+        "level": 3,
+        "text": "Then combine -6x and +x."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-02-q07",
+    "objectiveId": "a-nm-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "If x = 2 and y = -1, work out 4x - 3y.",
+    "finalAnswer": "11",
+    "solutionSteps": "Substitute values: 4(2) - 3(-1) = 8 + 3 = 11.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "11",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Replace x with 2 and y with -1."
+      },
+      {
+        "level": 2,
+        "text": "Work out each term separately."
+      },
+      {
+        "level": 3,
+        "text": "Subtracting a negative becomes addition."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-02-q08",
+    "objectiveId": "a-nm-02",
+    "tier": "Foundation",
+    "difficulty": "Hard",
+    "questionType": "word_problem",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A taxi charges a fixed 2.5 pounds plus 1.2 pounds per mile. Write an expression for the cost of m miles.",
+    "finalAnswer": "1.2m+2.5",
+    "solutionSteps": "Variable cost is 1.2m and fixed cost is 2.5, so total cost is 1.2m + 2.5.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "1.2m+2.5",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Cost has a fixed part and a per-mile part."
+      },
+      {
+        "level": 2,
+        "text": "Per-mile part is 1.2 multiplied by m."
+      },
+      {
+        "level": 3,
+        "text": "Add the fixed 2.5."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-03-q04",
+    "objectiveId": "a-nm-03",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Factorise fully 6x + 15.",
+    "finalAnswer": "3(2x+5)",
+    "solutionSteps": "Common factor is 3, so 6x + 15 = 3(2x + 5).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3(2x+5)",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the highest common factor of 6 and 15."
+      },
+      {
+        "level": 2,
+        "text": "Both terms are divisible by 3."
+      },
+      {
+        "level": 3,
+        "text": "Write 3 outside the bracket."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-03-q05",
+    "objectiveId": "a-nm-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Factorise x^2 + 9x + 20.",
+    "finalAnswer": "(x+4)(x+5)",
+    "solutionSteps": "Find numbers that multiply to 20 and add to 9: 4 and 5, so (x + 4)(x + 5).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "(x+4)(x+5)",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Look for two numbers with product 20."
+      },
+      {
+        "level": 2,
+        "text": "Their sum must be +9."
+      },
+      {
+        "level": 3,
+        "text": "Use those numbers in two brackets."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-03-q06",
+    "objectiveId": "a-nm-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Factorise 2x^2 + 7x + 3.",
+    "finalAnswer": "(2x+1)(x+3)",
+    "solutionSteps": "2x^2 + 7x + 3 = 2x^2 + 6x + x + 3 = 2x(x + 3) + 1(x + 3) = (2x + 1)(x + 3).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "(2x+1)(x+3)",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Try splitting the middle term."
+      },
+      {
+        "level": 2,
+        "text": "You need two terms that make +7x and multiply to 6x^2."
+      },
+      {
+        "level": 3,
+        "text": "Factor by grouping."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-03-q07",
+    "objectiveId": "a-nm-03",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Factorise x^2 - 16.",
+    "finalAnswer": "(x-4)(x+4)",
+    "solutionSteps": "This is a difference of squares: x^2 - 4^2 = (x - 4)(x + 4).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "(x-4)(x+4)",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Recognise a^2 - b^2 pattern."
+      },
+      {
+        "level": 2,
+        "text": "Here a is x and b is 4."
+      },
+      {
+        "level": 3,
+        "text": "Use (a-b)(a+b)."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-03-q08",
+    "objectiveId": "a-nm-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "Factorise fully 4x^3 - 12x^2.",
+    "finalAnswer": "4x^2(x-3)",
+    "solutionSteps": "Greatest common factor is 4x^2, so 4x^3 - 12x^2 = 4x^2(x - 3).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "4x^2(x-3)",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the largest common number and variable power."
+      },
+      {
+        "level": 2,
+        "text": "Both terms share 4 and x^2."
+      },
+      {
+        "level": 3,
+        "text": "Factor 4x^2 out."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-04-q04",
+    "objectiveId": "a-nm-04",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Simplify (x^2 - 9)/(x - 3).",
+    "finalAnswer": "x+3",
+    "solutionSteps": "x^2 - 9 = (x - 3)(x + 3). Cancel x - 3 to get x + 3.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "x+3",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Factorise the numerator first."
+      },
+      {
+        "level": 2,
+        "text": "Use difference of squares."
+      },
+      {
+        "level": 3,
+        "text": "Cancel the common factor."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-04-q05",
+    "objectiveId": "a-nm-04",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Simplify 3x/8 + x/4.",
+    "finalAnswer": "5x/8",
+    "solutionSteps": "Convert x/4 to 2x/8, then add: 3x/8 + 2x/8 = 5x/8.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "5x/8",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use a common denominator of 8."
+      },
+      {
+        "level": 2,
+        "text": "Rewrite x/4 as 2x/8."
+      },
+      {
+        "level": 3,
+        "text": "Add the numerators."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-04-q06",
+    "objectiveId": "a-nm-04",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Simplify (2x^2y)/(6xy^2).",
+    "finalAnswer": "x/(3y)",
+    "solutionSteps": "2/6 = 1/3, x^2/x = x, y/y^2 = 1/y, so expression simplifies to x/(3y).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "x/(3y)",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Simplify number part and variable parts separately."
+      },
+      {
+        "level": 2,
+        "text": "Use index laws when dividing powers."
+      },
+      {
+        "level": 3,
+        "text": "Combine the simplified parts carefully."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-nm-04-q07",
+    "objectiveId": "a-nm-04",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Simplify (x^2 - 4x)/(x^2 - 16).",
+    "finalAnswer": "x/(x+4)",
+    "solutionSteps": "Factorise top and bottom: x(x - 4)/((x - 4)(x + 4)). Cancel x - 4 to get x/(x + 4).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "x/(x+4)",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Factorise numerator and denominator fully."
+      },
+      {
+        "level": 2,
+        "text": "Look for a common factor to cancel."
+      },
+      {
+        "level": 3,
+        "text": "Write the final simplified fraction."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-01-q04",
+    "objectiveId": "a-gr-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "graph",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the gradient of the line through (1, 2) and (5, 10).",
+    "finalAnswer": "2",
+    "solutionSteps": "Gradient = (10 - 2)/(5 - 1) = 8/4 = 2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "2",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use change in y over change in x."
+      },
+      {
+        "level": 2,
+        "text": "Subtract coordinates in the same order."
+      },
+      {
+        "level": 3,
+        "text": "Simplify the fraction."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-01-q05",
+    "objectiveId": "a-gr-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "reasoning",
+    "marks": 1,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "What is the y-intercept of y = -3x + 7?",
+    "finalAnswer": "7",
+    "solutionSteps": "In y = mx + c, c is the y-intercept. Here c = 7.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "B1",
+        "description": "Correct method or partial working",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Compare with y = mx + c."
+      },
+      {
+        "level": 2,
+        "text": "The constant term is c."
+      },
+      {
+        "level": 3,
+        "text": "Read c directly from the equation."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-01-q06",
+    "objectiveId": "a-gr-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "graph",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "For the line y = 2x - 1, find y when x = 4.",
+    "finalAnswer": "7",
+    "solutionSteps": "Substitute x = 4: y = 2(4) - 1 = 8 - 1 = 7.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "7",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Replace x with 4."
+      },
+      {
+        "level": 2,
+        "text": "Multiply before subtracting."
+      },
+      {
+        "level": 3,
+        "text": "Compute 8 - 1."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-01-q07",
+    "objectiveId": "a-gr-01",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "For y = 1/x, work out y when x = -2.",
+    "finalAnswer": "-0.5",
+    "solutionSteps": "Substitute x = -2: y = 1/(-2) = -0.5.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "-0.5",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use reciprocal: y is 1 divided by x."
+      },
+      {
+        "level": 2,
+        "text": "Substitute x = -2."
+      },
+      {
+        "level": 3,
+        "text": "Convert -1/2 to decimal if needed."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-02-q04",
+    "objectiveId": "a-gr-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the equation of the line with gradient 3 and y-intercept -4.",
+    "finalAnswer": "y=3x-4",
+    "solutionSteps": "Use y = mx + c with m = 3 and c = -4: y = 3x - 4.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "y=3x-4",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Start with y = mx + c."
+      },
+      {
+        "level": 2,
+        "text": "Put in m = 3."
+      },
+      {
+        "level": 3,
+        "text": "Put in c = -4."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-02-q05",
+    "objectiveId": "a-gr-02",
+    "tier": "Foundation",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the equation of the line through (2, 5) and (6, 13).",
+    "finalAnswer": "y=2x+1",
+    "solutionSteps": "Gradient m = (13 - 5)/(6 - 2) = 2. Using point (2,5): 5 = 2(2) + c, so c = 1. Equation is y = 2x + 1.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "y=2x+1",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the gradient from the two points."
+      },
+      {
+        "level": 2,
+        "text": "Substitute one point to find c."
+      },
+      {
+        "level": 3,
+        "text": "Write the final equation as y = mx + c."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-02-q06",
+    "objectiveId": "a-gr-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "reasoning",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the equation of the line parallel to y = -0.5x + 3 and passing through (4, 1).",
+    "finalAnswer": "y=-0.5x+3",
+    "solutionSteps": "Parallel lines have the same gradient, so m = -0.5. Use (4,1): 1 = -0.5(4) + c = -2 + c, so c = 3. Equation is y = -0.5x + 3.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "y=-0.5x+3",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Parallel lines keep the same gradient."
+      },
+      {
+        "level": 2,
+        "text": "Use the point to solve for c."
+      },
+      {
+        "level": 3,
+        "text": "Substitute into y = mx + c."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-02-q07",
+    "objectiveId": "a-gr-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "reasoning",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Find the equation of the line perpendicular to y = 2x - 1 and passing through (0, 3).",
+    "finalAnswer": "y=-0.5x+3",
+    "solutionSteps": "Perpendicular gradient is the negative reciprocal of 2, so m = -1/2. Passing through (0,3) gives c = 3. Equation: y = -0.5x + 3.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "y=-0.5x+3",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the negative reciprocal of 2."
+      },
+      {
+        "level": 2,
+        "text": "Use x = 0 to identify c from the point."
+      },
+      {
+        "level": 3,
+        "text": "Write the line in y = mx + c form."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-03-q04",
+    "objectiveId": "a-gr-03",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "graph",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "The graph y = x^2 - 9 crosses the x-axis at two points. Find the x-coordinates.",
+    "finalAnswer": "-3,3",
+    "solutionSteps": "At x-axis, y = 0, so x^2 - 9 = 0, giving x^2 = 9, so x = -3 or x = 3.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "-3,3",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Set y to 0 for x-intercepts."
+      },
+      {
+        "level": 2,
+        "text": "Solve x^2 = 9."
+      },
+      {
+        "level": 3,
+        "text": "Remember positive and negative roots."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-03-q05",
+    "objectiveId": "a-gr-03",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "For y = x^3 + 1, find y when x = -2.",
+    "finalAnswer": "-7",
+    "solutionSteps": "Substitute x = -2: y = (-2)^3 + 1 = -8 + 1 = -7.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "-7",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Substitute -2 into x^3 + 1."
+      },
+      {
+        "level": 2,
+        "text": "Cube -2 carefully."
+      },
+      {
+        "level": 3,
+        "text": "Then add 1."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-03-q06",
+    "objectiveId": "a-gr-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "reasoning",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Solve 1/x = 4.",
+    "finalAnswer": "1/4",
+    "solutionSteps": "Multiply both sides by x: 1 = 4x, so x = 1/4.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "1/4",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Clear the denominator by multiplying by x."
+      },
+      {
+        "level": 2,
+        "text": "Rearrange the linear equation."
+      },
+      {
+        "level": 3,
+        "text": "Write as a fraction if needed."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-gr-03-q07",
+    "objectiveId": "a-gr-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "graph",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "State the coordinates of the turning point of y = (x - 1)^2 + 2.",
+    "finalAnswer": "(1,2)",
+    "solutionSteps": "In y = (x - a)^2 + b, turning point is (a, b). Here it is (1, 2).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "(1,2)",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Recognise vertex form y = (x-a)^2 + b."
+      },
+      {
+        "level": 2,
+        "text": "Read a and b directly."
+      },
+      {
+        "level": 3,
+        "text": "Write the coordinate pair."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-01-q04",
+    "objectiveId": "a-ei-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve 3x + 5 = 20.",
+    "finalAnswer": "5",
+    "solutionSteps": "3x = 20 - 5 = 15, so x = 15/3 = 5.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "5",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Subtract 5 from both sides first."
+      },
+      {
+        "level": 2,
+        "text": "Then divide both sides by 3."
+      },
+      {
+        "level": 3,
+        "text": "Simplify to get x."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-01-q05",
+    "objectiveId": "a-ei-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve 5x - 7 = 2x + 11.",
+    "finalAnswer": "6",
+    "solutionSteps": "5x - 2x = 11 + 7, so 3x = 18, so x = 6.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "6",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Put x terms on one side and numbers on the other."
+      },
+      {
+        "level": 2,
+        "text": "Simplify to a one-step equation."
+      },
+      {
+        "level": 3,
+        "text": "Divide to find x."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-01-q06",
+    "objectiveId": "a-ei-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve 4(x - 2) = 2x + 6.",
+    "finalAnswer": "7",
+    "solutionSteps": "Expand: 4x - 8 = 2x + 6. Then 4x - 2x = 6 + 8, so 2x = 14 and x = 7.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "7",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Expand the bracket first."
+      },
+      {
+        "level": 2,
+        "text": "Collect x terms together."
+      },
+      {
+        "level": 3,
+        "text": "Finish by dividing by 2."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-01-q07",
+    "objectiveId": "a-ei-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve x/3 + 4 = 9.",
+    "finalAnswer": "15",
+    "solutionSteps": "x/3 = 9 - 4 = 5, so x = 15.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "15",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Subtract 4 from both sides."
+      },
+      {
+        "level": 2,
+        "text": "You then have x/3 = 5."
+      },
+      {
+        "level": 3,
+        "text": "Multiply both sides by 3."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-01-q08",
+    "objectiveId": "a-ei-01",
+    "tier": "Foundation",
+    "difficulty": "Hard",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A rectangle has perimeter 30 cm and length 8 cm. Find the width.",
+    "finalAnswer": "7",
+    "solutionSteps": "Perimeter equation: 2l + 2w = 30. Substitute l = 8: 16 + 2w = 30, so 2w = 14 and w = 7.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "7",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use perimeter formula for a rectangle."
+      },
+      {
+        "level": 2,
+        "text": "Substitute the known length."
+      },
+      {
+        "level": 3,
+        "text": "Solve the linear equation for w."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-02-q04",
+    "objectiveId": "a-ei-02",
+    "tier": "Higher",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve x^2 - 7x + 12 = 0.",
+    "finalAnswer": "3,4",
+    "solutionSteps": "Factorise: x^2 - 7x + 12 = (x - 3)(x - 4) = 0, so x = 3 or x = 4.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3,4",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Try factorising the quadratic."
+      },
+      {
+        "level": 2,
+        "text": "Find two numbers that multiply to 12 and add to -7."
+      },
+      {
+        "level": 3,
+        "text": "Set each bracket equal to zero."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-02-q05",
+    "objectiveId": "a-ei-02",
+    "tier": "Higher",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve x^2 = 81.",
+    "finalAnswer": "-9,9",
+    "solutionSteps": "x = +-sqrt(81) = +-9, so x = -9 or x = 9.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "-9,9",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Take square roots of both sides."
+      },
+      {
+        "level": 2,
+        "text": "Include both positive and negative roots."
+      },
+      {
+        "level": 3,
+        "text": "Write both solutions."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-02-q06",
+    "objectiveId": "a-ei-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve 2x^2 - 5x - 3 = 0.",
+    "finalAnswer": "-1/2,3",
+    "solutionSteps": "Factorise: 2x^2 - 5x - 3 = (2x + 1)(x - 3) = 0, so x = -1/2 or x = 3.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "-1/2,3",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Look for factors of 2x^2 and -3."
+      },
+      {
+        "level": 2,
+        "text": "Check the middle term becomes -5x."
+      },
+      {
+        "level": 3,
+        "text": "Set each factor to zero."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-02-q07",
+    "objectiveId": "a-ei-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Solve x^2 + 4x - 1 = 0. Give your answers to 2 decimal places.",
+    "finalAnswer": "-4.24,0.24",
+    "solutionSteps": "Using quadratic formula: x = (-4 +- sqrt(4^2 - 4(1)(-1)))/(2) = (-4 +- sqrt(20))/2 = -2 +- sqrt(5). So x approx -4.24 or 0.24.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "-4.24,0.24",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use the quadratic formula with a=1, b=4, c=-1."
+      },
+      {
+        "level": 2,
+        "text": "Work out the discriminant b^2 - 4ac."
+      },
+      {
+        "level": 3,
+        "text": "Round both roots to 2 decimal places."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-02-q08",
+    "objectiveId": "a-ei-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve x(x - 6) = 16.",
+    "finalAnswer": "-2,8",
+    "solutionSteps": "x^2 - 6x = 16, so x^2 - 6x - 16 = 0. Factorise: (x - 8)(x + 2) = 0, so x = 8 or x = -2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "-2,8",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Rearrange to make the equation equal to 0."
+      },
+      {
+        "level": 2,
+        "text": "Factorise the resulting quadratic."
+      },
+      {
+        "level": 3,
+        "text": "Solve each linear factor."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-03-q04",
+    "objectiveId": "a-ei-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve simultaneously: x + y = 11 and x - y = 3.",
+    "finalAnswer": "x=7,y=4",
+    "solutionSteps": "Add equations: 2x = 14, so x = 7. Substitute into x + y = 11 to get y = 4.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "x=7,y=4",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Try adding the equations to eliminate y."
+      },
+      {
+        "level": 2,
+        "text": "Solve for x first."
+      },
+      {
+        "level": 3,
+        "text": "Substitute back to find y."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-03-q05",
+    "objectiveId": "a-ei-03",
+    "tier": "Foundation",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve simultaneously: y = 2x + 1 and y = 13 - x.",
+    "finalAnswer": "x=4,y=9",
+    "solutionSteps": "Set equal: 2x + 1 = 13 - x. Then 3x = 12, so x = 4. Substitute to get y = 9.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "x=4,y=9",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Both expressions are equal to y, so set them equal."
+      },
+      {
+        "level": 2,
+        "text": "Solve the resulting linear equation."
+      },
+      {
+        "level": 3,
+        "text": "Substitute x into either equation for y."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-03-q06",
+    "objectiveId": "a-ei-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve simultaneously: 2x + y = 10 and x - y = 2.",
+    "finalAnswer": "x=4,y=2",
+    "solutionSteps": "Add equations: 3x = 12, so x = 4. Substitute into x - y = 2 gives 4 - y = 2, so y = 2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "x=4,y=2",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Choose elimination by adding equations."
+      },
+      {
+        "level": 2,
+        "text": "Find x first from the one-variable equation."
+      },
+      {
+        "level": 3,
+        "text": "Substitute x back to find y."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-03-q07",
+    "objectiveId": "a-ei-03",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "reasoning",
+    "marks": 4,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve simultaneously: x + y = 6 and xy = 8.",
+    "finalAnswer": "(2,4),(4,2)",
+    "solutionSteps": "Let y = 6 - x. Then x(6 - x) = 8, so 6x - x^2 = 8, giving x^2 - 6x + 8 = 0. Factorise: (x - 2)(x - 4) = 0. So x = 2 or 4. Corresponding pairs are (2,4) and (4,2).",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 3
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "(2,4),(4,2)",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Substitute y = 6 - x into xy = 8."
+      },
+      {
+        "level": 2,
+        "text": "Rearrange to a quadratic equation."
+      },
+      {
+        "level": 3,
+        "text": "Find both ordered pairs, not just one."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-04-q04",
+    "objectiveId": "a-ei-04",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve 3x - 5 < 10.",
+    "finalAnswer": "x<5",
+    "solutionSteps": "3x < 15, so x < 5.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "x<5",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Add 5 to both sides first."
+      },
+      {
+        "level": 2,
+        "text": "Then divide by 3."
+      },
+      {
+        "level": 3,
+        "text": "Keep inequality direction the same since dividing by a positive."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-04-q05",
+    "objectiveId": "a-ei-04",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve -2x + 7 >= 1.",
+    "finalAnswer": "x<=3",
+    "solutionSteps": "-2x >= -6. Dividing by -2 reverses the sign, so x <= 3.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "x<=3",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Move the constant first."
+      },
+      {
+        "level": 2,
+        "text": "Watch what happens when dividing by a negative number."
+      },
+      {
+        "level": 3,
+        "text": "Flip the inequality sign at that step."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-04-q06",
+    "objectiveId": "a-ei-04",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Find all integer values of x that satisfy 1 <= 2x + 3 < 9.",
+    "finalAnswer": "-1,0,1,2",
+    "solutionSteps": "Subtract 3: -2 <= 2x < 6. Divide by 2: -1 <= x < 3. Integers are -1, 0, 1, 2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "-1,0,1,2",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Work on all three parts of the inequality together."
+      },
+      {
+        "level": 2,
+        "text": "Subtract 3, then divide by 2."
+      },
+      {
+        "level": 3,
+        "text": "List only integer values in the final interval."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-ei-04-q07",
+    "objectiveId": "a-ei-04",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Solve 5 - 3x > 14.",
+    "finalAnswer": "x<-3",
+    "solutionSteps": "-3x > 9. Divide by -3 and reverse the sign: x < -3.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "x<-3",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Subtract 5 from both sides first."
+      },
+      {
+        "level": 2,
+        "text": "Then divide by -3."
+      },
+      {
+        "level": 3,
+        "text": "Reverse the inequality when dividing by a negative."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-sq-01-q04",
+    "objectiveId": "a-sq-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": false,
+    "calculatorAllowed": false,
+    "questionText": "The nth term is 4n - 1. Write the first 5 terms.",
+    "finalAnswer": "3,7,11,15,19",
+    "solutionSteps": "Substitute n = 1,2,3,4,5 into 4n - 1 to get 3,7,11,15,19.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3,7,11,15,19",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Start with n = 1 and increase by 1 each time."
+      },
+      {
+        "level": 2,
+        "text": "Use the same formula for each term."
+      },
+      {
+        "level": 3,
+        "text": "Write terms in order."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-sq-01-q05",
+    "objectiveId": "a-sq-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "reasoning",
+    "marks": 1,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "A sequence is 2, 5, 8, 11, ... Write the term-to-term rule.",
+    "finalAnswer": "add 3",
+    "solutionSteps": "Each term increases by 3, so the term-to-term rule is add 3.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "B1",
+        "description": "Correct method or partial working",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Compare consecutive terms."
+      },
+      {
+        "level": 2,
+        "text": "Find the common difference."
+      },
+      {
+        "level": 3,
+        "text": "State the rule in words."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-sq-01-q06",
+    "objectiveId": "a-sq-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 1,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Continue the sequence: 30, 24, 18, 12, ... Give the next two terms.",
+    "finalAnswer": "6,0",
+    "solutionSteps": "The sequence decreases by 6 each time, so next terms are 6 then 0.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "B1",
+        "description": "Correct method or partial working",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find how much the sequence changes each step."
+      },
+      {
+        "level": 2,
+        "text": "Apply the same change twice."
+      },
+      {
+        "level": 3,
+        "text": "Check both new terms match the pattern."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-sq-01-q07",
+    "objectiveId": "a-sq-01",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "An arithmetic sequence starts 7, 10, 13, ... Find the 6th term.",
+    "finalAnswer": "22",
+    "solutionSteps": "Common difference is 3. Terms are 7,10,13,16,19,22, so 6th term is 22.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "22",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Identify the common difference."
+      },
+      {
+        "level": 2,
+        "text": "Count terms carefully up to the 6th."
+      },
+      {
+        "level": 3,
+        "text": "You can also use nth term if preferred."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-sq-02-q04",
+    "objectiveId": "a-sq-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Find the nth term of the sequence 5, 8, 11, 14, ...",
+    "finalAnswer": "3n+2",
+    "solutionSteps": "Common difference is 3, so start with 3n. When n=1, 3n=3 but term is 5, so add 2. nth term is 3n + 2.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "3n+2",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find the common difference first."
+      },
+      {
+        "level": 2,
+        "text": "Use difference as coefficient of n."
+      },
+      {
+        "level": 3,
+        "text": "Adjust with a constant to match first term."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-sq-02-q05",
+    "objectiveId": "a-sq-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "reasoning",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Find the nth term of the sequence 2, 6, 12, 20, ...",
+    "finalAnswer": "n^2+n",
+    "solutionSteps": "Testing n^2 + n gives 2,6,12,20 for n=1,2,3,4, so nth term is n^2 + n.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "n^2+n",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "This is not linear; check second differences."
+      },
+      {
+        "level": 2,
+        "text": "Try a quadratic form involving n^2."
+      },
+      {
+        "level": 3,
+        "text": "Verify the rule with several terms."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-sq-02-q06",
+    "objectiveId": "a-sq-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "The nth term is 4n - 3. Find the 20th term.",
+    "finalAnswer": "77",
+    "solutionSteps": "Substitute n = 20: 4(20) - 3 = 80 - 3 = 77.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 1
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "77",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Use n = 20 in the formula."
+      },
+      {
+        "level": 2,
+        "text": "Multiply first, then subtract."
+      },
+      {
+        "level": 3,
+        "text": "Check arithmetic carefully."
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "a-sq-02-q07",
+    "objectiveId": "a-sq-02",
+    "tier": "Higher",
+    "difficulty": "Hard",
+    "questionType": "multi_step",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "For the sequence with nth term n^2 + 2n, which term has value 48?",
+    "finalAnswer": "6",
+    "solutionSteps": "Set n^2 + 2n = 48. Then n^2 + 2n - 48 = 0 = (n + 8)(n - 6). So n = 6 or -8, but term number must be positive, so n = 6.",
+    "markScheme": [
+      {
+        "stepOrder": 1,
+        "markCode": "M1",
+        "description": "Correct method or partial working",
+        "points": 2
+      },
+      {
+        "stepOrder": 2,
+        "markCode": "A1",
+        "description": "6",
+        "points": 1
+      }
+    ],
+    "hints": [
+      {
+        "level": 1,
+        "text": "Create an equation by setting nth term equal to 48."
+      },
+      {
+        "level": 2,
+        "text": "Solve the quadratic equation."
+      },
+      {
+        "level": 3,
+        "text": "Only a positive integer can be a term number."
+      }
+    ],
+    "status": "published"
+  }
+]

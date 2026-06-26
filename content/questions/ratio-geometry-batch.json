@@ -1,0 +1,166 @@
+[
+  {
+    "id": "r-rp-01-q01",
+    "objectiveId": "r-rp-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "word_problem",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Share £24 in the ratio 1 : 3",
+    "finalAnswer": "6,18",
+    "solutionSteps": "Total parts = 4. £24 ÷ 4 = £6 per part. Shares: £6 and £18",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Divides by total parts", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "£6 and £18", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Add the ratio parts to find how many shares in total." },
+      { "level": 2, "text": "1 + 3 = 4 parts. Each part is £24 ÷ 4." },
+      { "level": 3, "text": "£6 and £18." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-02-q01",
+    "objectiveId": "r-rp-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "y is directly proportional to x. When x = 4, y = 10. Find y when x = 6.",
+    "finalAnswer": "15",
+    "solutionSteps": "y = kx, 10 = 4k, k = 2.5. When x = 6, y = 15",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Uses y = kx", "points": 1 },
+      { "stepOrder": 2, "markCode": "M1", "description": "k = 2.5", "points": 1 },
+      { "stepOrder": 3, "markCode": "A1", "description": "15", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Direct proportion means y = kx for some constant k." },
+      { "level": 2, "text": "Substitute x = 4, y = 10 to find k." },
+      { "level": 3, "text": "k = 2.5, so y = 2.5 × 6 = 15." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "r-rp-03-q01",
+    "objectiveId": "r-rp-03",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "word_problem",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "A car travels 150 miles in 3 hours. Work out the average speed in mph.",
+    "finalAnswer": "50",
+    "solutionSteps": "Speed = distance ÷ time = 150 ÷ 3 = 50 mph",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Uses speed = distance ÷ time", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "50 mph", "points": 2 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Average speed = total distance ÷ total time." },
+      { "level": 2, "text": "Divide 150 by 3." },
+      { "level": 3, "text": "50 mph." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pc-01-q01",
+    "objectiveId": "g-pc-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Two angles on a straight line are (2x + 10)° and (3x - 20)°. Work out x.",
+    "finalAnswer": "38",
+    "solutionSteps": "Angles on a line sum to 180°: 5x - 10 = 180, 5x = 190, x = 38",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Forms equation summing to 180", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "x = 38", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Angles on a straight line add up to 180°." },
+      { "level": 2, "text": "(2x+10) + (3x-20) = 180." },
+      { "level": 3, "text": "5x - 10 = 180 → x = 38." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-01-q01",
+    "objectiveId": "g-me-01",
+    "tier": "Foundation",
+    "difficulty": "Easy",
+    "questionType": "calculation",
+    "marks": 2,
+    "examStyle": true,
+    "calculatorAllowed": false,
+    "questionText": "Work out the area of a rectangle with length 8 cm and width 5 cm.",
+    "finalAnswer": "40",
+    "solutionSteps": "Area = 8 × 5 = 40 cm²",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Uses length × width", "points": 1 },
+      { "stepOrder": 2, "markCode": "A1", "description": "40 cm²", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Area of a rectangle = length × width." },
+      { "level": 2, "text": "Multiply 8 and 5." },
+      { "level": 3, "text": "40 cm²." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-me-02-q01",
+    "objectiveId": "g-me-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "Work out the volume of a cylinder with radius 3 cm and height 10 cm. Give your answer in terms of π.",
+    "finalAnswer": "90π",
+    "solutionSteps": "V = πr²h = π × 9 × 10 = 90π cm³",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Uses πr²h", "points": 1 },
+      { "stepOrder": 2, "markCode": "M1", "description": "r² = 9", "points": 1 },
+      { "stepOrder": 3, "markCode": "A1", "description": "90π cm³", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Volume of cylinder = π × r² × h." },
+      { "level": 2, "text": "r = 3, so r² = 9." },
+      { "level": 3, "text": "π × 9 × 10 = 90π cm³." }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "g-pt-02-q01",
+    "objectiveId": "g-pt-02",
+    "tier": "Foundation",
+    "difficulty": "Medium",
+    "questionType": "calculation",
+    "marks": 3,
+    "examStyle": true,
+    "calculatorAllowed": true,
+    "questionText": "In a right-angled triangle, the hypotenuse is 10 cm and one shorter side is 6 cm. Find the other shorter side.",
+    "finalAnswer": "8",
+    "solutionSteps": "a² = 10² - 6² = 100 - 36 = 64, a = 8 cm",
+    "markScheme": [
+      { "stepOrder": 1, "markCode": "M1", "description": "Uses Pythagoras", "points": 1 },
+      { "stepOrder": 2, "markCode": "M1", "description": "64", "points": 1 },
+      { "stepOrder": 3, "markCode": "A1", "description": "8 cm", "points": 1 }
+    ],
+    "hints": [
+      { "level": 1, "text": "Use a² + b² = c² where c is the hypotenuse." },
+      { "level": 2, "text": "a² = 10² - 6²." },
+      { "level": 3, "text": "a² = 64, a = 8." }
+    ],
+    "status": "published"
+  }
+]
